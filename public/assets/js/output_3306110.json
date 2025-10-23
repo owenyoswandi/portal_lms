@@ -1,0 +1,237 @@
+[
+  {
+    "code": 3306110002,
+    "keccode": 3306110,
+    "name": "PANGKALAN"
+  },
+  {
+    "code": 3306110003,
+    "keccode": 3306110,
+    "name": "WONOYOSO"
+  },
+  {
+    "code": 3306110004,
+    "keccode": 3306110,
+    "name": "TASIKMADU"
+  },
+  {
+    "code": 3306110005,
+    "keccode": 3306110,
+    "name": "TAPEN"
+  },
+  {
+    "code": 3306110006,
+    "keccode": 3306110,
+    "name": "TERSIDI KIDUL"
+  },
+  {
+    "code": 3306110007,
+    "keccode": 3306110,
+    "name": "TERSIDI LOR"
+  },
+  {
+    "code": 3306110008,
+    "keccode": 3306110,
+    "name": "SEKARTEJO"
+  },
+  {
+    "code": 3306110010,
+    "keccode": 3306110,
+    "name": "KALIMATI"
+  },
+  {
+    "code": 3306110011,
+    "keccode": 3306110,
+    "name": "KENDALREJO"
+  },
+  {
+    "code": 3306110012,
+    "keccode": 3306110,
+    "name": "NGAMPEL"
+  },
+  {
+    "code": 3306110013,
+    "keccode": 3306110,
+    "name": "SIKAMBANG"
+  },
+  {
+    "code": 3306110014,
+    "keccode": 3306110,
+    "name": "TUNJUNGTEJO"
+  },
+  {
+    "code": 3306110015,
+    "keccode": 3306110,
+    "name": "DLISEN WETAN"
+  },
+  {
+    "code": 3306110016,
+    "keccode": 3306110,
+    "name": "DLISEN KULON"
+  },
+  {
+    "code": 3306110017,
+    "keccode": 3306110,
+    "name": "BLEKATUK"
+  },
+  {
+    "code": 3306110018,
+    "keccode": 3306110,
+    "name": "WARU"
+  },
+  {
+    "code": 3306110019,
+    "keccode": 3306110,
+    "name": "KEBURUSAN"
+  },
+  {
+    "code": 3306110020,
+    "keccode": 3306110,
+    "name": "SEMAMPIR"
+  },
+  {
+    "code": 3306110021,
+    "keccode": 3306110,
+    "name": "GUMAWANGREJO"
+  },
+  {
+    "code": 3306110022,
+    "keccode": 3306110,
+    "name": "PETUGURAN"
+  },
+  {
+    "code": 3306110023,
+    "keccode": 3306110,
+    "name": "PEKACANGAN"
+  },
+  {
+    "code": 3306110024,
+    "keccode": 3306110,
+    "name": "KARANGGETAS"
+  },
+  {
+    "code": 3306110025,
+    "keccode": 3306110,
+    "name": "LUWENG LOR"
+  },
+  {
+    "code": 3306110026,
+    "keccode": 3306110,
+    "name": "LUWENG KIDUL"
+  },
+  {
+    "code": 3306110027,
+    "keccode": 3306110,
+    "name": "SAMBENG"
+  },
+  {
+    "code": 3306110028,
+    "keccode": 3306110,
+    "name": "MEGULUNG KIDUL"
+  },
+  {
+    "code": 3306110029,
+    "keccode": 3306110,
+    "name": "PITURUH"
+  },
+  {
+    "code": 3306110030,
+    "keccode": 3306110,
+    "name": "PRIGELAN"
+  },
+  {
+    "code": 3306110031,
+    "keccode": 3306110,
+    "name": "KARANGANYAR"
+  },
+  {
+    "code": 3306110032,
+    "keccode": 3306110,
+    "name": "MEGULUNG LOR"
+  },
+  {
+    "code": 3306110033,
+    "keccode": 3306110,
+    "name": "PRAPAG KIDUL"
+  },
+  {
+    "code": 3306110034,
+    "keccode": 3306110,
+    "name": "KEMBANGKUNING"
+  },
+  {
+    "code": 3306110035,
+    "keccode": 3306110,
+    "name": "BRENGKOL"
+  },
+  {
+    "code": 3306110036,
+    "keccode": 3306110,
+    "name": "GIRIGONDO"
+  },
+  {
+    "code": 3306110037,
+    "keccode": 3306110,
+    "name": "PRAPAG LOR"
+  },
+  {
+    "code": 3306110038,
+    "keccode": 3306110,
+    "name": "KALIKOTES"
+  },
+  {
+    "code": 3306110039,
+    "keccode": 3306110,
+    "name": "NGANDAGAN"
+  },
+  {
+    "code": 3306110040,
+    "keccode": 3306110,
+    "name": "KESAWEN"
+  },
+  {
+    "code": 3306110041,
+    "keccode": 3306110,
+    "name": "KEDUNG BATUR"
+  },
+  {
+    "code": 3306110042,
+    "keccode": 3306110,
+    "name": "POLOWANGI"
+  },
+  {
+    "code": 3306110043,
+    "keccode": 3306110,
+    "name": "KALIJERING"
+  },
+  {
+    "code": 3306110044,
+    "keccode": 3306110,
+    "name": "SOMOGEDE"
+  },
+  {
+    "code": 3306110045,
+    "keccode": 3306110,
+    "name": "KALIGONDANG"
+  },
+  {
+    "code": 3306110046,
+    "keccode": 3306110,
+    "name": "KALIGINTUNG"
+  },
+  {
+    "code": 3306110047,
+    "keccode": 3306110,
+    "name": "SAWANGAN"
+  },
+  {
+    "code": 3306110048,
+    "keccode": 3306110,
+    "name": "WONOSIDO"
+  },
+  {
+    "code": 3306110049,
+    "keccode": 3306110,
+    "name": "PAMRIYAN"
+  }
+]

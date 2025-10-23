@@ -1,0 +1,47 @@
+[
+  {
+    "code": 6502040001,
+    "keccode": 6502040,
+    "name": "ANTUTAN"
+  },
+  {
+    "code": 6502040002,
+    "keccode": 6502040,
+    "name": "PEJALIN"
+  },
+  {
+    "code": 6502040003,
+    "keccode": 6502040,
+    "name": "TANJUNG PALAS HULU"
+  },
+  {
+    "code": 6502040004,
+    "keccode": 6502040,
+    "name": "TANJUNG PALAS TENGAH"
+  },
+  {
+    "code": 6502040005,
+    "keccode": 6502040,
+    "name": "KARANG ANYAR"
+  },
+  {
+    "code": 6502040006,
+    "keccode": 6502040,
+    "name": "GUNUNG PUTIH/KR. JENAWI"
+  },
+  {
+    "code": 6502040007,
+    "keccode": 6502040,
+    "name": "TANJUNG PALAS HILIR"
+  },
+  {
+    "code": 6502040008,
+    "keccode": 6502040,
+    "name": "TERAS BARU"
+  },
+  {
+    "code": 6502040009,
+    "keccode": 6502040,
+    "name": "TERAS NAWANG"
+  }
+]

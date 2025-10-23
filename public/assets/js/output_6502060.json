@@ -1,0 +1,42 @@
+[
+  {
+    "code": 6502060001,
+    "keccode": 6502060,
+    "name": "MANGKU PADI"
+  },
+  {
+    "code": 6502060002,
+    "keccode": 6502060,
+    "name": "TANAH KUNING"
+  },
+  {
+    "code": 6502060003,
+    "keccode": 6502060,
+    "name": "BINAI"
+  },
+  {
+    "code": 6502060004,
+    "keccode": 6502060,
+    "name": "SAJAU"
+  },
+  {
+    "code": 6502060005,
+    "keccode": 6502060,
+    "name": "PURA SAJAU"
+  },
+  {
+    "code": 6502060006,
+    "keccode": 6502060,
+    "name": "SAJAU HILIR"
+  },
+  {
+    "code": 6502060007,
+    "keccode": 6502060,
+    "name": "WONO MULYO"
+  },
+  {
+    "code": 6502060008,
+    "keccode": 6502060,
+    "name": "TANJUNG AGUNG"
+  }
+]

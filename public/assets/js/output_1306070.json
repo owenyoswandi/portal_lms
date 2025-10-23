@@ -1,0 +1,42 @@
+[
+  {
+    "code": 1306070001,
+    "keccode": 1306070,
+    "name": "CAMPAGO"
+  },
+  {
+    "code": 1306070002,
+    "keccode": 1306070,
+    "name": "SIKUCUR"
+  },
+  {
+    "code": 1306070003,
+    "keccode": 1306070,
+    "name": "CAMPAGO SELATAN"
+  },
+  {
+    "code": 1306070004,
+    "keccode": 1306070,
+    "name": "CAMPAGO BARAT"
+  },
+  {
+    "code": 1306070005,
+    "keccode": 1306070,
+    "name": "SIKUCUR TENGAH"
+  },
+  {
+    "code": 1306070006,
+    "keccode": 1306070,
+    "name": "SIKUCUR BARAT"
+  },
+  {
+    "code": 1306070007,
+    "keccode": 1306070,
+    "name": "SIKUCUR UTARA"
+  },
+  {
+    "code": 1306070008,
+    "keccode": 1306070,
+    "name": "SIKUCUR TIMUR"
+  }
+]

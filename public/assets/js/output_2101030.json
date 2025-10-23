@@ -1,0 +1,42 @@
+[
+  {
+    "code": 2101030004,
+    "keccode": 2101030,
+    "name": "PARIT"
+  },
+  {
+    "code": 2101030005,
+    "keccode": 2101030,
+    "name": "TULANG"
+  },
+  {
+    "code": 2101030006,
+    "keccode": 2101030,
+    "name": "TANJUNG BALAI"
+  },
+  {
+    "code": 2101030007,
+    "keccode": 2101030,
+    "name": "TELUK AIR"
+  },
+  {
+    "code": 2101030008,
+    "keccode": 2101030,
+    "name": "SUNGAI LAKAM TIMUR"
+  },
+  {
+    "code": 2101030010,
+    "keccode": 2101030,
+    "name": "SELAT MENDAUN"
+  },
+  {
+    "code": 2101030011,
+    "keccode": 2101030,
+    "name": "TANJUNG BALAI KOTA"
+  },
+  {
+    "code": 2101030012,
+    "keccode": 2101030,
+    "name": "SUNGAI LAKAM BARAT"
+  }
+]

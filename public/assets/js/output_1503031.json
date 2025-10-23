@@ -1,0 +1,67 @@
+[
+  {
+    "code": 1503031001,
+    "keccode": 1503031,
+    "name": "PERDAMAIAN"
+  },
+  {
+    "code": 1503031002,
+    "keccode": 1503031,
+    "name": "SUNGAI GEDANG"
+  },
+  {
+    "code": 1503031003,
+    "keccode": 1503031,
+    "name": "SUNGAI BENTENG"
+  },
+  {
+    "code": 1503031004,
+    "keccode": 1503031,
+    "name": "BUKIT MURAU"
+  },
+  {
+    "code": 1503031005,
+    "keccode": 1503031,
+    "name": "PASAR SINGKUT"
+  },
+  {
+    "code": 1503031006,
+    "keccode": 1503031,
+    "name": "BUKIT TIGO"
+  },
+  {
+    "code": 1503031007,
+    "keccode": 1503031,
+    "name": "PAYO LEBAR"
+  },
+  {
+    "code": 1503031019,
+    "keccode": 1503031,
+    "name": "SIMPANG NIBUNG"
+  },
+  {
+    "code": 1503031020,
+    "keccode": 1503031,
+    "name": "SILIWANGI"
+  },
+  {
+    "code": 1503031021,
+    "keccode": 1503031,
+    "name": "SENDANG SARI"
+  },
+  {
+    "code": 1503031022,
+    "keccode": 1503031,
+    "name": "ARGO SARI"
+  },
+  {
+    "code": 1503031023,
+    "keccode": 1503031,
+    "name": "BUKIT BUMI RAYA"
+  },
+  {
+    "code": 1503031024,
+    "keccode": 1503031,
+    "name": "BUKIT TALANG MAS"
+  }
+]

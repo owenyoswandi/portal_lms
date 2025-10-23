@@ -1,0 +1,217 @@
+[
+  {
+    "code": 1110030001,
+    "keccode": 1110030,
+    "name": "JEUMPA SIKUREUNG"
+  },
+  {
+    "code": 1110030002,
+    "keccode": 1110030,
+    "name": "BLANG POROH"
+  },
+  {
+    "code": 1110030003,
+    "keccode": 1110030,
+    "name": "LHOK KULAM"
+  },
+  {
+    "code": 1110030010,
+    "keccode": 1110030,
+    "name": "SAMPOI AJAD"
+  },
+  {
+    "code": 1110030011,
+    "keccode": 1110030,
+    "name": "ULEE BLANG"
+  },
+  {
+    "code": 1110030012,
+    "keccode": 1110030,
+    "name": "ALUE SEUTUI"
+  },
+  {
+    "code": 1110030013,
+    "keccode": 1110030,
+    "name": "BLANG NEUBOK"
+  },
+  {
+    "code": 1110030014,
+    "keccode": 1110030,
+    "name": "MEUNASAH ALUE"
+  },
+  {
+    "code": 1110030015,
+    "keccode": 1110030,
+    "name": "MEUNASAH TUNONG LUENG"
+  },
+  {
+    "code": 1110030016,
+    "keccode": 1110030,
+    "name": "LHEUE SIMPANG"
+  },
+  {
+    "code": 1110030017,
+    "keccode": 1110030,
+    "name": "LHEUE BARAT"
+  },
+  {
+    "code": 1110030018,
+    "keccode": 1110030,
+    "name": "MEUNASAH DAYAH"
+  },
+  {
+    "code": 1110030019,
+    "keccode": 1110030,
+    "name": "MEUNASAH KEUPULA"
+  },
+  {
+    "code": 1110030020,
+    "keccode": 1110030,
+    "name": "ULEE GAJAH"
+  },
+  {
+    "code": 1110030021,
+    "keccode": 1110030,
+    "name": "UTEUN PUPALEH"
+  },
+  {
+    "code": 1110030022,
+    "keccode": 1110030,
+    "name": "DARUL AMAN"
+  },
+  {
+    "code": 1110030023,
+    "keccode": 1110030,
+    "name": "LAMPOH OE"
+  },
+  {
+    "code": 1110030024,
+    "keccode": 1110030,
+    "name": "PULO RANGKILEH"
+  },
+  {
+    "code": 1110030025,
+    "keccode": 1110030,
+    "name": "TUFAH"
+  },
+  {
+    "code": 1110030030,
+    "keccode": 1110030,
+    "name": "TANJONG BUNGONG"
+  },
+  {
+    "code": 1110030031,
+    "keccode": 1110030,
+    "name": "DAYAH BARO"
+  },
+  {
+    "code": 1110030032,
+    "keccode": 1110030,
+    "name": "ULEE RABO"
+  },
+  {
+    "code": 1110030033,
+    "keccode": 1110030,
+    "name": "LHUENG TENGOH"
+  },
+  {
+    "code": 1110030034,
+    "keccode": 1110030,
+    "name": "MEUNASAH TAMBO"
+  },
+  {
+    "code": 1110030035,
+    "keccode": 1110030,
+    "name": "MEUNASAH KEUTAPANG"
+  },
+  {
+    "code": 1110030036,
+    "keccode": 1110030,
+    "name": "COT GEULUMPANG TUNONG"
+  },
+  {
+    "code": 1110030037,
+    "keccode": 1110030,
+    "name": "COT GEULUMPANG BAROH"
+  },
+  {
+    "code": 1110030038,
+    "keccode": 1110030,
+    "name": "KEUDE JEUNIEB"
+  },
+  {
+    "code": 1110030039,
+    "keccode": 1110030,
+    "name": "JANGGOT SEUNGKO"
+  },
+  {
+    "code": 1110030040,
+    "keccode": 1110030,
+    "name": "BLANG MEE TIMU"
+  },
+  {
+    "code": 1110030041,
+    "keccode": 1110030,
+    "name": "MATANG NIBONG"
+  },
+  {
+    "code": 1110030042,
+    "keccode": 1110030,
+    "name": "BLANG MEE BARAT"
+  },
+  {
+    "code": 1110030043,
+    "keccode": 1110030,
+    "name": "MATANG TEUNGOH"
+  },
+  {
+    "code": 1110030044,
+    "keccode": 1110030,
+    "name": "MATANG BANGKA"
+  },
+  {
+    "code": 1110030045,
+    "keccode": 1110030,
+    "name": "BLANG LANCANG"
+  },
+  {
+    "code": 1110030046,
+    "keccode": 1110030,
+    "name": "LANCANG"
+  },
+  {
+    "code": 1110030047,
+    "keccode": 1110030,
+    "name": "TEUPIN KEUPULA"
+  },
+  {
+    "code": 1110030057,
+    "keccode": 1110030,
+    "name": "MEUNASAH LUENG"
+  },
+  {
+    "code": 1110030058,
+    "keccode": 1110030,
+    "name": "ALUE LAM SABA"
+  },
+  {
+    "code": 1110030059,
+    "keccode": 1110030,
+    "name": "DAYAH BLANG RALEU"
+  },
+  {
+    "code": 1110030060,
+    "keccode": 1110030,
+    "name": "MEUNASAH BLANG"
+  },
+  {
+    "code": 1110030061,
+    "keccode": 1110030,
+    "name": "PAYA BILI"
+  },
+  {
+    "code": 1110030062,
+    "keccode": 1110030,
+    "name": "MEUNASAH KOTA"
+  }
+]

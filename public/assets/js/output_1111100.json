@@ -1,0 +1,287 @@
+[
+  {
+    "code": 1111100001,
+    "keccode": 1111100,
+    "name": "CINTA MAKMUR"
+  },
+  {
+    "code": 1111100002,
+    "keccode": 1111100,
+    "name": "BABUSSALAM"
+  },
+  {
+    "code": 1111100003,
+    "keccode": 1111100,
+    "name": "BUKET DARA BARO"
+  },
+  {
+    "code": 1111100004,
+    "keccode": 1111100,
+    "name": "MATANG BARO"
+  },
+  {
+    "code": 1111100005,
+    "keccode": 1111100,
+    "name": "UJONG DAMA"
+  },
+  {
+    "code": 1111100006,
+    "keccode": 1111100,
+    "name": "BUKET MON SUKON"
+  },
+  {
+    "code": 1111100007,
+    "keccode": 1111100,
+    "name": "MATANG BEURINGEN"
+  },
+  {
+    "code": 1111100009,
+    "keccode": 1111100,
+    "name": "MATANG PINEUNG"
+  },
+  {
+    "code": 1111100010,
+    "keccode": 1111100,
+    "name": "CEUMPEDAK"
+  },
+  {
+    "code": 1111100011,
+    "keccode": 1111100,
+    "name": "MATANG REUDEUP"
+  },
+  {
+    "code": 1111100012,
+    "keccode": 1111100,
+    "name": "BUKET LUENG BATA"
+  },
+  {
+    "code": 1111100013,
+    "keccode": 1111100,
+    "name": "MATANG MANYAM"
+  },
+  {
+    "code": 1111100014,
+    "keccode": 1111100,
+    "name": "COT MANYANG"
+  },
+  {
+    "code": 1111100015,
+    "keccode": 1111100,
+    "name": "KEUDE MEUNYE IV"
+  },
+  {
+    "code": 1111100016,
+    "keccode": 1111100,
+    "name": "MATANG ULIM"
+  },
+  {
+    "code": 1111100017,
+    "keccode": 1111100,
+    "name": "MATANG LINYA"
+  },
+  {
+    "code": 1111100023,
+    "keccode": 1111100,
+    "name": "ALUE IE TAREK"
+  },
+  {
+    "code": 1111100024,
+    "keccode": 1111100,
+    "name": "GEULUMPANG BUNGKOK"
+  },
+  {
+    "code": 1111100025,
+    "keccode": 1111100,
+    "name": "ARONGAN LISE"
+  },
+  {
+    "code": 1111100026,
+    "keccode": 1111100,
+    "name": "GLUMPANG PAYONG"
+  },
+  {
+    "code": 1111100027,
+    "keccode": 1111100,
+    "name": "ALUE RAMBONG"
+  },
+  {
+    "code": 1111100028,
+    "keccode": 1111100,
+    "name": "GEULUMPANG SAMLAKOE"
+  },
+  {
+    "code": 1111100029,
+    "keccode": 1111100,
+    "name": "MATANG RAWA"
+  },
+  {
+    "code": 1111100030,
+    "keccode": 1111100,
+    "name": "MATANG LAWANG"
+  },
+  {
+    "code": 1111100032,
+    "keccode": 1111100,
+    "name": "COT ARA"
+  },
+  {
+    "code": 1111100033,
+    "keccode": 1111100,
+    "name": "ALUE DAMA"
+  },
+  {
+    "code": 1111100034,
+    "keccode": 1111100,
+    "name": "ALUE BILI GEULUMPANG"
+  },
+  {
+    "code": 1111100035,
+    "keccode": 1111100,
+    "name": "PUCOK ALUE"
+  },
+  {
+    "code": 1111100036,
+    "keccode": 1111100,
+    "name": "MATANG KAREUNG"
+  },
+  {
+    "code": 1111100037,
+    "keccode": 1111100,
+    "name": "COT ULAYA"
+  },
+  {
+    "code": 1111100040,
+    "keccode": 1111100,
+    "name": "KEUDE PANTEU BREUH"
+  },
+  {
+    "code": 1111100041,
+    "keccode": 1111100,
+    "name": "RAMBONG DALAM"
+  },
+  {
+    "code": 1111100042,
+    "keccode": 1111100,
+    "name": "ALUE BILI RAYEUK"
+  },
+  {
+    "code": 1111100043,
+    "keccode": 1111100,
+    "name": "MEUNASAH ALUE IE PUTEH"
+  },
+  {
+    "code": 1111100044,
+    "keccode": 1111100,
+    "name": "KEUDE ALUE IE PUTEH"
+  },
+  {
+    "code": 1111100045,
+    "keccode": 1111100,
+    "name": "MATANG KUMBANG"
+  },
+  {
+    "code": 1111100057,
+    "keccode": 1111100,
+    "name": "COT MANE"
+  },
+  {
+    "code": 1111100058,
+    "keccode": 1111100,
+    "name": "COT KUMBANG"
+  },
+  {
+    "code": 1111100059,
+    "keccode": 1111100,
+    "name": "LHOK SEUTUY"
+  },
+  {
+    "code": 1111100060,
+    "keccode": 1111100,
+    "name": "MEUNASAH BUJOK"
+  },
+  {
+    "code": 1111100061,
+    "keccode": 1111100,
+    "name": "ALUE JAMOK"
+  },
+  {
+    "code": 1111100062,
+    "keccode": 1111100,
+    "name": "MEUDANG ARA"
+  },
+  {
+    "code": 1111100063,
+    "keccode": 1111100,
+    "name": "ALUE KEUTAPANG"
+  },
+  {
+    "code": 1111100064,
+    "keccode": 1111100,
+    "name": "MEUNASAH GEUDONG"
+  },
+  {
+    "code": 1111100065,
+    "keccode": 1111100,
+    "name": "KRUENG LINGKA TIMU"
+  },
+  {
+    "code": 1111100066,
+    "keccode": 1111100,
+    "name": "KRUENG LINGKA BARAT"
+  },
+  {
+    "code": 1111100067,
+    "keccode": 1111100,
+    "name": "ALUE ANOU TIMU"
+  },
+  {
+    "code": 1111100068,
+    "keccode": 1111100,
+    "name": "ALUE ANOU BARAT"
+  },
+  {
+    "code": 1111100069,
+    "keccode": 1111100,
+    "name": "ALUE SERDANG"
+  },
+  {
+    "code": 1111100070,
+    "keccode": 1111100,
+    "name": "MATANG RAYA BARAT"
+  },
+  {
+    "code": 1111100074,
+    "keccode": 1111100,
+    "name": "PULO SEUKE"
+  },
+  {
+    "code": 1111100075,
+    "keccode": 1111100,
+    "name": "ALUE GEUDONG"
+  },
+  {
+    "code": 1111100076,
+    "keccode": 1111100,
+    "name": "MATANG KEULAYU"
+  },
+  {
+    "code": 1111100077,
+    "keccode": 1111100,
+    "name": "MATANG RAYA TIMU"
+  },
+  {
+    "code": 1111100078,
+    "keccode": 1111100,
+    "name": "ALUE BUYA"
+  },
+  {
+    "code": 1111100079,
+    "keccode": 1111100,
+    "name": "MATANG CUT"
+  },
+  {
+    "code": 1111100080,
+    "keccode": 1111100,
+    "name": "TANJONG GLUMPANG"
+  }
+]

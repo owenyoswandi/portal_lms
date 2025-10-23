@@ -1,0 +1,141 @@
+{
+    "menu": [
+        {
+            "url": "home",
+            "name": "Dashboards",
+            "icon": "bi bi-grid",
+            "slug": "/home",
+            "allowed_roles": [
+                "Admin",
+                "Per-home",
+                "Per-clinic",
+                "Dokter",
+                "Pasien"
+            ]
+        },
+        {
+            "name": "Kelola Pengguna",
+            "url": "admin-pengguna",
+            "icon": "bi bi-file-person",
+            "slug": "/admin-pengguna",
+            "allowed_roles": ["Admin"]
+        },
+        {
+            "name": "Kelola Group",
+            "url": "admin-group",
+            "icon": "bi bi-people-fill",
+            "slug": "/admin-group",
+            "allowed_roles": ["Admin"]
+        },
+        
+        {
+            "url": "konsultasi",
+            "name": "Konsultasi",
+            "icon": "bi bi-chat-left-dots",
+            "slug": ["/konsultasi","/konsultasi-dtl"],
+            "allowed_roles": ["Per-home", "Per-clinic", "Dokter", "Pasien"]
+        },
+		{
+			"name": "Manage Transaction",
+			"slug": "admin/order",
+			"icon": "bx bxs-book",
+			"allowed_roles": ["Admin"],
+			"url": "admin/order",
+			"submenu": [
+				{
+					"name": "Orders",
+					"slug": "/admin/order",
+					"icon": "bx bx-cart",
+					"allowed_roles": ["Admin"],
+					"url": "admin/order"
+				},
+				{
+					"name": "Top Up",
+					"slug": "/admin/topup",
+					"icon": "bx bx-money",
+					"allowed_roles": ["Admin"],
+					"url": "admin/topup"
+				}
+			]
+		},
+		{
+			"name": "Manage Product",
+			"slug": "admin/product",
+			"icon": "bx bxs-book",
+			"allowed_roles": ["Admin"],
+			"url": "admin/order",
+			"submenu": [
+				{
+					"name": "Course",
+					"slug": "/admin/course",
+					"icon": "bx bx-book",
+					"allowed_roles": ["Admin"],
+					"url": "admin/course"
+				},
+				{
+					"name": "Question Bank",
+					"slug": "/admin/question",
+					"icon": "bx bx-book",
+					"allowed_roles": ["Admin"],
+					"url": "admin/question"
+				}
+			]
+		},
+		{
+			"name": "Manage Projects",
+			"slug": "/admin/project",
+			"icon": "bx bx-sidebar",
+			"allowed_roles": ["Admin"],
+            "url": "admin/project"
+        },
+		{
+			"name": "Dashboard",
+			"slug": "dashboard",
+			"icon": "bi bi-grid",
+			"allowed_roles": ["Peserta"],
+            "url": "member/dashboard-member"
+        },
+		{
+			"name": "Course",
+			"slug": "course",
+			"icon": "bi bi-menu-button-wide",
+			"allowed_roles": ["Peserta"],
+            "url": "member/course"
+        },
+		{
+			"name": "Order Course",
+			"slug": "order",
+			"icon": "bi bi-menu-button-wide",
+			"allowed_roles": ["Peserta"],
+            "url": "member/order"
+        },
+		{
+			"name": "Top Up",
+			"slug": "topup",
+			"icon": "bx bx-wallet",
+			"allowed_roles": ["Peserta"],
+            "url": "member/topup"
+        },
+		{
+			"name": "Finance",
+			"slug": "finance",
+			"icon": "bx bx-money",
+			"allowed_roles": ["Peserta"],
+            "url": "member/finance"
+        },
+        {
+			"name": "Projects",
+			"slug": "project",
+			"icon": "bx bx-sidebar",
+			"allowed_roles": ["Peserta"],
+            "url": "member/project"
+        },
+        {
+			"name": "Calendar",
+			"slug": "calendar",
+			"icon": "bx bx-calendar",
+			"allowed_roles": ["Peserta"],
+            "url": "member/calendar"
+        }
+    ]
+}

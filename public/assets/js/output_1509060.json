@@ -1,0 +1,52 @@
+[
+  {
+    "code": 1509060001,
+    "keccode": 1509060,
+    "name": "TANJUNG BELIT"
+  },
+  {
+    "code": 1509060002,
+    "keccode": 1509060,
+    "name": "PULAU JELMU"
+  },
+  {
+    "code": 1509060003,
+    "keccode": 1509060,
+    "name": "RANTAU IKIL"
+  },
+  {
+    "code": 1509060004,
+    "keccode": 1509060,
+    "name": "UJUNG TANJUNG"
+  },
+  {
+    "code": 1509060005,
+    "keccode": 1509060,
+    "name": "SIRIH SEKAPUR"
+  },
+  {
+    "code": 1509060006,
+    "keccode": 1509060,
+    "name": "TALANG PEMESUN"
+  },
+  {
+    "code": 1509060007,
+    "keccode": 1509060,
+    "name": "RANTAU PANJANG"
+  },
+  {
+    "code": 1509060008,
+    "keccode": 1509060,
+    "name": "JUMBAK"
+  },
+  {
+    "code": 1509060009,
+    "keccode": 1509060,
+    "name": "BARU BALAI PANJANG"
+  },
+  {
+    "code": 1509060010,
+    "keccode": 1509060,
+    "name": "SIRIH SEKAPUR PERKEMBANGAN"
+  }
+]

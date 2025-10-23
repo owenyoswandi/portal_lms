@@ -1,0 +1,122 @@
+[
+  {
+    "code": 1401010005,
+    "keccode": 1401010,
+    "name": "PANTAI"
+  },
+  {
+    "code": 1401010006,
+    "keccode": 1401010,
+    "name": "AIR BULUH"
+  },
+  {
+    "code": 1401010007,
+    "keccode": 1401010,
+    "name": "LUBUK RAMO"
+  },
+  {
+    "code": 1401010008,
+    "keccode": 1401010,
+    "name": "KOTO CENGAR"
+  },
+  {
+    "code": 1401010009,
+    "keccode": 1401010,
+    "name": "SEBERANG CENGAR"
+  },
+  {
+    "code": 1401010010,
+    "keccode": 1401010,
+    "name": "SANGAU"
+  },
+  {
+    "code": 1401010011,
+    "keccode": 1401010,
+    "name": "BANJAR PADANG"
+  },
+  {
+    "code": 1401010012,
+    "keccode": 1401010,
+    "name": "LUBUK JAMBI"
+  },
+  {
+    "code": 1401010013,
+    "keccode": 1401010,
+    "name": "KOTO LUBUK JAMBI"
+  },
+  {
+    "code": 1401010014,
+    "keccode": 1401010,
+    "name": "KASANG"
+  },
+  {
+    "code": 1401010016,
+    "keccode": 1401010,
+    "name": "AUR DURI"
+  },
+  {
+    "code": 1401010017,
+    "keccode": 1401010,
+    "name": "BUKIT KAUMAN"
+  },
+  {
+    "code": 1401010018,
+    "keccode": 1401010,
+    "name": "SUNGAI MANAU"
+  },
+  {
+    "code": 1401010028,
+    "keccode": 1401010,
+    "name": "SAIK"
+  },
+  {
+    "code": 1401010029,
+    "keccode": 1401010,
+    "name": "PEBAUN HULU"
+  },
+  {
+    "code": 1401010030,
+    "keccode": 1401010,
+    "name": "PEBAUN HILIR"
+  },
+  {
+    "code": 1401010031,
+    "keccode": 1401010,
+    "name": "KINALI"
+  },
+  {
+    "code": 1401010032,
+    "keccode": 1401010,
+    "name": "PULAU BINJAI"
+  },
+  {
+    "code": 1401010033,
+    "keccode": 1401010,
+    "name": "SEBERANG PANTAI"
+  },
+  {
+    "code": 1401010034,
+    "keccode": 1401010,
+    "name": "LUAI"
+  },
+  {
+    "code": 1401010035,
+    "keccode": 1401010,
+    "name": "RANTAU SIALANG"
+  },
+  {
+    "code": 1401010036,
+    "keccode": 1401010,
+    "name": "BANJAR GUNTUNG"
+  },
+  {
+    "code": 1401010038,
+    "keccode": 1401010,
+    "name": "BUKIT PEDUSUNAN"
+  },
+  {
+    "code": 1401010041,
+    "keccode": 1401010,
+    "name": "MUARO TOMBANG"
+  }
+]

@@ -1,0 +1,107 @@
+[
+  {
+    "code": 1205120001,
+    "keccode": 1205120,
+    "name": "LUMBAN TONGA TONGA"
+  },
+  {
+    "code": 1205120002,
+    "keccode": 1205120,
+    "name": "PANIARAN"
+  },
+  {
+    "code": 1205120003,
+    "keccode": 1205120,
+    "name": "BAHAL BATU III"
+  },
+  {
+    "code": 1205120004,
+    "keccode": 1205120,
+    "name": "BAHAL BATU II"
+  },
+  {
+    "code": 1205120005,
+    "keccode": 1205120,
+    "name": "BAHAL BATU I"
+  },
+  {
+    "code": 1205120006,
+    "keccode": 1205120,
+    "name": "SITABO-TABO"
+  },
+  {
+    "code": 1205120007,
+    "keccode": 1205120,
+    "name": "SIBORONG-BORONG I"
+  },
+  {
+    "code": 1205120008,
+    "keccode": 1205120,
+    "name": "SIARO"
+  },
+  {
+    "code": 1205120009,
+    "keccode": 1205120,
+    "name": "SITAMPURUNG"
+  },
+  {
+    "code": 1205120010,
+    "keccode": 1205120,
+    "name": "PASAR SIBORONG-BORONG"
+  },
+  {
+    "code": 1205120011,
+    "keccode": 1205120,
+    "name": "POHAN TONGA"
+  },
+  {
+    "code": 1205120012,
+    "keccode": 1205120,
+    "name": "LOBU SIREGAR II"
+  },
+  {
+    "code": 1205120013,
+    "keccode": 1205120,
+    "name": "HUTABULU"
+  },
+  {
+    "code": 1205120014,
+    "keccode": 1205120,
+    "name": "LOBU SIREGAR I"
+  },
+  {
+    "code": 1205120015,
+    "keccode": 1205120,
+    "name": "POHAN JAE"
+  },
+  {
+    "code": 1205120016,
+    "keccode": 1205120,
+    "name": "POHAN JULU"
+  },
+  {
+    "code": 1205120017,
+    "keccode": 1205120,
+    "name": "PARIK SABUNGAN"
+  },
+  {
+    "code": 1205120018,
+    "keccode": 1205120,
+    "name": "SIBORONG-BORONG II"
+  },
+  {
+    "code": 1205120019,
+    "keccode": 1205120,
+    "name": "SIGUMBANG"
+  },
+  {
+    "code": 1205120020,
+    "keccode": 1205120,
+    "name": "SITABOTABO TORUAN"
+  },
+  {
+    "code": 1205120021,
+    "keccode": 1205120,
+    "name": "SILAIT-LAIT"
+  }
+]

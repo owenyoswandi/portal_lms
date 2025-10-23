@@ -1,0 +1,67 @@
+[
+  {
+    "code": 1406020001,
+    "keccode": 1406020,
+    "name": "BALUNG"
+  },
+  {
+    "code": 1406020002,
+    "keccode": 1406020,
+    "name": "PULAU GADANG"
+  },
+  {
+    "code": 1406020003,
+    "keccode": 1406020,
+    "name": "TANJUNG ALAI"
+  },
+  {
+    "code": 1406020004,
+    "keccode": 1406020,
+    "name": "BATU BERSURAT"
+  },
+  {
+    "code": 1406020005,
+    "keccode": 1406020,
+    "name": "KOTO TUO"
+  },
+  {
+    "code": 1406020006,
+    "keccode": 1406020,
+    "name": "MUARA TAKUS"
+  },
+  {
+    "code": 1406020007,
+    "keccode": 1406020,
+    "name": "GUNUNG BUNGSU"
+  },
+  {
+    "code": 1406020013,
+    "keccode": 1406020,
+    "name": "KOTO MESJID"
+  },
+  {
+    "code": 1406020014,
+    "keccode": 1406020,
+    "name": "LUBUK AGUNG"
+  },
+  {
+    "code": 1406020015,
+    "keccode": 1406020,
+    "name": "RANAH SUNGKAI"
+  },
+  {
+    "code": 1406020016,
+    "keccode": 1406020,
+    "name": "BINAMANG"
+  },
+  {
+    "code": 1406020017,
+    "keccode": 1406020,
+    "name": "PONGKAI ISTIQAMAH"
+  },
+  {
+    "code": 1406020024,
+    "keccode": 1406020,
+    "name": "KOTO TUO BARAT"
+  }
+]

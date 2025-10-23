@@ -1,0 +1,27 @@
+[
+  {
+    "code": 9110011001,
+    "keccode": 9110011,
+    "name": "ISNUM"
+  },
+  {
+    "code": 9110011002,
+    "keccode": 9110011,
+    "name": "ARUS"
+  },
+  {
+    "code": 9110011003,
+    "keccode": 9110011,
+    "name": "KOFAIT"
+  },
+  {
+    "code": 9110011004,
+    "keccode": 9110011,
+    "name": "FAIT NGGRE"
+  },
+  {
+    "code": 9110011005,
+    "keccode": 9110011,
+    "name": "FAITSIMAR"
+  }
+]

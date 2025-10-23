@@ -1,0 +1,42 @@
+[
+  {
+    "code": 3322101001,
+    "keccode": 3322101,
+    "name": "MLILIR"
+  },
+  {
+    "code": 3322101003,
+    "keccode": 3322101,
+    "name": "JETIS"
+  },
+  {
+    "code": 3322101004,
+    "keccode": 3322101,
+    "name": "BANDUNGAN"
+  },
+  {
+    "code": 3322101006,
+    "keccode": 3322101,
+    "name": "CANDI"
+  },
+  {
+    "code": 3322101007,
+    "keccode": 3322101,
+    "name": "BANYUKUNING"
+  },
+  {
+    "code": 3322101008,
+    "keccode": 3322101,
+    "name": "JIMBARAN"
+  },
+  {
+    "code": 3322101009,
+    "keccode": 3322101,
+    "name": "PAKOPEN"
+  },
+  {
+    "code": 3322101010,
+    "keccode": 3322101,
+    "name": "SIDOMUKTI"
+  }
+]

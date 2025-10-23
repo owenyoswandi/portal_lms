@@ -1,0 +1,347 @@
+[
+  {
+    "code": 1110080023,
+    "keccode": 1110080,
+    "name": "ALUE UDEUNG"
+  },
+  {
+    "code": 1110080024,
+    "keccode": 1110080,
+    "name": "ALUE PEUNO"
+  },
+  {
+    "code": 1110080038,
+    "keccode": 1110080,
+    "name": "KAPA"
+  },
+  {
+    "code": 1110080039,
+    "keccode": 1110080,
+    "name": "BLANG PANJOE"
+  },
+  {
+    "code": 1110080040,
+    "keccode": 1110080,
+    "name": "PANTE LHONG"
+  },
+  {
+    "code": 1110080041,
+    "keccode": 1110080,
+    "name": "PAYA CUT"
+  },
+  {
+    "code": 1110080042,
+    "keccode": 1110080,
+    "name": "SEUNEUBOK ACEH"
+  },
+  {
+    "code": 1110080043,
+    "keccode": 1110080,
+    "name": "PAYA LIPAH"
+  },
+  {
+    "code": 1110080044,
+    "keccode": 1110080,
+    "name": "SEUNEUBOK RAWA"
+  },
+  {
+    "code": 1110080045,
+    "keccode": 1110080,
+    "name": "BLANG GEULANGGANG"
+  },
+  {
+    "code": 1110080046,
+    "keccode": 1110080,
+    "name": "UTEUN BUNTA"
+  },
+  {
+    "code": 1110080047,
+    "keccode": 1110080,
+    "name": "PAYA REUHAT"
+  },
+  {
+    "code": 1110080048,
+    "keccode": 1110080,
+    "name": "PAYA ABO"
+  },
+  {
+    "code": 1110080049,
+    "keccode": 1110080,
+    "name": "PALOH"
+  },
+  {
+    "code": 1110080050,
+    "keccode": 1110080,
+    "name": "PAYA MEUNENG"
+  },
+  {
+    "code": 1110080051,
+    "keccode": 1110080,
+    "name": "MATANG SAGOE"
+  },
+  {
+    "code": 1110080052,
+    "keccode": 1110080,
+    "name": "PANTON GEULIMA"
+  },
+  {
+    "code": 1110080053,
+    "keccode": 1110080,
+    "name": "NEUHEUEN"
+  },
+  {
+    "code": 1110080054,
+    "keccode": 1110080,
+    "name": "KEUDE MATANG GLP DUA"
+  },
+  {
+    "code": 1110080055,
+    "keccode": 1110080,
+    "name": "PANTE GAJAH"
+  },
+  {
+    "code": 1110080056,
+    "keccode": 1110080,
+    "name": "BLANG ASAN"
+  },
+  {
+    "code": 1110080057,
+    "keccode": 1110080,
+    "name": "GAMPONG RAYA DAGANG"
+  },
+  {
+    "code": 1110080058,
+    "keccode": 1110080,
+    "name": "GAMPONG RAYA TAMBO"
+  },
+  {
+    "code": 1110080059,
+    "keccode": 1110080,
+    "name": "KEUDE TANJONG"
+  },
+  {
+    "code": 1110080060,
+    "keccode": 1110080,
+    "name": "PANTE PISANG"
+  },
+  {
+    "code": 1110080061,
+    "keccode": 1110080,
+    "name": "BLANG CUT SP IV"
+  },
+  {
+    "code": 1110080062,
+    "keccode": 1110080,
+    "name": "PANTE CUT"
+  },
+  {
+    "code": 1110080063,
+    "keccode": 1110080,
+    "name": "MATANG GLP DUA MEUNASAH TIMU"
+  },
+  {
+    "code": 1110080064,
+    "keccode": 1110080,
+    "name": "MATANG GLP DUA MEUNASAH DAYAH"
+  },
+  {
+    "code": 1110080065,
+    "keccode": 1110080,
+    "name": "MATANG MESJID"
+  },
+  {
+    "code": 1110080066,
+    "keccode": 1110080,
+    "name": "COT PANJOE"
+  },
+  {
+    "code": 1110080067,
+    "keccode": 1110080,
+    "name": "COT KEURANJI"
+  },
+  {
+    "code": 1110080068,
+    "keccode": 1110080,
+    "name": "GAMPONG BAROH"
+  },
+  {
+    "code": 1110080069,
+    "keccode": 1110080,
+    "name": "BLANG RAMBONG"
+  },
+  {
+    "code": 1110080070,
+    "keccode": 1110080,
+    "name": "TANOH MIRAH"
+  },
+  {
+    "code": 1110080071,
+    "keccode": 1110080,
+    "name": "COT GIREK"
+  },
+  {
+    "code": 1110080072,
+    "keccode": 1110080,
+    "name": "SAGOE"
+  },
+  {
+    "code": 1110080073,
+    "keccode": 1110080,
+    "name": "COT BADA BARAT"
+  },
+  {
+    "code": 1110080074,
+    "keccode": 1110080,
+    "name": "COT BADA TUNONG"
+  },
+  {
+    "code": 1110080075,
+    "keccode": 1110080,
+    "name": "COT BUKET"
+  },
+  {
+    "code": 1110080076,
+    "keccode": 1110080,
+    "name": "COT IEJU"
+  },
+  {
+    "code": 1110080077,
+    "keccode": 1110080,
+    "name": "NICAH"
+  },
+  {
+    "code": 1110080078,
+    "keccode": 1110080,
+    "name": "COT BADA BAROH"
+  },
+  {
+    "code": 1110080079,
+    "keccode": 1110080,
+    "name": "COT KEUMUDEE"
+  },
+  {
+    "code": 1110080081,
+    "keccode": 1110080,
+    "name": "PULO NALEUNG"
+  },
+  {
+    "code": 1110080082,
+    "keccode": 1110080,
+    "name": "COT NGA"
+  },
+  {
+    "code": 1110080083,
+    "keccode": 1110080,
+    "name": "KARIENG"
+  },
+  {
+    "code": 1110080084,
+    "keccode": 1110080,
+    "name": "MATA MAMPLAM"
+  },
+  {
+    "code": 1110080085,
+    "keccode": 1110080,
+    "name": "ALUE GLUMPANG"
+  },
+  {
+    "code": 1110080086,
+    "keccode": 1110080,
+    "name": "COT RABO BAROH"
+  },
+  {
+    "code": 1110080087,
+    "keccode": 1110080,
+    "name": "COT RABO TUNONG"
+  },
+  {
+    "code": 1110080088,
+    "keccode": 1110080,
+    "name": "KRUENG DHEUE"
+  },
+  {
+    "code": 1110080089,
+    "keccode": 1110080,
+    "name": "MATANG COT PASEH"
+  },
+  {
+    "code": 1110080090,
+    "keccode": 1110080,
+    "name": "KRUENG BARO MESJID"
+  },
+  {
+    "code": 1110080091,
+    "keccode": 1110080,
+    "name": "GAMPONG PUTOH"
+  },
+  {
+    "code": 1110080092,
+    "keccode": 1110080,
+    "name": "PANTE PIYEU"
+  },
+  {
+    "code": 1110080093,
+    "keccode": 1110080,
+    "name": "TANJONG MESJID"
+  },
+  {
+    "code": 1110080094,
+    "keccode": 1110080,
+    "name": "TANJONG PAYA"
+  },
+  {
+    "code": 1110080095,
+    "keccode": 1110080,
+    "name": "TANJONG NIE"
+  },
+  {
+    "code": 1110080096,
+    "keccode": 1110080,
+    "name": "BAYU"
+  },
+  {
+    "code": 1110080097,
+    "keccode": 1110080,
+    "name": "KRUENG BARO BB KRUENG"
+  },
+  {
+    "code": 1110080098,
+    "keccode": 1110080,
+    "name": "MEUNASAH NIBONG"
+  },
+  {
+    "code": 1110080099,
+    "keccode": 1110080,
+    "name": "PANTE ARA"
+  },
+  {
+    "code": 1110080100,
+    "keccode": 1110080,
+    "name": "MEUNASAH MEUCAP"
+  },
+  {
+    "code": 1110080101,
+    "keccode": 1110080,
+    "name": "ASAN BIDEUN"
+  },
+  {
+    "code": 1110080102,
+    "keccode": 1110080,
+    "name": "PULO PISANG"
+  },
+  {
+    "code": 1110080104,
+    "keccode": 1110080,
+    "name": "COT PUUK"
+  },
+  {
+    "code": 1110080105,
+    "keccode": 1110080,
+    "name": "BLANG DALAM"
+  },
+  {
+    "code": 1110080106,
+    "keccode": 1110080,
+    "name": "PULO UE BARO"
+  }
+]

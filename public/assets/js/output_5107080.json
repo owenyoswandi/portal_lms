@@ -1,0 +1,37 @@
+[
+  {
+    "code": 5107080001,
+    "keccode": 5107080,
+    "name": "BAN"
+  },
+  {
+    "code": 5107080003,
+    "keccode": 5107080,
+    "name": "TULAMBEN"
+  },
+  {
+    "code": 5107080005,
+    "keccode": 5107080,
+    "name": "BATURINGGIT"
+  },
+  {
+    "code": 5107080006,
+    "keccode": 5107080,
+    "name": "SUKADANA"
+  },
+  {
+    "code": 5107080007,
+    "keccode": 5107080,
+    "name": "TIANYAR"
+  },
+  {
+    "code": 5107080008,
+    "keccode": 5107080,
+    "name": "TIANYAR TENGAH"
+  },
+  {
+    "code": 5107080009,
+    "keccode": 5107080,
+    "name": "TIANYAR BARAT"
+  }
+]

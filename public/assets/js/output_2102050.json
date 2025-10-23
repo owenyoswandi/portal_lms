@@ -1,0 +1,27 @@
+[
+  {
+    "code": 2102050003,
+    "keccode": 2102050,
+    "name": "LANCANG KUNING"
+  },
+  {
+    "code": 2102050004,
+    "keccode": 2102050,
+    "name": "TANJUNG UBAN SELATAN"
+  },
+  {
+    "code": 2102050005,
+    "keccode": 2102050,
+    "name": "TANJUNG UBAN KOTA"
+  },
+  {
+    "code": 2102050006,
+    "keccode": 2102050,
+    "name": "TANJUNG UBAN UTARA"
+  },
+  {
+    "code": 2102050009,
+    "keccode": 2102050,
+    "name": "TANJUNG UBAN TIMUR"
+  }
+]

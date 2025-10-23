@@ -1,0 +1,47 @@
+[
+  {
+    "code": 5102010002,
+    "keccode": 5102010,
+    "name": "ANTAP"
+  },
+  {
+    "code": 5102010004,
+    "keccode": 5102010,
+    "name": "BAJERA"
+  },
+  {
+    "code": 5102010006,
+    "keccode": 5102010,
+    "name": "SERAMPINGAN"
+  },
+  {
+    "code": 5102010014,
+    "keccode": 5102010,
+    "name": "SELEMADEG"
+  },
+  {
+    "code": 5102010015,
+    "keccode": 5102010,
+    "name": "PUPUAN SAWAH"
+  },
+  {
+    "code": 5102010018,
+    "keccode": 5102010,
+    "name": "WANAGIRI"
+  },
+  {
+    "code": 5102010024,
+    "keccode": 5102010,
+    "name": "WANAGIRI KAUH"
+  },
+  {
+    "code": 5102010025,
+    "keccode": 5102010,
+    "name": "MANIKYANG"
+  },
+  {
+    "code": 5102010026,
+    "keccode": 5102010,
+    "name": "BAJERA UTARA"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "code": 1212220001,
+    "keccode": 1212220,
+    "name": "DELI TUA BARAT"
+  },
+  {
+    "code": 1212220002,
+    "keccode": 1212220,
+    "name": "DELI TUA TIMUR"
+  },
+  {
+    "code": 1212220003,
+    "keccode": 1212220,
+    "name": "DELI TUA"
+  },
+  {
+    "code": 1212220004,
+    "keccode": 1212220,
+    "name": "MEKAR SARI"
+  },
+  {
+    "code": 1212220005,
+    "keccode": 1212220,
+    "name": "KEDAI DURIAN"
+  },
+  {
+    "code": 1212220006,
+    "keccode": 1212220,
+    "name": "SUKA MAKMUR"
+  }
+]

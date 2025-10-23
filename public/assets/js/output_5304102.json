@@ -1,0 +1,42 @@
+[
+  {
+    "code": 5304102001,
+    "keccode": 5304102,
+    "name": "OP"
+  },
+  {
+    "code": 5304102002,
+    "keccode": 5304102,
+    "name": "SAENAM"
+  },
+  {
+    "code": 5304102003,
+    "keccode": 5304102,
+    "name": "SAHAN"
+  },
+  {
+    "code": 5304102004,
+    "keccode": 5304102,
+    "name": "NENOAT"
+  },
+  {
+    "code": 5304102005,
+    "keccode": 5304102,
+    "name": "NUNKOLO"
+  },
+  {
+    "code": 5304102006,
+    "keccode": 5304102,
+    "name": "HOINENO"
+  },
+  {
+    "code": 5304102007,
+    "keccode": 5304102,
+    "name": "FAT"
+  },
+  {
+    "code": 5304102009,
+    "keccode": 5304102,
+    "name": "HAUMENI"
+  }
+]

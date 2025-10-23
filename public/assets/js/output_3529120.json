@@ -1,0 +1,67 @@
+[
+  {
+    "code": 3529120001,
+    "keccode": 3529120,
+    "name": "AMBUNTEN BARAT"
+  },
+  {
+    "code": 3529120002,
+    "keccode": 3529120,
+    "name": "AMBUNTEN TENGAH"
+  },
+  {
+    "code": 3529120003,
+    "keccode": 3529120,
+    "name": "AMBUNTEN TIMUR"
+  },
+  {
+    "code": 3529120004,
+    "keccode": 3529120,
+    "name": "TAMBAAGUNG BARAT"
+  },
+  {
+    "code": 3529120005,
+    "keccode": 3529120,
+    "name": "TAMBAAGUNG TENGAH"
+  },
+  {
+    "code": 3529120006,
+    "keccode": 3529120,
+    "name": "TAMBAAGUNG ARES"
+  },
+  {
+    "code": 3529120007,
+    "keccode": 3529120,
+    "name": "SOGIAN"
+  },
+  {
+    "code": 3529120009,
+    "keccode": 3529120,
+    "name": "TAMBAAGUNG TIMUR"
+  },
+  {
+    "code": 3529120010,
+    "keccode": 3529120,
+    "name": "BUKABU"
+  },
+  {
+    "code": 3529120011,
+    "keccode": 3529120,
+    "name": "CAMPOR BARAT"
+  },
+  {
+    "code": 3529120012,
+    "keccode": 3529120,
+    "name": "CAMPOR TIMUR"
+  },
+  {
+    "code": 3529120013,
+    "keccode": 3529120,
+    "name": "BELUK ARES"
+  },
+  {
+    "code": 3529120015,
+    "keccode": 3529120,
+    "name": "BELUK RAJA"
+  }
+]

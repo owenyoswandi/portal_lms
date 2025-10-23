@@ -1,0 +1,32 @@
+[
+  {
+    "code": 1208040001,
+    "keccode": 1208040,
+    "name": "PERBANGUNAN"
+  },
+  {
+    "code": 1208040002,
+    "keccode": 1208040,
+    "name": "PERTAHANAN"
+  },
+  {
+    "code": 1208040003,
+    "keccode": 1208040,
+    "name": "BANGUN BARU"
+  },
+  {
+    "code": 1208040005,
+    "keccode": 1208040,
+    "name": "SEI PAHAM"
+  },
+  {
+    "code": 1208040006,
+    "keccode": 1208040,
+    "name": "SEI KEPAYANG KANAN"
+  },
+  {
+    "code": 1208040007,
+    "keccode": 1208040,
+    "name": "SEI KEPAYANG TENGAH"
+  }
+]

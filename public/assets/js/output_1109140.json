@@ -1,0 +1,322 @@
+[
+  {
+    "code": 1109140001,
+    "keccode": 1109140,
+    "name": "SEUNADEU KUNYET"
+  },
+  {
+    "code": 1109140002,
+    "keccode": 1109140,
+    "name": "BLANG GUNCI KUNYET"
+  },
+  {
+    "code": 1109140003,
+    "keccode": 1109140,
+    "name": "KAMBUEK NICAH"
+  },
+  {
+    "code": 1109140004,
+    "keccode": 1109140,
+    "name": "KAMBUEK PAYAPI KUNYET"
+  },
+  {
+    "code": 1109140005,
+    "keccode": 1109140,
+    "name": "BARO KUNYET"
+  },
+  {
+    "code": 1109140006,
+    "keccode": 1109140,
+    "name": "HAGU KUNYET"
+  },
+  {
+    "code": 1109140007,
+    "keccode": 1109140,
+    "name": "PIALA KUNYET"
+  },
+  {
+    "code": 1109140008,
+    "keccode": 1109140,
+    "name": "MESJID KUNYET"
+  },
+  {
+    "code": 1109140009,
+    "keccode": 1109140,
+    "name": "DAYAH TANOH KUNYET"
+  },
+  {
+    "code": 1109140010,
+    "keccode": 1109140,
+    "name": "COT KUNYET"
+  },
+  {
+    "code": 1109140011,
+    "keccode": 1109140,
+    "name": "BLANG GEULEUDIENG"
+  },
+  {
+    "code": 1109140012,
+    "keccode": 1109140,
+    "name": "MESJID GEULEUDIENG"
+  },
+  {
+    "code": 1109140013,
+    "keccode": 1109140,
+    "name": "PERLAK PEUDAYA"
+  },
+  {
+    "code": 1109140014,
+    "keccode": 1109140,
+    "name": "DAYAH BAROH KUNYET"
+  },
+  {
+    "code": 1109140015,
+    "keccode": 1109140,
+    "name": "BUNI REULING PEUDAYA"
+  },
+  {
+    "code": 1109140016,
+    "keccode": 1109140,
+    "name": "BULOH PEUDAYA"
+  },
+  {
+    "code": 1109140017,
+    "keccode": 1109140,
+    "name": "MESJID PEUDAYA"
+  },
+  {
+    "code": 1109140018,
+    "keccode": 1109140,
+    "name": "CUT PEUDAYA"
+  },
+  {
+    "code": 1109140019,
+    "keccode": 1109140,
+    "name": "TUNONG PEUDAYA"
+  },
+  {
+    "code": 1109140020,
+    "keccode": 1109140,
+    "name": "SEUKEUN PEUDAYA"
+  },
+  {
+    "code": 1109140021,
+    "keccode": 1109140,
+    "name": "TUHA PEUDAYA"
+  },
+  {
+    "code": 1109140022,
+    "keccode": 1109140,
+    "name": "GEULUMPANG GLD"
+  },
+  {
+    "code": 1109140023,
+    "keccode": 1109140,
+    "name": "KREET PALOH"
+  },
+  {
+    "code": 1109140024,
+    "keccode": 1109140,
+    "name": "CAPA PALOH"
+  },
+  {
+    "code": 1109140025,
+    "keccode": 1109140,
+    "name": "JURONG ANOE"
+  },
+  {
+    "code": 1109140026,
+    "keccode": 1109140,
+    "name": "TEUGOH PEUDAYA"
+  },
+  {
+    "code": 1109140027,
+    "keccode": 1109140,
+    "name": "DAYAH PEUDAYA"
+  },
+  {
+    "code": 1109140028,
+    "keccode": 1109140,
+    "name": "CUT PALOH"
+  },
+  {
+    "code": 1109140029,
+    "keccode": 1109140,
+    "name": "PANTE CERMEN"
+  },
+  {
+    "code": 1109140030,
+    "keccode": 1109140,
+    "name": "MEUKE GOGO"
+  },
+  {
+    "code": 1109140031,
+    "keccode": 1109140,
+    "name": "RAYA GOGO"
+  },
+  {
+    "code": 1109140032,
+    "keccode": 1109140,
+    "name": "BULOH GOGO"
+  },
+  {
+    "code": 1109140033,
+    "keccode": 1109140,
+    "name": "KUMBANG GOGO"
+  },
+  {
+    "code": 1109140034,
+    "keccode": 1109140,
+    "name": "TUHA GOGO"
+  },
+  {
+    "code": 1109140035,
+    "keccode": 1109140,
+    "name": "GLEE GOGO"
+  },
+  {
+    "code": 1109140036,
+    "keccode": 1109140,
+    "name": "PALOH JEURAT BEURABO"
+  },
+  {
+    "code": 1109140037,
+    "keccode": 1109140,
+    "name": "ADANG BEURABO"
+  },
+  {
+    "code": 1109140038,
+    "keccode": 1109140,
+    "name": "SEULEUNGGING BEURABO"
+  },
+  {
+    "code": 1109140039,
+    "keccode": 1109140,
+    "name": "MEUKE BEURABO"
+  },
+  {
+    "code": 1109140040,
+    "keccode": 1109140,
+    "name": "MESJID BEURABO"
+  },
+  {
+    "code": 1109140041,
+    "keccode": 1109140,
+    "name": "MESJID GOGO"
+  },
+  {
+    "code": 1109140042,
+    "keccode": 1109140,
+    "name": "ARON BUNOT GOGO"
+  },
+  {
+    "code": 1109140043,
+    "keccode": 1109140,
+    "name": "TEUNGOH DRIEN GOGO"
+  },
+  {
+    "code": 1109140044,
+    "keccode": 1109140,
+    "name": "PASAR PALOH"
+  },
+  {
+    "code": 1109140045,
+    "keccode": 1109140,
+    "name": "SIRON PALOH"
+  },
+  {
+    "code": 1109140046,
+    "keccode": 1109140,
+    "name": "BALEE  PALOH"
+  },
+  {
+    "code": 1109140047,
+    "keccode": 1109140,
+    "name": "SUYO PALOH"
+  },
+  {
+    "code": 1109140048,
+    "keccode": 1109140,
+    "name": "GAMPONG COT PALOH"
+  },
+  {
+    "code": 1109140049,
+    "keccode": 1109140,
+    "name": "PULO HAGU TANJUNG"
+  },
+  {
+    "code": 1109140050,
+    "keccode": 1109140,
+    "name": "TRIENG PALOH"
+  },
+  {
+    "code": 1109140051,
+    "keccode": 1109140,
+    "name": "LEUHOB PALOH"
+  },
+  {
+    "code": 1109140052,
+    "keccode": 1109140,
+    "name": "PANTE CRUNG TANJONG"
+  },
+  {
+    "code": 1109140053,
+    "keccode": 1109140,
+    "name": "GRONG GRONG GOGO"
+  },
+  {
+    "code": 1109140054,
+    "keccode": 1109140,
+    "name": "SEUKEUM BROK  BEURABO"
+  },
+  {
+    "code": 1109140055,
+    "keccode": 1109140,
+    "name": "BARO BEURABO"
+  },
+  {
+    "code": 1109140056,
+    "keccode": 1109140,
+    "name": "MEURIYA TANJONG"
+  },
+  {
+    "code": 1109140057,
+    "keccode": 1109140,
+    "name": "KHANG TANJONG"
+  },
+  {
+    "code": 1109140058,
+    "keccode": 1109140,
+    "name": "LEUN TANJONG"
+  },
+  {
+    "code": 1109140059,
+    "keccode": 1109140,
+    "name": "COT KETAPANG TANJONG"
+  },
+  {
+    "code": 1109140060,
+    "keccode": 1109140,
+    "name": "SIRON TANJONG"
+  },
+  {
+    "code": 1109140061,
+    "keccode": 1109140,
+    "name": "MESJID TANJONG"
+  },
+  {
+    "code": 1109140062,
+    "keccode": 1109140,
+    "name": "KEUPULA TANJONG"
+  },
+  {
+    "code": 1109140063,
+    "keccode": 1109140,
+    "name": "JOK TANJONG"
+  },
+  {
+    "code": 1109140064,
+    "keccode": 1109140,
+    "name": "TUNONG TANJONG"
+  }
+]

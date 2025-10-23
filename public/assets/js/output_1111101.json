@@ -1,0 +1,132 @@
+[
+  {
+    "code": 1111101001,
+    "keccode": 1111101,
+    "name": "COT KUPOK"
+  },
+  {
+    "code": 1111101002,
+    "keccode": 1111101,
+    "name": "MATANG RAYA BLANG SIALET"
+  },
+  {
+    "code": 1111101003,
+    "keccode": 1111101,
+    "name": "PUCOK ALUE BUKET"
+  },
+  {
+    "code": 1111101004,
+    "keccode": 1111101,
+    "name": "COT PAYA"
+  },
+  {
+    "code": 1111101005,
+    "keccode": 1111101,
+    "name": "MATANG TEUNGOH"
+  },
+  {
+    "code": 1111101006,
+    "keccode": 1111101,
+    "name": "MATANG PANYANG"
+  },
+  {
+    "code": 1111101007,
+    "keccode": 1111101,
+    "name": "MATANG BAYU"
+  },
+  {
+    "code": 1111101008,
+    "keccode": 1111101,
+    "name": "LANG NIBONG"
+  },
+  {
+    "code": 1111101009,
+    "keccode": 1111101,
+    "name": "SINGGAH MATA"
+  },
+  {
+    "code": 1111101010,
+    "keccode": 1111101,
+    "name": "MATANG CEUBREK"
+  },
+  {
+    "code": 1111101011,
+    "keccode": 1111101,
+    "name": "COT USEN"
+  },
+  {
+    "code": 1111101012,
+    "keccode": 1111101,
+    "name": "MATANG SIJUEK BARAT"
+  },
+  {
+    "code": 1111101013,
+    "keccode": 1111101,
+    "name": "MATANG SIJUEK TEUNGOH"
+  },
+  {
+    "code": 1111101014,
+    "keccode": 1111101,
+    "name": "MATANG SIJUEK TIMU"
+  },
+  {
+    "code": 1111101015,
+    "keccode": 1111101,
+    "name": "KEUDE SAMPOYNIET"
+  },
+  {
+    "code": 1111101016,
+    "keccode": 1111101,
+    "name": "BLANG SEUNONG"
+  },
+  {
+    "code": 1111101017,
+    "keccode": 1111101,
+    "name": "MATANG PAYA"
+  },
+  {
+    "code": 1111101018,
+    "keccode": 1111101,
+    "name": "LHOK IBOH"
+  },
+  {
+    "code": 1111101019,
+    "keccode": 1111101,
+    "name": "COT LABA"
+  },
+  {
+    "code": 1111101020,
+    "keccode": 1111101,
+    "name": "MEUNASAH PANTE"
+  },
+  {
+    "code": 1111101021,
+    "keccode": 1111101,
+    "name": "COT MURONG"
+  },
+  {
+    "code": 1111101022,
+    "keccode": 1111101,
+    "name": "MEURANDEH PAYA"
+  },
+  {
+    "code": 1111101023,
+    "keccode": 1111101,
+    "name": "MEUNASAH HAGU"
+  },
+  {
+    "code": 1111101024,
+    "keccode": 1111101,
+    "name": "BLANG RHEU"
+  },
+  {
+    "code": 1111101025,
+    "keccode": 1111101,
+    "name": "LHOK EUNCIEN"
+  },
+  {
+    "code": 1111101026,
+    "keccode": 1111101,
+    "name": "PAYA BATEUNG"
+  }
+]

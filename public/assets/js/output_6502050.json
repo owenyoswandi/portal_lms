@@ -1,0 +1,47 @@
+[
+  {
+    "code": 6502050001,
+    "keccode": 6502050,
+    "name": "GUNUNG SERIANG"
+  },
+  {
+    "code": 6502050002,
+    "keccode": 6502050,
+    "name": "TANJUNG SELOR HULU"
+  },
+  {
+    "code": 6502050003,
+    "keccode": 6502050,
+    "name": "JELARAI SELOR"
+  },
+  {
+    "code": 6502050004,
+    "keccode": 6502050,
+    "name": "GUNUNG SARI"
+  },
+  {
+    "code": 6502050005,
+    "keccode": 6502050,
+    "name": "BUMI RAHAYU"
+  },
+  {
+    "code": 6502050006,
+    "keccode": 6502050,
+    "name": "APUNG"
+  },
+  {
+    "code": 6502050007,
+    "keccode": 6502050,
+    "name": "TENGKAPAK"
+  },
+  {
+    "code": 6502050008,
+    "keccode": 6502050,
+    "name": "TANJUNG SELOR TIMUR"
+  },
+  {
+    "code": 6502050009,
+    "keccode": 6502050,
+    "name": "TANJUNG SELOR HILIR"
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "code": 6502100001,
+    "keccode": 6502100,
+    "name": "BUNYU BARAT"
+  },
+  {
+    "code": 6502100002,
+    "keccode": 6502100,
+    "name": "BUNYU SELATAN"
+  },
+  {
+    "code": 6502100003,
+    "keccode": 6502100,
+    "name": "BUNYU TIMUR"
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "code": 1506050001,
+    "keccode": 1506050,
+    "name": "SUNGAI RAYA"
+  },
+  {
+    "code": 1506050002,
+    "keccode": 1506050,
+    "name": "TELUK KIJING"
+  },
+  {
+    "code": 1506050003,
+    "keccode": 1506050,
+    "name": "PEMUSIRAN"
+  },
+  {
+    "code": 1506050004,
+    "keccode": 1506050,
+    "name": "NIPAH PANJANG I"
+  },
+  {
+    "code": 1506050005,
+    "keccode": 1506050,
+    "name": "NIPAH PANJANG II"
+  },
+  {
+    "code": 1506050006,
+    "keccode": 1506050,
+    "name": "SIMPANG DATUK"
+  },
+  {
+    "code": 1506050007,
+    "keccode": 1506050,
+    "name": "SIMPANG JELITA"
+  },
+  {
+    "code": 1506050008,
+    "keccode": 1506050,
+    "name": "BUNGA TANJUNG"
+  },
+  {
+    "code": 1506050009,
+    "keccode": 1506050,
+    "name": "SUNGAI TERING"
+  },
+  {
+    "code": 1506050010,
+    "keccode": 1506050,
+    "name": "SUNGAI JERUK"
+  }
+]

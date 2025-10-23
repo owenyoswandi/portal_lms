@@ -1,0 +1,37 @@
+[
+  {
+    "code": 1805090001,
+    "keccode": 1805090,
+    "name": "GUNUNG AGUNG"
+  },
+  {
+    "code": 1805090002,
+    "keccode": 1805090,
+    "name": "BANDAR AGUNG"
+  },
+  {
+    "code": 1805090003,
+    "keccode": 1805090,
+    "name": "BANDAR SAKTI"
+  },
+  {
+    "code": 1805090004,
+    "keccode": 1805090,
+    "name": "TANJUNG ANOM"
+  },
+  {
+    "code": 1805090005,
+    "keccode": 1805090,
+    "name": "GUNUNG BATIN BARU"
+  },
+  {
+    "code": 1805090006,
+    "keccode": 1805090,
+    "name": "GUNUNG BATIN UDIK"
+  },
+  {
+    "code": 1805090007,
+    "keccode": 1805090,
+    "name": "GUNUNG BATIN ILIR"
+  }
+]

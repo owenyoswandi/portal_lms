@@ -1,0 +1,27 @@
+[
+  {
+    "code": 7271030001,
+    "keccode": 7271030,
+    "name": "BESUSU BARAT"
+  },
+  {
+    "code": 7271030002,
+    "keccode": 7271030,
+    "name": "BESUSU TENGAH"
+  },
+  {
+    "code": 7271030003,
+    "keccode": 7271030,
+    "name": "BESUSU TIMUR"
+  },
+  {
+    "code": 7271030004,
+    "keccode": 7271030,
+    "name": "LOLU UTARA"
+  },
+  {
+    "code": 7271030005,
+    "keccode": 7271030,
+    "name": "LOLU SELATAN"
+  }
+]

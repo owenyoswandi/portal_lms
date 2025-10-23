@@ -1,0 +1,67 @@
+[
+  {
+    "code": 1610030001,
+    "keccode": 1610030,
+    "name": "KELAMPAIAN"
+  },
+  {
+    "code": 1610030002,
+    "keccode": 1610030,
+    "name": "SUKA NANTI"
+  },
+  {
+    "code": 1610030003,
+    "keccode": 1610030,
+    "name": "RANTAU ALAI"
+  },
+  {
+    "code": 1610030004,
+    "keccode": 1610030,
+    "name": "KERTABAYANG"
+  },
+  {
+    "code": 1610030005,
+    "keccode": 1610030,
+    "name": "SUKA MAJU"
+  },
+  {
+    "code": 1610030006,
+    "keccode": 1610030,
+    "name": "SUKAMARGA"
+  },
+  {
+    "code": 1610030007,
+    "keccode": 1610030,
+    "name": "SANDING MARGA"
+  },
+  {
+    "code": 1610030011,
+    "keccode": 1610030,
+    "name": "TANJUNG MAS"
+  },
+  {
+    "code": 1610030012,
+    "keccode": 1610030,
+    "name": "LEBUNG BANDUNG"
+  },
+  {
+    "code": 1610030013,
+    "keccode": 1610030,
+    "name": "TALANG SARI"
+  },
+  {
+    "code": 1610030019,
+    "keccode": 1610030,
+    "name": "SIRAH PULAU KILIP"
+  },
+  {
+    "code": 1610030020,
+    "keccode": 1610030,
+    "name": "MEKAR SARI"
+  },
+  {
+    "code": 1610030021,
+    "keccode": 1610030,
+    "name": "SUKANANTI  BARU"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "code": 3309130002,
+    "keccode": 3309130,
+    "name": "BENDUNGAN"
+  },
+  {
+    "code": 3309130003,
+    "keccode": 3309130,
+    "name": "TEMON"
+  },
+  {
+    "code": 3309130005,
+    "keccode": 3309130,
+    "name": "SIMO"
+  },
+  {
+    "code": 3309130006,
+    "keccode": 3309130,
+    "name": "WALEN"
+  },
+  {
+    "code": 3309130009,
+    "keccode": 3309130,
+    "name": "TALAKBROTO"
+  },
+  {
+    "code": 3309130010,
+    "keccode": 3309130,
+    "name": "KEDUNGLENGKONG"
+  },
+  {
+    "code": 3309130011,
+    "keccode": 3309130,
+    "name": "BLAGUNG"
+  },
+  {
+    "code": 3309130013,
+    "keccode": 3309130,
+    "name": "WATES"
+  }
+]

@@ -1,0 +1,287 @@
+[
+  {
+    "code": 1111120001,
+    "keccode": 1111120,
+    "name": "LEUPON SIREN"
+  },
+  {
+    "code": 1111120002,
+    "keccode": 1111120,
+    "name": "ULEE BUKET"
+  },
+  {
+    "code": 1111120003,
+    "keccode": 1111120,
+    "name": "BLANG PIE"
+  },
+  {
+    "code": 1111120004,
+    "keccode": 1111120,
+    "name": "BLANG TRIENG"
+  },
+  {
+    "code": 1111120008,
+    "keccode": 1111120,
+    "name": "COT BARAT"
+  },
+  {
+    "code": 1111120009,
+    "keccode": 1111120,
+    "name": "PLU PAKAM"
+  },
+  {
+    "code": 1111120010,
+    "keccode": 1111120,
+    "name": "TUMPOK ACEH"
+  },
+  {
+    "code": 1111120011,
+    "keccode": 1111120,
+    "name": "COT DAH"
+  },
+  {
+    "code": 1111120012,
+    "keccode": 1111120,
+    "name": "ALUE SIJUEK"
+  },
+  {
+    "code": 1111120015,
+    "keccode": 1111120,
+    "name": "HAGU"
+  },
+  {
+    "code": 1111120016,
+    "keccode": 1111120,
+    "name": "BAYI"
+  },
+  {
+    "code": 1111120017,
+    "keccode": 1111120,
+    "name": "LEU HONG"
+  },
+  {
+    "code": 1111120018,
+    "keccode": 1111120,
+    "name": "PUNTI SEULEUMAK BARAT"
+  },
+  {
+    "code": 1111120019,
+    "keccode": 1111120,
+    "name": "SERBA JAMAN TUNONG"
+  },
+  {
+    "code": 1111120020,
+    "keccode": 1111120,
+    "name": "ALUE GAMPONG"
+  },
+  {
+    "code": 1111120023,
+    "keccode": 1111120,
+    "name": "MATANG BALOY"
+  },
+  {
+    "code": 1111120024,
+    "keccode": 1111120,
+    "name": "TEUPIN ME"
+  },
+  {
+    "code": 1111120025,
+    "keccode": 1111120,
+    "name": "BLANG"
+  },
+  {
+    "code": 1111120026,
+    "keccode": 1111120,
+    "name": "MATANG MANE"
+  },
+  {
+    "code": 1111120030,
+    "keccode": 1111120,
+    "name": "TANJONG MESJID"
+  },
+  {
+    "code": 1111120031,
+    "keccode": 1111120,
+    "name": "KEUTAPANG"
+  },
+  {
+    "code": 1111120032,
+    "keccode": 1111120,
+    "name": "CEUBREK"
+  },
+  {
+    "code": 1111120033,
+    "keccode": 1111120,
+    "name": "MANYANG SEULEUMAK BARAT"
+  },
+  {
+    "code": 1111120034,
+    "keccode": 1111120,
+    "name": "TRIENG"
+  },
+  {
+    "code": 1111120035,
+    "keccode": 1111120,
+    "name": "SERBA JAMAN BAROH"
+  },
+  {
+    "code": 1111120036,
+    "keccode": 1111120,
+    "name": "UJONG BAROH SB"
+  },
+  {
+    "code": 1111120044,
+    "keccode": 1111120,
+    "name": "BLANG JRUEN"
+  },
+  {
+    "code": 1111120045,
+    "keccode": 1111120,
+    "name": "RAYEUK KUTA"
+  },
+  {
+    "code": 1111120046,
+    "keccode": 1111120,
+    "name": "PAYA"
+  },
+  {
+    "code": 1111120047,
+    "keccode": 1111120,
+    "name": "RANGKAYA"
+  },
+  {
+    "code": 1111120048,
+    "keccode": 1111120,
+    "name": "RAYEUK MEUNYE"
+  },
+  {
+    "code": 1111120049,
+    "keccode": 1111120,
+    "name": "KEUDE BLANG JRUEN"
+  },
+  {
+    "code": 1111120050,
+    "keccode": 1111120,
+    "name": "AMPEH"
+  },
+  {
+    "code": 1111120054,
+    "keccode": 1111120,
+    "name": "TUTONG"
+  },
+  {
+    "code": 1111120055,
+    "keccode": 1111120,
+    "name": "ALUE"
+  },
+  {
+    "code": 1111120056,
+    "keccode": 1111120,
+    "name": "TEUNGOH BEUREGHANG"
+  },
+  {
+    "code": 1111120057,
+    "keccode": 1111120,
+    "name": "JEUMPA BEUREGHANG"
+  },
+  {
+    "code": 1111120058,
+    "keccode": 1111120,
+    "name": "PANTE"
+  },
+  {
+    "code": 1111120059,
+    "keccode": 1111120,
+    "name": "TGK DIBALE"
+  },
+  {
+    "code": 1111120060,
+    "keccode": 1111120,
+    "name": "SERBA JAMAN"
+  },
+  {
+    "code": 1111120061,
+    "keccode": 1111120,
+    "name": "RAYEUK NALEUNG"
+  },
+  {
+    "code": 1111120062,
+    "keccode": 1111120,
+    "name": "BLANG BIDOK"
+  },
+  {
+    "code": 1111120063,
+    "keccode": 1111120,
+    "name": "PUNTI PULO AGAM"
+  },
+  {
+    "code": 1111120064,
+    "keccode": 1111120,
+    "name": "TEUNGOH PULO AGAM"
+  },
+  {
+    "code": 1111120065,
+    "keccode": 1111120,
+    "name": "RAWA"
+  },
+  {
+    "code": 1111120066,
+    "keccode": 1111120,
+    "name": "MATANG BEN"
+  },
+  {
+    "code": 1111120067,
+    "keccode": 1111120,
+    "name": "UJONG BAROH BEUREGHANG"
+  },
+  {
+    "code": 1111120068,
+    "keccode": 1111120,
+    "name": "MANYANG TUNONG"
+  },
+  {
+    "code": 1111120069,
+    "keccode": 1111120,
+    "name": "ALUE PANGKAT"
+  },
+  {
+    "code": 1111120070,
+    "keccode": 1111120,
+    "name": "PULO BLANG"
+  },
+  {
+    "code": 1111120071,
+    "keccode": 1111120,
+    "name": "MATANG CEUBREK"
+  },
+  {
+    "code": 1111120072,
+    "keccode": 1111120,
+    "name": "HUENG"
+  },
+  {
+    "code": 1111120073,
+    "keccode": 1111120,
+    "name": "DENG"
+  },
+  {
+    "code": 1111120074,
+    "keccode": 1111120,
+    "name": "PAYA BEURANDANG"
+  },
+  {
+    "code": 1111120075,
+    "keccode": 1111120,
+    "name": "PULO U"
+  },
+  {
+    "code": 1111120076,
+    "keccode": 1111120,
+    "name": "ALUE KEUJRUEN"
+  },
+  {
+    "code": 1111120077,
+    "keccode": 1111120,
+    "name": "BUKET MAKARTI"
+  }
+]

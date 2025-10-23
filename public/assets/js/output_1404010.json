@@ -1,0 +1,42 @@
+[
+  {
+    "code": 1404010001,
+    "keccode": 1404010,
+    "name": "SEGATI"
+  },
+  {
+    "code": 1404010002,
+    "keccode": 1404010,
+    "name": "SOTOL"
+  },
+  {
+    "code": 1404010003,
+    "keccode": 1404010,
+    "name": "TAMBAK"
+  },
+  {
+    "code": 1404010004,
+    "keccode": 1404010,
+    "name": "LANGKAN"
+  },
+  {
+    "code": 1404010005,
+    "keccode": 1404010,
+    "name": "PANGKALAN GONDAI"
+  },
+  {
+    "code": 1404010006,
+    "keccode": 1404010,
+    "name": "PENARIKAN"
+  },
+  {
+    "code": 1404010007,
+    "keccode": 1404010,
+    "name": "LANGGAM"
+  },
+  {
+    "code": 1404010008,
+    "keccode": 1404010,
+    "name": "PADANG LUAS"
+  }
+]

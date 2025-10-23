@@ -1,0 +1,37 @@
+[
+  {
+    "code": 5103060001,
+    "keccode": 5103060,
+    "name": "CARANGSARI"
+  },
+  {
+    "code": 5103060002,
+    "keccode": 5103060,
+    "name": "GETASAN"
+  },
+  {
+    "code": 5103060003,
+    "keccode": 5103060,
+    "name": "PANGSAN"
+  },
+  {
+    "code": 5103060004,
+    "keccode": 5103060,
+    "name": "PETANG"
+  },
+  {
+    "code": 5103060005,
+    "keccode": 5103060,
+    "name": "SULANGAI"
+  },
+  {
+    "code": 5103060006,
+    "keccode": 5103060,
+    "name": "PELAGA"
+  },
+  {
+    "code": 5103060007,
+    "keccode": 5103060,
+    "name": "BELOK/SIDAN"
+  }
+]

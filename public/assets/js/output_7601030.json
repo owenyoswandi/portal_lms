@@ -1,0 +1,82 @@
+[
+  {
+    "code": 7601030001,
+    "keccode": 7601030,
+    "name": "MOSSO DUA"
+  },
+  {
+    "code": 7601030002,
+    "keccode": 7601030,
+    "name": "MOSSO"
+  },
+  {
+    "code": 7601030003,
+    "keccode": 7601030,
+    "name": "PUTTADA"
+  },
+  {
+    "code": 7601030004,
+    "keccode": 7601030,
+    "name": "SENDANA"
+  },
+  {
+    "code": 7601030005,
+    "keccode": 7601030,
+    "name": "TALLUM BANUA"
+  },
+  {
+    "code": 7601030011,
+    "keccode": 7601030,
+    "name": "PUNDAU"
+  },
+  {
+    "code": 7601030012,
+    "keccode": 7601030,
+    "name": "BUKIT SAMANG"
+  },
+  {
+    "code": 7601030013,
+    "keccode": 7601030,
+    "name": "LIMBUA"
+  },
+  {
+    "code": 7601030014,
+    "keccode": 7601030,
+    "name": "LALATEDONG"
+  },
+  {
+    "code": 7601030015,
+    "keccode": 7601030,
+    "name": "PAMINGGALAN"
+  },
+  {
+    "code": 7601030016,
+    "keccode": 7601030,
+    "name": "TOTOLISI SENDANA"
+  },
+  {
+    "code": 7601030017,
+    "keccode": 7601030,
+    "name": "BANUA SENDANA"
+  },
+  {
+    "code": 7601030018,
+    "keccode": 7601030,
+    "name": "TALLU BANUA UTARA"
+  },
+  {
+    "code": 7601030019,
+    "keccode": 7601030,
+    "name": "LIMBORO RAMBU-RAMBU"
+  },
+  {
+    "code": 7601030020,
+    "keccode": 7601030,
+    "name": "LEPPANGAN"
+  },
+  {
+    "code": 7601030021,
+    "keccode": 7601030,
+    "name": "BINANGA"
+  }
+]

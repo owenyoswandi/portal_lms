@@ -1,0 +1,437 @@
+[
+  {
+    "code": 9432030001,
+    "keccode": 9432030,
+    "name": "WAMBO"
+  },
+  {
+    "code": 9432030002,
+    "keccode": 9432030,
+    "name": "WAMBALFAK"
+  },
+  {
+    "code": 9432030003,
+    "keccode": 9432030,
+    "name": "ABENAHO"
+  },
+  {
+    "code": 9432030004,
+    "keccode": 9432030,
+    "name": "DOSUMO"
+  },
+  {
+    "code": 9432030005,
+    "keccode": 9432030,
+    "name": "DOMBOMI"
+  },
+  {
+    "code": 9432030007,
+    "keccode": 9432030,
+    "name": "LANDIKMA"
+  },
+  {
+    "code": 9432030008,
+    "keccode": 9432030,
+    "name": "HULIKMA"
+  },
+  {
+    "code": 9432030009,
+    "keccode": 9432030,
+    "name": "HUBLIKA/SOMBULE"
+  },
+  {
+    "code": 9432030011,
+    "keccode": 9432030,
+    "name": "YAHATMA"
+  },
+  {
+    "code": 9432030012,
+    "keccode": 9432030,
+    "name": "SOHOMBUNU"
+  },
+  {
+    "code": 9432030015,
+    "keccode": 9432030,
+    "name": "MASANAHIKMA"
+  },
+  {
+    "code": 9432030016,
+    "keccode": 9432030,
+    "name": "ABAGIMA"
+  },
+  {
+    "code": 9432030017,
+    "keccode": 9432030,
+    "name": "WAGHASILIMO"
+  },
+  {
+    "code": 9432030018,
+    "keccode": 9432030,
+    "name": "WILEROMA"
+  },
+  {
+    "code": 9432030019,
+    "keccode": 9432030,
+    "name": "OBABIN"
+  },
+  {
+    "code": 9432030020,
+    "keccode": 9432030,
+    "name": "OBABIN SATU"
+  },
+  {
+    "code": 9432030021,
+    "keccode": 9432030,
+    "name": "DAHONAIKMA"
+  },
+  {
+    "code": 9432030022,
+    "keccode": 9432030,
+    "name": "WANMAL"
+  },
+  {
+    "code": 9432030023,
+    "keccode": 9432030,
+    "name": "ARIKBALEK"
+  },
+  {
+    "code": 9432030024,
+    "keccode": 9432030,
+    "name": "YAWAN"
+  },
+  {
+    "code": 9432030025,
+    "keccode": 9432030,
+    "name": "WAMBAL"
+  },
+  {
+    "code": 9432030028,
+    "keccode": 9432030,
+    "name": "MAHIAL"
+  },
+  {
+    "code": 9432030029,
+    "keccode": 9432030,
+    "name": "ALUGI"
+  },
+  {
+    "code": 9432030030,
+    "keccode": 9432030,
+    "name": "SAHIKMA"
+  },
+  {
+    "code": 9432030031,
+    "keccode": 9432030,
+    "name": "BONAHIK"
+  },
+  {
+    "code": 9432030032,
+    "keccode": 9432030,
+    "name": "ELIEKMA"
+  },
+  {
+    "code": 9432030033,
+    "keccode": 9432030,
+    "name": "YABUSUP"
+  },
+  {
+    "code": 9432030035,
+    "keccode": 9432030,
+    "name": "SUMINAIKMA"
+  },
+  {
+    "code": 9432030037,
+    "keccode": 9432030,
+    "name": "FUAHE"
+  },
+  {
+    "code": 9432030038,
+    "keccode": 9432030,
+    "name": "WUTLARIN"
+  },
+  {
+    "code": 9432030039,
+    "keccode": 9432030,
+    "name": "KOLAIMA"
+  },
+  {
+    "code": 9432030040,
+    "keccode": 9432030,
+    "name": "WANGGIBO"
+  },
+  {
+    "code": 9432030041,
+    "keccode": 9432030,
+    "name": "WALAGIMA"
+  },
+  {
+    "code": 9432030042,
+    "keccode": 9432030,
+    "name": "TAGABATA"
+  },
+  {
+    "code": 9432030043,
+    "keccode": 9432030,
+    "name": "DETPAGADO"
+  },
+  {
+    "code": 9432030044,
+    "keccode": 9432030,
+    "name": "BOHUM"
+  },
+  {
+    "code": 9432030045,
+    "keccode": 9432030,
+    "name": "SABILIRONGGO"
+  },
+  {
+    "code": 9432030046,
+    "keccode": 9432030,
+    "name": "YANAMIK"
+  },
+  {
+    "code": 9432030047,
+    "keccode": 9432030,
+    "name": "LANGONGKOK"
+  },
+  {
+    "code": 9432030048,
+    "keccode": 9432030,
+    "name": "HELAKSILI"
+  },
+  {
+    "code": 9432030051,
+    "keccode": 9432030,
+    "name": "YAMBAIKMA"
+  },
+  {
+    "code": 9432030052,
+    "keccode": 9432030,
+    "name": "NOFUALMA"
+  },
+  {
+    "code": 9432030053,
+    "keccode": 9432030,
+    "name": "YUTANGGO"
+  },
+  {
+    "code": 9432030054,
+    "keccode": 9432030,
+    "name": "WITLANGGO"
+  },
+  {
+    "code": 9432030055,
+    "keccode": 9432030,
+    "name": "WOROL"
+  },
+  {
+    "code": 9432030056,
+    "keccode": 9432030,
+    "name": "BONGGI"
+  },
+  {
+    "code": 9432030057,
+    "keccode": 9432030,
+    "name": "WILAK"
+  },
+  {
+    "code": 9432030058,
+    "keccode": 9432030,
+    "name": "WANGKUN"
+  },
+  {
+    "code": 9432030059,
+    "keccode": 9432030,
+    "name": "HOMBANMAN"
+  },
+  {
+    "code": 9432030060,
+    "keccode": 9432030,
+    "name": "YAMA"
+  },
+  {
+    "code": 9432030061,
+    "keccode": 9432030,
+    "name": "WURUPIKMA"
+  },
+  {
+    "code": 9432030062,
+    "keccode": 9432030,
+    "name": "HALIFUR"
+  },
+  {
+    "code": 9432030064,
+    "keccode": 9432030,
+    "name": "KAWOKHOLIK"
+  },
+  {
+    "code": 9432030065,
+    "keccode": 9432030,
+    "name": "HORENIKMA"
+  },
+  {
+    "code": 9432030066,
+    "keccode": 9432030,
+    "name": "LASIKMA"
+  },
+  {
+    "code": 9432030068,
+    "keccode": 9432030,
+    "name": "HEAHOBAK"
+  },
+  {
+    "code": 9432030069,
+    "keccode": 9432030,
+    "name": "MALEO"
+  },
+  {
+    "code": 9432030070,
+    "keccode": 9432030,
+    "name": "USABIYE"
+  },
+  {
+    "code": 9432030071,
+    "keccode": 9432030,
+    "name": "KANDIBUNG"
+  },
+  {
+    "code": 9432030072,
+    "keccode": 9432030,
+    "name": "NILBO"
+  },
+  {
+    "code": 9432030073,
+    "keccode": 9432030,
+    "name": "SAPIWAREK"
+  },
+  {
+    "code": 9432030076,
+    "keccode": 9432030,
+    "name": "SALO"
+  },
+  {
+    "code": 9432030077,
+    "keccode": 9432030,
+    "name": "MOBAN"
+  },
+  {
+    "code": 9432030079,
+    "keccode": 9432030,
+    "name": "HALISEK"
+  },
+  {
+    "code": 9432030080,
+    "keccode": 9432030,
+    "name": "LOHOMABEL"
+  },
+  {
+    "code": 9432030082,
+    "keccode": 9432030,
+    "name": "GEFINDO"
+  },
+  {
+    "code": 9432030084,
+    "keccode": 9432030,
+    "name": "AMUKI"
+  },
+  {
+    "code": 9432030085,
+    "keccode": 9432030,
+    "name": "WAMHOR"
+  },
+  {
+    "code": 9432030087,
+    "keccode": 9432030,
+    "name": "PAMUMU"
+  },
+  {
+    "code": 9432030088,
+    "keccode": 9432030,
+    "name": "WABUHUK"
+  },
+  {
+    "code": 9432030090,
+    "keccode": 9432030,
+    "name": "LILUKIKMA"
+  },
+  {
+    "code": 9432030091,
+    "keccode": 9432030,
+    "name": "NOHOLUOK"
+  },
+  {
+    "code": 9432030092,
+    "keccode": 9432030,
+    "name": "WENEMIKMA"
+  },
+  {
+    "code": 9432030093,
+    "keccode": 9432030,
+    "name": "NENOMANI"
+  },
+  {
+    "code": 9432030094,
+    "keccode": 9432030,
+    "name": "SALOHE"
+  },
+  {
+    "code": 9432030095,
+    "keccode": 9432030,
+    "name": "BEYAM"
+  },
+  {
+    "code": 9432030096,
+    "keccode": 9432030,
+    "name": "WILOFING"
+  },
+  {
+    "code": 9432030097,
+    "keccode": 9432030,
+    "name": "FIALEM"
+  },
+  {
+    "code": 9432030098,
+    "keccode": 9432030,
+    "name": "HORAKIA"
+  },
+  {
+    "code": 9432030099,
+    "keccode": 9432030,
+    "name": "SUAHE"
+  },
+  {
+    "code": 9432030101,
+    "keccode": 9432030,
+    "name": "WAROHAM"
+  },
+  {
+    "code": 9432030102,
+    "keccode": 9432030,
+    "name": "SOHI"
+  },
+  {
+    "code": 9432030103,
+    "keccode": 9432030,
+    "name": "SENGIKMA"
+  },
+  {
+    "code": 9432030104,
+    "keccode": 9432030,
+    "name": "PIRIKALEM"
+  },
+  {
+    "code": 9432030105,
+    "keccode": 9432030,
+    "name": "AGRIS"
+  },
+  {
+    "code": 9432030107,
+    "keccode": 9432030,
+    "name": "WANAM"
+  },
+  {
+    "code": 9432030108,
+    "keccode": 9432030,
+    "name": "DAMA"
+  }
+]

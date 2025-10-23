@@ -1,0 +1,312 @@
+[
+  {
+    "code": 1220040015,
+    "keccode": 1220040,
+    "name": "SIBATANG KAYU"
+  },
+  {
+    "code": 1220040031,
+    "keccode": 1220040,
+    "name": "BUKIT RAYA SERDANG"
+  },
+  {
+    "code": 1220040035,
+    "keccode": 1220040,
+    "name": "SIGAMA UJUNG GADING"
+  },
+  {
+    "code": 1220040036,
+    "keccode": 1220040,
+    "name": "AEK SUHAT"
+  },
+  {
+    "code": 1220040040,
+    "keccode": 1220040,
+    "name": "PADANG GARUGUR"
+  },
+  {
+    "code": 1220040041,
+    "keccode": 1220040,
+    "name": "SIGAMA"
+  },
+  {
+    "code": 1220040042,
+    "keccode": 1220040,
+    "name": "SIMANOSOR"
+  },
+  {
+    "code": 1220040043,
+    "keccode": 1220040,
+    "name": "PARLIMBATAN"
+  },
+  {
+    "code": 1220040044,
+    "keccode": 1220040,
+    "name": "GUNUNG MANAON II"
+  },
+  {
+    "code": 1220040060,
+    "keccode": 1220040,
+    "name": "SABA SITAHUL TAHUL"
+  },
+  {
+    "code": 1220040061,
+    "keccode": 1220040,
+    "name": "SABA BANGUNAN"
+  },
+  {
+    "code": 1220040062,
+    "keccode": 1220040,
+    "name": "GUNUNG TUA JAE"
+  },
+  {
+    "code": 1220040063,
+    "keccode": 1220040,
+    "name": "GUNUNG TUA TONGA"
+  },
+  {
+    "code": 1220040064,
+    "keccode": 1220040,
+    "name": "PASAR GUNUNG TUA"
+  },
+  {
+    "code": 1220040065,
+    "keccode": 1220040,
+    "name": "SOSOPAN"
+  },
+  {
+    "code": 1220040066,
+    "keccode": 1220040,
+    "name": "HAMBIRI"
+  },
+  {
+    "code": 1220040067,
+    "keccode": 1220040,
+    "name": "SIDINGKAT"
+  },
+  {
+    "code": 1220040068,
+    "keccode": 1220040,
+    "name": "BATU TAMBUN"
+  },
+  {
+    "code": 1220040069,
+    "keccode": 1220040,
+    "name": "BATU SUNDUNG"
+  },
+  {
+    "code": 1220040070,
+    "keccode": 1220040,
+    "name": "GARONGGANG"
+  },
+  {
+    "code": 1220040071,
+    "keccode": 1220040,
+    "name": "NABONGGAL"
+  },
+  {
+    "code": 1220040072,
+    "keccode": 1220040,
+    "name": "SAMPURAN"
+  },
+  {
+    "code": 1220040073,
+    "keccode": 1220040,
+    "name": "HAJORAN"
+  },
+  {
+    "code": 1220040074,
+    "keccode": 1220040,
+    "name": "TANJUNG SIRAM"
+  },
+  {
+    "code": 1220040075,
+    "keccode": 1220040,
+    "name": "GAROGA"
+  },
+  {
+    "code": 1220040076,
+    "keccode": 1220040,
+    "name": "PAGARAN SIKKAM"
+  },
+  {
+    "code": 1220040077,
+    "keccode": 1220040,
+    "name": "PAGARAN TONGA"
+  },
+  {
+    "code": 1220040078,
+    "keccode": 1220040,
+    "name": "GUNUNG TUA JULU"
+  },
+  {
+    "code": 1220040079,
+    "keccode": 1220040,
+    "name": "GUNUNG TUA BARU"
+  },
+  {
+    "code": 1220040080,
+    "keccode": 1220040,
+    "name": "BATANG BARUHAR JULU"
+  },
+  {
+    "code": 1220040081,
+    "keccode": 1220040,
+    "name": "BATANG BARUHAR JAE"
+  },
+  {
+    "code": 1220040082,
+    "keccode": 1220040,
+    "name": "HUTA LOMBANG"
+  },
+  {
+    "code": 1220040083,
+    "keccode": 1220040,
+    "name": "PURBA SINOMBA"
+  },
+  {
+    "code": 1220040084,
+    "keccode": 1220040,
+    "name": "SIBAGASI"
+  },
+  {
+    "code": 1220040085,
+    "keccode": 1220040,
+    "name": "SUNGE DURIAN"
+  },
+  {
+    "code": 1220040086,
+    "keccode": 1220040,
+    "name": "SUNGE OROSAN"
+  },
+  {
+    "code": 1220040087,
+    "keccode": 1220040,
+    "name": "LUBUK TOROP"
+  },
+  {
+    "code": 1220040088,
+    "keccode": 1220040,
+    "name": "LIANG ASONA"
+  },
+  {
+    "code": 1220040089,
+    "keccode": 1220040,
+    "name": "SIMANDIANGIN DOLOK"
+  },
+  {
+    "code": 1220040090,
+    "keccode": 1220040,
+    "name": "SIMANDIANGIN LOMBANG"
+  },
+  {
+    "code": 1220040091,
+    "keccode": 1220040,
+    "name": "HUTAIMBARU II"
+  },
+  {
+    "code": 1220040092,
+    "keccode": 1220040,
+    "name": "PURBA TUA"
+  },
+  {
+    "code": 1220040093,
+    "keccode": 1220040,
+    "name": "TANJUNG MARULAK"
+  },
+  {
+    "code": 1220040094,
+    "keccode": 1220040,
+    "name": "SIOMBOB"
+  },
+  {
+    "code": 1220040095,
+    "keccode": 1220040,
+    "name": "AMBASANG NATIGOR"
+  },
+  {
+    "code": 1220040096,
+    "keccode": 1220040,
+    "name": "AEK GAMBIR"
+  },
+  {
+    "code": 1220040097,
+    "keccode": 1220040,
+    "name": "NAPA GADUNG LAUT"
+  },
+  {
+    "code": 1220040098,
+    "keccode": 1220040,
+    "name": "RAMPA JULU"
+  },
+  {
+    "code": 1220040099,
+    "keccode": 1220040,
+    "name": "RAMPA JAE"
+  },
+  {
+    "code": 1220040100,
+    "keccode": 1220040,
+    "name": "SIGIMBAL"
+  },
+  {
+    "code": 1220040101,
+    "keccode": 1220040,
+    "name": "MANANTI (MARENTI)"
+  },
+  {
+    "code": 1220040102,
+    "keccode": 1220040,
+    "name": "PARAN PADANG"
+  },
+  {
+    "code": 1220040103,
+    "keccode": 1220040,
+    "name": "RAHUNING JAE"
+  },
+  {
+    "code": 1220040104,
+    "keccode": 1220040,
+    "name": "BOTUNG"
+  },
+  {
+    "code": 1220040105,
+    "keccode": 1220040,
+    "name": "DOLOK SAE"
+  },
+  {
+    "code": 1220040106,
+    "keccode": 1220040,
+    "name": "SIHAPAS HAPAS"
+  },
+  {
+    "code": 1220040107,
+    "keccode": 1220040,
+    "name": "BATU MAMAK"
+  },
+  {
+    "code": 1220040108,
+    "keccode": 1220040,
+    "name": "LOSUNG BATU"
+  },
+  {
+    "code": 1220040109,
+    "keccode": 1220040,
+    "name": "SUNGE TOLANG"
+  },
+  {
+    "code": 1220040110,
+    "keccode": 1220040,
+    "name": "SIMASI"
+  },
+  {
+    "code": 1220040114,
+    "keccode": 1220040,
+    "name": "AEK JANGKANG"
+  },
+  {
+    "code": 1220040115,
+    "keccode": 1220040,
+    "name": "SIMBOLON"
+  }
+]

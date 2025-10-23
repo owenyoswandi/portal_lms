@@ -1,0 +1,42 @@
+[
+  {
+    "code": 3402130001,
+    "keccode": 3402130,
+    "name": "TAMANAN"
+  },
+  {
+    "code": 3402130002,
+    "keccode": 3402130,
+    "name": "JAGALAN"
+  },
+  {
+    "code": 3402130003,
+    "keccode": 3402130,
+    "name": "SINGOSAREN"
+  },
+  {
+    "code": 3402130004,
+    "keccode": 3402130,
+    "name": "WIROKERTEN"
+  },
+  {
+    "code": 3402130005,
+    "keccode": 3402130,
+    "name": "JAMBIDAN"
+  },
+  {
+    "code": 3402130006,
+    "keccode": 3402130,
+    "name": "POTORONO"
+  },
+  {
+    "code": 3402130007,
+    "keccode": 3402130,
+    "name": "BATURETNO"
+  },
+  {
+    "code": 3402130008,
+    "keccode": 3402130,
+    "name": "BANGUNTAPAN"
+  }
+]

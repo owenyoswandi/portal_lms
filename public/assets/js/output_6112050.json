@@ -1,0 +1,67 @@
+[
+  {
+    "code": 6112050001,
+    "keccode": 6112050,
+    "name": "SEPUK LAUT"
+  },
+  {
+    "code": 6112050002,
+    "keccode": 6112050,
+    "name": "PUNGGUR BESAR"
+  },
+  {
+    "code": 6112050003,
+    "keccode": 6112050,
+    "name": "PUNGGUR KECIL"
+  },
+  {
+    "code": 6112050004,
+    "keccode": 6112050,
+    "name": "KALIMAS"
+  },
+  {
+    "code": 6112050005,
+    "keccode": 6112050,
+    "name": "TANJUNG SALEH"
+  },
+  {
+    "code": 6112050006,
+    "keccode": 6112050,
+    "name": "SUNGAI BELIDAK"
+  },
+  {
+    "code": 6112050007,
+    "keccode": 6112050,
+    "name": "SUNGAI KAKAP"
+  },
+  {
+    "code": 6112050008,
+    "keccode": 6112050,
+    "name": "SUNGAI ITIK"
+  },
+  {
+    "code": 6112050009,
+    "keccode": 6112050,
+    "name": "PAL.IX"
+  },
+  {
+    "code": 6112050010,
+    "keccode": 6112050,
+    "name": "SUNGAI RENGAS"
+  },
+  {
+    "code": 6112050011,
+    "keccode": 6112050,
+    "name": "JERUJU BESAR"
+  },
+  {
+    "code": 6112050012,
+    "keccode": 6112050,
+    "name": "SUNGAI KUPAH"
+  },
+  {
+    "code": 6112050013,
+    "keccode": 6112050,
+    "name": "PUNGGUR KAPUAS"
+  }
+]

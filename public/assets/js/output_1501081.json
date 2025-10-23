@@ -1,0 +1,132 @@
+[
+  {
+    "code": 1501081001,
+    "keccode": 1501081,
+    "name": "AIR TERJUN"
+  },
+  {
+    "code": 1501081002,
+    "keccode": 1501081,
+    "name": "SIULAK KECIL MUDIK"
+  },
+  {
+    "code": 1501081003,
+    "keccode": 1501081,
+    "name": "SIULAK KECIL HILIR"
+  },
+  {
+    "code": 1501081004,
+    "keccode": 1501081,
+    "name": "SIULAK GEDANG"
+  },
+  {
+    "code": 1501081014,
+    "keccode": 1501081,
+    "name": "PASAR SIULAK GEDANG"
+  },
+  {
+    "code": 1501081015,
+    "keccode": 1501081,
+    "name": "DUSUN DALAM"
+  },
+  {
+    "code": 1501081016,
+    "keccode": 1501081,
+    "name": "KOTO BERINGIN"
+  },
+  {
+    "code": 1501081017,
+    "keccode": 1501081,
+    "name": "SIULAK PANJANG"
+  },
+  {
+    "code": 1501081018,
+    "keccode": 1501081,
+    "name": "KOTO TENGAH"
+  },
+  {
+    "code": 1501081019,
+    "keccode": 1501081,
+    "name": "KOTO ARO"
+  },
+  {
+    "code": 1501081020,
+    "keccode": 1501081,
+    "name": "KOTO RENDAH"
+  },
+  {
+    "code": 1501081021,
+    "keccode": 1501081,
+    "name": "DUSUN BARU"
+  },
+  {
+    "code": 1501081023,
+    "keccode": 1501081,
+    "name": "KOTO KAPEH"
+  },
+  {
+    "code": 1501081024,
+    "keccode": 1501081,
+    "name": "SUNGAI PEGEH"
+  },
+  {
+    "code": 1501081025,
+    "keccode": 1501081,
+    "name": "SUNGAI LEBUH"
+  },
+  {
+    "code": 1501081026,
+    "keccode": 1501081,
+    "name": "KOTO LEBUH TINGGI"
+  },
+  {
+    "code": 1501081027,
+    "keccode": 1501081,
+    "name": "LUBUK NAGODANG"
+  },
+  {
+    "code": 1501081028,
+    "keccode": 1501081,
+    "name": "TELAGO BIRU"
+  },
+  {
+    "code": 1501081031,
+    "keccode": 1501081,
+    "name": "TUTUNG BUNGKUK"
+  },
+  {
+    "code": 1501081033,
+    "keccode": 1501081,
+    "name": "PADANG JANTUNG"
+  },
+  {
+    "code": 1501081034,
+    "keccode": 1501081,
+    "name": "PELAK GEDANG"
+  },
+  {
+    "code": 1501081035,
+    "keccode": 1501081,
+    "name": "BENDAR SEDAP"
+  },
+  {
+    "code": 1501081036,
+    "keccode": 1501081,
+    "name": "PELAK NANEH"
+  },
+  {
+    "code": 1501081037,
+    "keccode": 1501081,
+    "name": "DEMONG SAKTI"
+  },
+  {
+    "code": 1501081038,
+    "keccode": 1501081,
+    "name": "PASAR SENEN"
+  },
+  {
+    "code": 1501081039,
+    "keccode": 1501081,
+    "name": "BARU SUNGAI PEGEH"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "code": 5106010001,
+    "keccode": 5106010,
+    "name": "APUAN"
+  },
+  {
+    "code": 5106010002,
+    "keccode": 5106010,
+    "name": "ABUAN"
+  },
+  {
+    "code": 5106010003,
+    "keccode": 5106010,
+    "name": "DEMULIH"
+  },
+  {
+    "code": 5106010005,
+    "keccode": 5106010,
+    "name": "SULAHAN"
+  },
+  {
+    "code": 5106010006,
+    "keccode": 5106010,
+    "name": "TIGA"
+  },
+  {
+    "code": 5106010007,
+    "keccode": 5106010,
+    "name": "PENGLUMBARAN"
+  },
+  {
+    "code": 5106010008,
+    "keccode": 5106010,
+    "name": "SELAT"
+  },
+  {
+    "code": 5106010009,
+    "keccode": 5106010,
+    "name": "PENGIANGAN"
+  }
+]

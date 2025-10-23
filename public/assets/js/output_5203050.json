@@ -1,0 +1,52 @@
+[
+  {
+    "code": 5203050001,
+    "keccode": 5203050,
+    "name": "KESIK"
+  },
+  {
+    "code": 5203050002,
+    "keccode": 5203050,
+    "name": "PAOK MOTONG"
+  },
+  {
+    "code": 5203050003,
+    "keccode": 5203050,
+    "name": "MASBAGIK SELATAN"
+  },
+  {
+    "code": 5203050004,
+    "keccode": 5203050,
+    "name": "MASBAGIK TIMUR"
+  },
+  {
+    "code": 5203050007,
+    "keccode": 5203050,
+    "name": "MASBAGIK UTARA"
+  },
+  {
+    "code": 5203050008,
+    "keccode": 5203050,
+    "name": "DANGER"
+  },
+  {
+    "code": 5203050009,
+    "keccode": 5203050,
+    "name": "LENDANG NANGKA"
+  },
+  {
+    "code": 5203050010,
+    "keccode": 5203050,
+    "name": "MASBAGIK UTARA BARU"
+  },
+  {
+    "code": 5203050011,
+    "keccode": 5203050,
+    "name": "LENDANG NANGKA UTARA"
+  },
+  {
+    "code": 5203050012,
+    "keccode": 5203050,
+    "name": "KUMBANG"
+  }
+]

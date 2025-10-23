@@ -1,0 +1,67 @@
+[
+  {
+    "code": 1601130004,
+    "keccode": 1601130,
+    "name": "TANJUNG BARU"
+  },
+  {
+    "code": 1601130005,
+    "keccode": 1601130,
+    "name": "PASAR BARU"
+  },
+  {
+    "code": 1601130007,
+    "keccode": 1601130,
+    "name": "KEMALA RAJA"
+  },
+  {
+    "code": 1601130008,
+    "keccode": 1601130,
+    "name": "SUKARAYA"
+  },
+  {
+    "code": 1601130009,
+    "keccode": 1601130,
+    "name": "TANJUNG KEMALA"
+  },
+  {
+    "code": 1601130010,
+    "keccode": 1601130,
+    "name": "SUKAJADI"
+  },
+  {
+    "code": 1601130011,
+    "keccode": 1601130,
+    "name": "AIR PAUH"
+  },
+  {
+    "code": 1601130012,
+    "keccode": 1601130,
+    "name": "BATURAJA PERMAI"
+  },
+  {
+    "code": 1601130013,
+    "keccode": 1601130,
+    "name": "TERUSAN"
+  },
+  {
+    "code": 1601130014,
+    "keccode": 1601130,
+    "name": "SEKAR JAYA"
+  },
+  {
+    "code": 1601130015,
+    "keccode": 1601130,
+    "name": "SEPANCAR LAWANG KULON"
+  },
+  {
+    "code": 1601130016,
+    "keccode": 1601130,
+    "name": "KEMELAK BINDUNG LANGIT"
+  },
+  {
+    "code": 1601130017,
+    "keccode": 1601130,
+    "name": "BATURAJA LAMA"
+  }
+]

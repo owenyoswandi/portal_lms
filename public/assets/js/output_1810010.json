@@ -1,0 +1,67 @@
+[
+  {
+    "code": 1810010004,
+    "keccode": 1810010,
+    "name": "SELAPAN"
+  },
+  {
+    "code": 1810010005,
+    "keccode": 1810010,
+    "name": "KEDAUNG"
+  },
+  {
+    "code": 1810010006,
+    "keccode": 1810010,
+    "name": "SUKA NEGERI"
+  },
+  {
+    "code": 1810010007,
+    "keccode": 1810010,
+    "name": "RANTAU TIJANG"
+  },
+  {
+    "code": 1810010008,
+    "keccode": 1810010,
+    "name": "PARDASUKA"
+  },
+  {
+    "code": 1810010009,
+    "keccode": 1810010,
+    "name": "TANJUNG RUSIA"
+  },
+  {
+    "code": 1810010013,
+    "keccode": 1810010,
+    "name": "WARGO MULYO"
+  },
+  {
+    "code": 1810010014,
+    "keccode": 1810010,
+    "name": "PUJODADI"
+  },
+  {
+    "code": 1810010015,
+    "keccode": 1810010,
+    "name": "SUKOREJO"
+  },
+  {
+    "code": 1810010018,
+    "keccode": 1810010,
+    "name": "SIDODADI"
+  },
+  {
+    "code": 1810010019,
+    "keccode": 1810010,
+    "name": "PARDASUKA TIMUR"
+  },
+  {
+    "code": 1810010020,
+    "keccode": 1810010,
+    "name": "TANJUNG RUSIA TIMUR"
+  },
+  {
+    "code": 1810010021,
+    "keccode": 1810010,
+    "name": "PARDASUKA SELATAN"
+  }
+]
