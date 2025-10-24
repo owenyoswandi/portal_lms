@@ -1,4 +1,4 @@
-@extends('dist.layout_member') 
+@extends('dist.layout_member')
 
 @section('title')
     {{env('APP_NAME')}} | My Course
@@ -26,8 +26,8 @@
 @endsection
 
 @section('menu')
-@include('dist.menu_member') 
-@endsection 
+@include('dist.menu_member')
+@endsection
 
 @section('content')
     <div class="pagetitle">
@@ -44,7 +44,7 @@
       <div class="row">
         <div class="col-lg-12">
           <div class="row" id="course">
-            
+
           </div>
         </div>
         <div class="pagetitle">
@@ -52,12 +52,12 @@
         </div><!-- End Page Title -->
         <div class="col-lg-12">
           <div class="row" id="other_course">
-            
+
           </div>
 
         </div>
 
-      </div>	  
+      </div>
       <div class="modal fade" id="addOrder" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-lg">
                 <div class="modal-content">
@@ -67,7 +67,7 @@
                     </div>
                     <div class="modal-body">
                         <form class="row g-3 needs-validation" id="addForm" enctype="multipart/form-data" novalidate>
-                        @csrf             
+                        @csrf
                             <div class="col-12">
                                 <label for="p_judul" class="form-label">Title</label>
                                 <input type="text" name="p_judul" class="form-control" id="p_judul" required>
@@ -87,13 +87,13 @@
             </div>
         </div>
     </section>
-@endsection 
+@endsection
 
 @section('java_script')
 	<!-- silahkan isi dengan java script -->
 	<script>
     const apiUrl = '{{ config('app.api_url') }}';
-		const accessToken = '{{ session('token') }}';
+	const accessToken = '{{ session('token') }}';
     const accessMember = '{{ session('usermember') }}';
     const userId = '{{ session('userid') }}';
 
@@ -124,19 +124,19 @@
 
     function getCourse(userData) {
       var card = '';
-			userData.forEach((data, index) => {	      
+			userData.forEach((data, index) => {
         axios.get(`https://ems.ai4talent.my.id/api/course/${data.p_id_lms}/${accessMember}/progress`, {
           headers: {
             'Authorization': `Bearer ${accessToken}`
           }
         })
         .then(response => {
-          var card = ''; 
+          var card = '';
           let html = document.getElementById("course").innerHTML;
           card += `<div class="col-sm-4">
                     <div class="card">`;
           if(data.p_img!=null&&p_img!=""){
-            card += `<img src="https://ems.ai4talent.my.id/storage/app/public/${data2.image}" class="card-img-top" alt="...">`;
+            card += `<img src="https://ems.ai4talent.my.id/storage/app/${data2.image}" class="card-img-top" alt="...">`;
           }
           card += `<a href="{{ url('member/course') }}/${data.p_id_lms}/${accessMember}"><span class="link"></span></a>
                 <div class="card-body">
@@ -173,7 +173,7 @@
               </div>
             `;
           }
-          
+
         card += `
                 </div>
               </div>`;
@@ -219,7 +219,7 @@
               <div class="card">`;
 
           if(data.image!=null&&data.image!=""){
-            card += `<img src="https://ems.ai4talent.my.id/storage/app/public/${data.image}" class="card-img-top" alt="...">`;
+            card += `<img src="https://ems.ai4talent.my.id/storage/app/${data.image}" class="card-img-top" alt="...">`;
           }
 
           card += `
@@ -253,9 +253,9 @@
         .catch(error => {
             console.error('Error:', error);
         });
-        
+
       });
-      
+
     }
     function orderConfirmation(id, title, desc, img, link) {
       document.getElementById('p_id_lms').value = id;
@@ -271,12 +271,12 @@
       const form = document.getElementById('addForm');
       const formData = new FormData(form);
 
-      var currentdate = new Date(); 
+      var currentdate = new Date();
 			var datetime = currentdate.getFullYear() + "-"
-                + (currentdate.getMonth()+1)  + "-" 
-                + currentdate.getDate() + " "  
-                + currentdate.getHours() + ":"  
-                + currentdate.getMinutes() + ":" 
+                + (currentdate.getMonth()+1)  + "-"
+                + currentdate.getDate() + " "
+                + currentdate.getHours() + ":"
+                + currentdate.getMinutes() + ":"
                 + currentdate.getSeconds();
 
       const userData = {};
@@ -337,4 +337,4 @@
       });
     }
 	</script>
-@endsection 
+@endsection

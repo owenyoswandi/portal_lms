@@ -58,14 +58,14 @@
                 </div>
             </div>
         </div>
-    </div>	  
+    </div>
 </section>
 
-@endsection 
+@endsection
 
 <script>
-    const apiUrl = '{{ config('app.api_url') }}';
-    const url = '{{ config('app.app_url') }}';
+    const apiUrl = window.apiUrl || '{{ config('app.api_url') }}';
+    const url    = "{{ rtrim(url('/'), '/') }}"; ;
     const accessToken = '{{ session('token') }}';
     const userId = '{{ session('userid') }}';
 
@@ -186,7 +186,7 @@
         container.appendChild(body);
     }
 
-    function addGrade(){     
+    function addGrade(){
         const form = document.getElementById('addGradeForm');
 
         const formData = new FormData(form);

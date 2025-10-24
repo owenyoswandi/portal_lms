@@ -181,7 +181,7 @@
 
 @section('java_script')
     <script>
-        const apiUrl = '{{ config('app.api_url') }}';
+    const apiUrl = window.apiUrl || '{{ config('app.api_url') }}';
         const accessToken = '{{ session('token') }}';
         const phaseId = @json($phase_id);
         const add_activity_ability = @json($addActivityAbility);

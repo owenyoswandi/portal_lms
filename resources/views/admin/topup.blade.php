@@ -19,7 +19,7 @@
           <div class="card">
             <div class="card-body">
               <!-- <p>Berikut merupakan data Comment.</p> -->
-			  
+
 			  <!-- Table with stripped rows -->
               <table class="table " id='mytable'>
                 <thead>
@@ -77,7 +77,7 @@
             </div>
         </div>
     </section>
-@endsection 
+@endsection
 
 @section('java_script')
 	<!-- silahkan isi dengan java script -->
@@ -85,7 +85,7 @@
 		window.onload = function() {
 			getData();
 		};
-		const apiUrl = '{{ config('app.api_url') }}';
+            const apiUrl = window.apiUrl || '{{ config('app.api_url') }}';
 		const accessToken = '{{ session('token') }}';
 
 		function getData() {
@@ -106,7 +106,7 @@
 					console.error('Error:', error);
 				});
 		}
-		
+
 		function updateTable(userData) {
 			const tableBody = document.querySelector('.table tbody');
 			tableBody.innerHTML = '';
@@ -120,8 +120,8 @@
                     <td style='text-align: left'>${data.nama}</td>
                     <td style='text-align: left'>${data.t_created_date}</td>
                     <td style='text-align: left'>IDR ${text}</td>`;
-                    // <td style='text-align: left'><img src="{{asset('public/user_proof/${data.t_user_proof}')}}" style="width: 100%"/></td>
-                    // <td style='text-align: left'><img src="{{asset('public/admin_proof/${data.t_admin_proof}')}}" style="width: 100%"/></td>
+                    // <td style='text-align: left'><img src="{{asset('user_proof/${data.t_user_proof}')}}" style="width: 100%"/></td>
+                    // <td style='text-align: left'><img src="{{asset('admin_proof/${data.t_admin_proof}')}}" style="width: 100%"/></td>
                 if(data.t_status == 'unpaid'){
                     row.innerHTML += `<td style='text-align: left'><span class="badge rounded-pill bg-danger">unpaid</span></td>
                     <td style='text-align: left'> - </td>
@@ -139,15 +139,15 @@
                     <td style='text-align: center'><a class="btn btn-sm btn-secondary" href="{{ url('/admin/downloadFile/admin_proof/${data.t_admin_proof}')}}"><i class="bx bxs-download"></i></a></td>
 					<td> - </td>`;
                 }
-                row.innerHTML += ` 
-						
+                row.innerHTML += `
+
 				`;
 				tableBody.appendChild(row);
 			});
 			const dataTable = new simpleDatatables.DataTable('#mytable');
 		}
-		
-		
+
+
 		function confirmTopUp(id) {
             axios.get(apiUrl + '/transaction-topup-byid/' + id, {
                     headers: {
@@ -173,7 +173,7 @@
             const topUpConfirmationModal = new bootstrap.Modal(document.getElementById('topUpProofModal'));
             topUpConfirmationModal.show();
 
-            let src = `{{asset('public/user_proof/${userData.t_user_proof}')}}`;
+            let src = `{{asset('user_proof/${userData.t_user_proof}')}}`;
             document.getElementById("userproof").src = src;
 
             document.getElementById('amount_confirm').value = amount;
@@ -189,14 +189,14 @@
                 userData[key] = value;
             });
 
-            var currentdate = new Date(); 
+            var currentdate = new Date();
 			var datetime = currentdate.getFullYear() + "-"
-                + (currentdate.getMonth()+1)  + "-" 
-                + currentdate.getDate() + " "  
-                + currentdate.getHours() + ":"  
-                + currentdate.getMinutes() + ":" 
+                + (currentdate.getMonth()+1)  + "-"
+                + currentdate.getDate() + " "
+                + currentdate.getHours() + ":"
+                + currentdate.getMinutes() + ":"
                 + currentdate.getSeconds();
-                
+
             userData['t_modified_date'] = datetime;
             userData['t_status'] = "paid";
 			console.log(userData);
@@ -229,4 +229,4 @@
                 });
         }
 	</script>
-@endsection 
+@endsection

@@ -79,7 +79,7 @@
         document.addEventListener("DOMContentLoaded", () => {
             getData();
         });
-        const apiUrl = '{{ config('app.api_url') }}';
+    const apiUrl = window.apiUrl || '{{ config('app.api_url') }}';
         const accessToken = '{{session('token')}}';
 
         let itemToDelete = ''

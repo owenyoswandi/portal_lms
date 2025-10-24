@@ -149,12 +149,13 @@
         </div>
     </section>
     <script>
-        const apiUrl = '{{ config('app.api_url') }}';
-        const accessToken = '{{ session('token') }}';
-        const rumah_sakit = '{{ session('rumah_sakit') }}'
-        const userId = storedUserData.id
+        // Use globals set in footer to avoid redeclaring apiUrl/accessToken/userId in multiple views
+        const apiUrl = window.apiUrl || '{{ config('app.api_url') }}';
+        const accessToken = window.accessToken || '{{ session('token') }}';
+        const rumah_sakit = window.rumah_sakit || '{{ session('rumah_sakit') }}';
+        const userId = window.userId || storedUserData.id;
 
-        const url = '{{ config('app.app_url') }}'
+        const url = "{{ rtrim(url('/'), '/') }}";
 
         document.addEventListener("DOMContentLoaded", () => {
             if (userRole == 'Pasien') {
@@ -361,7 +362,7 @@
                     const data = response.data;
                     if (data.success) {
                         console.log(data);
-                        axios.get(url + '/public/assets/js/provinces.json')
+                        axios.get(url + '/assets/js/provinces.json')
                             .then(provincesResponse => {
                                 const provincesData = provincesResponse.data;
 

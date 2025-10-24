@@ -94,10 +94,10 @@
             getData(topicId);
         });
 
-        const apiUrl = '{{ config('app.api_url') }}';
-        const url = '{{ config('app.app_url') }}'
+    const apiUrl = window.apiUrl || '{{ config('app.api_url') }}';
+        const url    = "{{ rtrim(url('/'), '/') }}";
         const accessToken = '{{ session('token') }}';
-        
+
         function getCourseById(id) {
             axios.get(apiUrl + `/product/${id}`, {
                     headers: {
@@ -205,7 +205,7 @@
                 'Test': { inputfile: 'none', inputstartdate: 'block', inputduedate: 'block', inputlink: 'none' },
                 'Task Collection': { inputfile: 'none', inputstartdate: 'none', inputduedate: 'block', inputlink: 'none' },
                 'Link': { inputfile: 'none', inputstartdate: 'none', inputduedate: 'none', inputlink: 'block' },
-                
+
             };
 
             const defaultConfig = { inputfile: 'none', inputstartdate: 'none', inputduedate: 'none', inputlink: 'none' };
@@ -219,7 +219,7 @@
             document.getElementById('inputduedate').style.display = currentConfig.inputduedate;
             document.getElementById('inputlink').style.display = currentConfig.inputlink;
 
-            
+
         });
         document.getElementById('edit_st_jenis').addEventListener('change', function(e) {
             // Get the selected value
@@ -254,12 +254,12 @@
             const file = event.target.files[0];
             if (file && file.type === 'application/pdf') {
                 const reader = new FileReader();
-                
+
                 reader.onload = function(e) {
                 pdfPreview.src = e.target.result;
                 pdfPreview.style.display = 'block';
                 };
-                
+
                 reader.readAsDataURL(file);
             } else {
                 pdfPreview.src = '';
@@ -344,12 +344,12 @@
             const file = event.target.files[0];
             if (file && file.type === 'application/pdf') {
                 const reader = new FileReader();
-                
+
                 reader.onload = function(e) {
                 editpdfPreview.src = e.target.result;
                 editpdfPreview.style.display = 'block';
                 };
-                
+
                 reader.readAsDataURL(file);
             } else {
                 editpdfPreview.src = '';
@@ -368,7 +368,7 @@
             document.getElementById('edit_st_is_shuffle').value = subtopicData.st_is_shuffle || '';
             document.getElementById('edit_st_jumlah_shuffle').value = subtopicData.st_jumlah_shuffle || '';
             if(subtopicData.st_jenis=='Modul' || subtopicData.st_jenis=='task'){
-                editpdfPreview.src = `${url}/public/${subtopicData.st_file}`;
+                editpdfPreview.src = `${url}/${subtopicData.st_file}`;
                 editpdfPreview.style.display = 'block';
             } else if(subtopicData.st_jenis=='Link') {
                 document.getElementById('edit_st_file_else').value = subtopicData.st_file;

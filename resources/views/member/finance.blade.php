@@ -2,7 +2,7 @@
 
 @section('title', 'Finance')
     <style>
-      
+
     </style>
 
 @section('content')
@@ -20,7 +20,7 @@
     <section class="section">
       <div class="row">
         <div class="col-lg-3">
-            
+
         </div>
         <div class="col-lg-6">
 
@@ -35,7 +35,7 @@
 
         </div>
         <div class="col-lg-3">
-            
+
         </div>
 
       </div>
@@ -61,18 +61,18 @@
         </div>
       </div>
 
-	  
+
     </section>
-    
-@endsection 
+
+@endsection
 
 @section('java_script')
 	<!-- silahkan isi dengan java script -->
 	<script>
-        const apiUrl = '{{ config('app.api_url') }}';
+    const apiUrl = window.apiUrl || '{{ config('app.api_url') }}';
         const userId = '{{ session('userid') }}';
 		const accessToken = '{{ session('token') }}';
-        
+
 
         window.onload = function() {
             getData();
@@ -130,7 +130,7 @@
 				const row = document.createElement('tr');
 				row.innerHTML = `
                     <td style='text-align: left'>${data.t_created_date}</td>
-					
+
 				`;
                 if(data.t_code == '101'){
                     row.innerHTML += `
@@ -156,6 +156,6 @@
             let amount_balance = Number(balance).toLocaleString();
             document.getElementById('balance').innerHTML = "IDR " + amount_balance;
 		}
-        
+
     </script>
-@endsection 
+@endsection

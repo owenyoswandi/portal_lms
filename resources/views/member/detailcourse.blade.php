@@ -1,4 +1,4 @@
-@extends('dist.layout_member') 
+@extends('dist.layout_member')
 
 @section('title')
     {{env('APP_NAME')}} | My Course
@@ -14,8 +14,8 @@
 @endsection
 
 @section('menu')
-@include('dist.menu_member') 
-@endsection 
+@include('dist.menu_member')
+@endsection
 
 @section('content')
     <div class="pagetitle">
@@ -36,9 +36,9 @@
             <div class="card-body">
                 <h5 class="card-title">Course Detail</h5>
                 <div class="profile-overview" id="course">
-                
+
                 </div>
-            </div>    
+            </div>
           </div>
         </div>
         <div class="col-lg-12">
@@ -46,7 +46,7 @@
             <div class="card-body">
               <h5 class="card-title">Course Progress</h5>
               <!-- <p>Berikut merupakan data News.</p> -->
-			  
+
 			        <!-- Table with stripped rows -->
               <table class="table " id='mytable'>
                 <thead>
@@ -66,13 +66,13 @@
 
         </div>
 
-      </div>	  
+      </div>
     </section>
-@endsection 
+@endsection
 
 	<!-- silahkan isi dengan java script -->
 	<script>
-		const apiUrl = '{{ config('app.api_url') }}';
+      const apiUrl = window.apiUrl || '{{ config('app.api_url') }}';
     var get_main_id = `{{ $p_id }}`;
     const accessMember = '{{ session('usermember') }}';
 		const accessToken = '{{ session('token') }}';
@@ -151,7 +151,7 @@
             console.error('Error:', error);
         });
     }
-    
+
 		function updateTable(userData) {
 			const tableBody = document.querySelector('.table tbody');
 			tableBody.innerHTML = '';
@@ -169,7 +169,7 @@
           `;
           tableBody.appendChild(row);
         });
-				
+
 			});
 			const dataTable = new simpleDatatables.DataTable('#mytable');
 		}
@@ -186,5 +186,5 @@
               console.error('Error:', error);
           });
       }
-    
+
 	</script>

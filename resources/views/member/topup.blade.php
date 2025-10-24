@@ -16,7 +16,7 @@
         margin-top: -10px;
       }
 
-    </style> 
+    </style>
 
 @section('content')
 <div class="pagetitle">
@@ -116,7 +116,7 @@
             </div>
         </div>
 
-        
+
       <!-- Delete Confirmation Modal -->
       <div class="modal fade" id="deleteConfirmationModal" tabindex="-1" aria-labelledby="deleteConfirmationModalLabel"
             aria-hidden="true">
@@ -137,15 +137,15 @@
                 </div>
             </div>
         </div>
-	  
+
     </section>
-    
-@endsection 
+
+@endsection
 
 @section('java_script')
 	<!-- silahkan isi dengan java script -->
 	<script>
-        const apiUrl = '{{ config('app.api_url') }}';
+    const apiUrl = window.apiUrl || '{{ config('app.api_url') }}';
         const userId = '{{ session('userid') }}';
 		const accessToken = '{{ session('token') }}';
 
@@ -314,14 +314,14 @@
                 userData[key] = value;
             });
 
-            var currentdate = new Date(); 
+            var currentdate = new Date();
 			var datetime = currentdate.getFullYear() + "-"
-                + (currentdate.getMonth()+1)  + "-" 
-                + currentdate.getDate() + " "  
-                + currentdate.getHours() + ":"  
-                + currentdate.getMinutes() + ":" 
+                + (currentdate.getMonth()+1)  + "-"
+                + currentdate.getDate() + " "
+                + currentdate.getHours() + ":"
+                + currentdate.getMinutes() + ":"
                 + currentdate.getSeconds();
-                
+
             userData['t_modified_date'] = datetime;
             userData['t_status'] = "waiting confirmation";
 			console.log(userData);
@@ -376,7 +376,7 @@
                         var myModalEl = document.getElementById('deleteConfirmationModal');
                         var modal = bootstrap.Modal.getInstance(myModalEl)
                         modal.hide();
-                        
+
                     } else {
                         console.error(data.message);
                     }
@@ -388,4 +388,4 @@
 
         }
     </script>
-@endsection 
+@endsection

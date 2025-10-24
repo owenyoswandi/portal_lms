@@ -79,8 +79,8 @@
         document.addEventListener("DOMContentLoaded", () => {
             getData();
         });
-        const apiUrl = '{{ config('app.api_url') }}';
-        const url = '{{ config('app.app_url') }}'
+    const apiUrl = window.apiUrl || '{{ config('app.api_url') }}';
+        const url    = "{{ rtrim(url('/'), '/') }}";
         const accessToken = '{{ session('token') }}';
 
         function getData() {
@@ -132,7 +132,7 @@
             populateEditForm(formData);
             editModal.show();
         }
-		
+
 		function populateEditForm(formData) {
 			document.getElementById('edit_pertanyaan_id').value = formData[0].pertanyaan_id;
             document.getElementById('edit_course_id').value = formData[0].course_id;
@@ -196,7 +196,7 @@
         }
 
         function addQuestion() {
-			
+
             const form = document.getElementById('addQuestionForm');
 
             const formData = new FormData(form);

@@ -81,8 +81,8 @@
             getUserData();
             getwilayah(provinces, regencies, kec, kel);
         });
-        const apiUrl = '{{ config('app.api_url') }}';
-        const url = '{{ config('app.app_url') }}'
+    const apiUrl = window.apiUrl || '{{ config('app.api_url') }}';
+        const url    = "{{ rtrim(url('/'), '/') }}";
         const accessToken = '{{session('token')}}';
         const regencies = document.getElementById('kabupaten');
         const provinces = document.getElementById('provinsi');
@@ -309,7 +309,7 @@
         }
 
         function getwilayah(provincesDropdown, regenciesDropdown, kecDropdown, kelDropdown) {
-            const provinceData = url + '/public/assets/js/provinces.json'
+            const provinceData = url + '/assets/js/provinces.json'
             axios.get(provinceData)
                 .then(response => {
                     const provinces = response.data;
@@ -351,7 +351,7 @@
         }
 
         async function fetchRegencies(provinceId, regenciesDropdown) {
-            const kabData = url + '/public/assets/js/kabupatens.json'
+            const kabData = url + '/assets/js/kabupatens.json'
             await axios.get(kabData)
                 .then(response => {
                     const regencies = response.data.filter(d => d.provcode == provinceId);
@@ -367,7 +367,7 @@
         };
 
         async function fetchKecamatan(kabId, kecDropdown) {
-            const kecamatanData = url + '/public/assets/js/kecamatans.json'
+            const kecamatanData = url + '/assets/js/kecamatans.json'
             await axios.get(kecamatanData)
                 .then(response => {
                     const regencies = response.data.filter(d => d.kabcode == kabId);
@@ -383,7 +383,7 @@
         };
 
         async function fetchKelurahan(kecId, kelDropdown) {
-            const kelurahanData = url + `/public/assets/js/output_${kecId}.json`
+            const kelurahanData = url + `/assets/js/output_${kecId}.json`
             await axios.get(kelurahanData)
                 .then(response => {
                     const regencies = response.data.filter(d => d.keccode == kecId);

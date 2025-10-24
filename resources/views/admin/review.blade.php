@@ -34,14 +34,14 @@
                 </div>
             </div>
         </div>
-    </div>	  
+    </div>
 </section>
 
-@endsection 
+@endsection
 
 <script>
-    const apiUrl = '{{ config('app.api_url') }}';
-    const url = '{{ config('app.app_url') }}';
+    const apiUrl = window.apiUrl || '{{ config('app.api_url') }}';
+    const url    = "{{ rtrim(url('/'), '/') }}"; ;
     const accessToken = '{{ session('token') }}';
     const userId = '{{ session('userid') }}';
 
@@ -214,7 +214,7 @@
                                 <input type="radio" name="question-${p.pertanyaan_id}" value="${j.pilihan_id}" disabled ${j.is_checked ? 'checked' : ''}>
                                 ${j.teks_pilihan}
                     `;
-                    
+
                     // Add icon based on the correctness of the answer
                     if (j.is_checked) {
                         if (j.is_jawaban_benar) {
@@ -240,7 +240,7 @@
                 }
             } else if(p.teks_pertanyaan != "pilihan_ganda") {
                 //menampilkan isian
-                
+
                 body += `<p>Answer: </p><textarea class="form-control" disabled>${p.essay}</textarea>`;
                 body += `</div></div>`;
             } else {

@@ -151,8 +151,8 @@
 
 <!-- silahkan isi dengan java script -->
 <script>
-    const apiUrl = '{{ config('app.api_url') }}';
-    const url = '{{ config('app.app_url') }}'
+    const apiUrl = window.apiUrl || '{{ config('app.api_url') }}';
+    const url    = "{{ rtrim(url('/'), '/') }}";
     const accessToken = '{{ session('token') }}';
     const accessMember = '{{ session('usermember') }}';
     const userId = '{{ session('userid') }}';
@@ -407,19 +407,19 @@
                             // Add subtopics to the list
                             topic.subtopics.forEach(subtopic => {
                                 if(subtopic.st_jenis=='Task Collection') {
-                                    list.innerHTML += `<li><a href="{{ url('member/course/topic') }}/${courseId}/${subtopic.st_id}"><img src="{{asset('public/assets/img/hand.png')}}">
+                                    list.innerHTML += `<li><a href="{{ url('member/course/topic') }}/${courseId}/${subtopic.st_id}"><img src="{{asset('assets/img/hand.png')}}">
                                         <span>${subtopic.st_name}</span>
                                     </a></li>`;
                                 } else if(subtopic.st_jenis=='Modul') {
-                                    list.innerHTML += `<li><a href="{{ url('member/course/topic') }}/${courseId}/${subtopic.st_id}"><img src="{{asset('public/assets/img/office-material.png')}}">
+                                    list.innerHTML += `<li><a href="{{ url('member/course/topic') }}/${courseId}/${subtopic.st_id}"><img src="{{asset('assets/img/office-material.png')}}">
                                         <span>${subtopic.st_name}</span>
                                     </a></li>`;
                                 } else if(subtopic.st_jenis=='Certificate') {
-                                    list.innerHTML += `<li><a href="{{ url('member/certificate') }}/${courseId}/${subtopic.st_id}"><img src="{{asset('public/assets/img/certificate-icon.png')}}">
+                                    list.innerHTML += `<li><a href="{{ url('member/certificate') }}/${courseId}/${subtopic.st_id}"><img src="{{asset('assets/img/certificate-icon.png')}}">
                                         <span>${subtopic.st_name}</span>
                                     </a></li>`;
                                 } else {
-                                    list.innerHTML += `<li><a href="{{ url('member/course/topic') }}/${courseId}/${subtopic.st_id}"><img src="{{asset('public/assets/img/doc-checkmark.png')}}">
+                                    list.innerHTML += `<li><a href="{{ url('member/course/topic') }}/${courseId}/${subtopic.st_id}"><img src="{{asset('assets/img/doc-checkmark.png')}}">
                                         <span>${subtopic.st_name}</span>
                                     </a></li>`;
                             }

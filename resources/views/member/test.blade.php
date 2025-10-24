@@ -31,7 +31,7 @@
                     </div><div id="jumlah-soal" class="position-absolute top-0 end-0 p-3 mt-5">
                         Soal : <span id="current-question">0</span> / <span id="total-questions">0</span>
                     </div>
-                    
+
                     <!-- Pertanyaan Container -->
                     <div id="pertanyaan-container" class="mt-5">
                         <!-- Question will be loaded here -->
@@ -49,14 +49,14 @@
 
         </div>
 
-      </div>	  
+      </div>
     </section>
-@endsection 
+@endsection
 
 	<!-- silahkan isi dengan java script -->
 	<script>
-        const apiUrl = '{{ config('app.api_url') }}';
-        const url = '{{ config('app.app_url') }}'
+    const apiUrl = window.apiUrl || '{{ config('app.api_url') }}';
+        const url    = "{{ rtrim(url('/'), '/') }}";
         const accessToken = '{{ session('token') }}';
         const userId = '{{ session('userid') }}';
 
@@ -71,7 +71,7 @@
         let waktuUjian = '2'; //dummy
 
         document.addEventListener("DOMContentLoaded", () => {
-            setTimer(hasilId);            
+            setTimer(hasilId);
             loadQuestions(stId);
 
             // Handle form submit (Submit Exam)
@@ -119,7 +119,7 @@
                 if (data.success) {
                     const hasil = data.data;
                     console.log(hasil);
-                    
+
                     // Ambil waktu_respon dari database (dalam format UTC)
                     const waktuRespon = new Date(hasil.waktu_respon); // Asumsi waktu_respon adalah tanggal dalam format UTC
 
@@ -153,7 +153,7 @@
                         document.getElementById('nextBtn').disabled = true;
                         document.getElementById('submitBtn').disabled = true;
                         localStorage.clear();
-                        
+
                         window.location.href = `{{ url('member/course/topic') }}/${courseId}/${stId}`;
                     }
                 } else {
@@ -210,7 +210,7 @@
                 html += `
                     <div class="mb-3">
                         <textarea class="form-control" style="height: 100px;" name="jawaban_isian" placeholder="Your Answer" ></textarea>
-                        
+
                     </div>
                 `;
             }
@@ -253,7 +253,7 @@
 
             saveAnswer();
 
-            
+
             if (currentQuestionIndex < totalQuestions - 1) {
                 currentQuestionIndex++;
                 loadQuestion(currentQuestionIndex);
@@ -291,7 +291,7 @@
             formData.append("hasil_id", hasilId);
             formData.append("pertanyaan_id", soalData[currentQuestionIndex].pertanyaan_id);
             formData.append("jawaban_id", tipeSoal === 'pilihan_ganda' ? jawaban : '');
-            formData.append("jawaban_isian", tipeSoal === 'isian' ? jawaban : '');            
+            formData.append("jawaban_isian", tipeSoal === 'isian' ? jawaban : '');
 
             axios.post(apiUrl + '/detail-test', formData, {
                 headers: {
@@ -361,8 +361,8 @@
                     console.error('Error:', error);
                 }
             });
-            
-            
+
+
         }
-        
+
 	</script>

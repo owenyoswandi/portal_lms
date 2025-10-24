@@ -212,7 +212,7 @@
 
 @section('java_script')
     <script>
-        const apiUrl = '{{ config('app.api_url') }}';
+    const apiUrl = window.apiUrl || '{{ config('app.api_url') }}';
         const accessToken = '{{ session('token') }}';
         const projectId = @json($project_id);
         const currentUserRole = '{{ session('role') }}';
@@ -343,7 +343,7 @@
             <div class="mb-2">
                                             <div class="form-check form-switch">
                                                 <input type="hidden" name="roles[0][add_activity_ability]">
-                                                <input class="form-check-input" 
+                                                <input class="form-check-input"
                                                     type="checkbox"
                                                     name="roles[0][add_activity_ability]"
                                                     value="1"
@@ -354,7 +354,7 @@
               <div class="mb-2">
                                             <div class="form-check form-switch">
                                                 <input type="hidden" name="roles[0][mark_done_activity]">
-                                                <input class="form-check-input" 
+                                                <input class="form-check-input"
                                                     type="checkbox"
                                                     name="roles[0][mark_done_activity]"
                                                     value="1"
@@ -484,7 +484,7 @@
                                 </div>
                             </div>
                             <!-- Add Phase Status Select Input -->
-                            
+
                             <div class="mt-2 text-end">
                                 <button type="button" class="btn btn-danger btn-sm" onclick="removePhase('${phase.phase_id}', this)">
                                     <i class="bi bi-trash"></i> Remove
@@ -512,11 +512,11 @@
                                                                                                     <ul class="list-unstyled">
                                                                                                         ${role.team_members.map(member => `
                                             <li class="mb-1">
-                                                <i class="bi bi-person"></i> 
+                                                <i class="bi bi-person"></i>
                                                 ${member.user.nama} (${member.user.username})
                                                 <br>
                                                 <small class="text-muted">
-                                                    <i class="bi bi-calendar"></i> 
+                                                    <i class="bi bi-calendar"></i>
                                                     Assigned: ${member.assigned_date}
                                                 </small>
                                             </li>
@@ -535,7 +535,7 @@
                             </div>
                             <div class="form-check form-switch">
                                 <input type="hidden" name="roles[${index}][add_activity_ability]">
-                                <input class="form-check-input" 
+                                <input class="form-check-input"
                                     type="checkbox"
                                     name="roles[${index}][add_activity_ability]"
                                     value="1"
@@ -545,7 +545,7 @@
                             </div>
                             <div class="form-check form-switch">
                                 <input type="hidden" name="roles[${index}][mark_done_activity]">
-                                <input class="form-check-input" 
+                                <input class="form-check-input"
                                     type="checkbox"
                                     name="roles[${index}][mark_done_activity]"
                                     value="1"
@@ -555,7 +555,7 @@
                             </div>
                             <div class="team-members mt-3">
                                 <h6>Team Members</h6>
-                                ${role.team_members && role.team_members.length > 0 ? 
+                                ${role.team_members && role.team_members.length > 0 ?
                                     role.team_members.map((member, memberIndex) => `
                                                                                                         <div class="team-member mb-2">
                                                                                                             <input type="hidden" name="roles[${index}][team_members][${memberIndex}][member_id]" value="${member.member_id || ''}">
@@ -563,15 +563,15 @@
                                                                                                                 <div class="flex-grow-1">
                                                                                                                     <select class="form-control" name="roles[${index}][team_members][${memberIndex}][user_id]" required>
                                                                                                                         <option value="">Select Team Member</option>
-                                                                                                                        
+
                                                                                                                         ${users.map(user => `
                                                                         <option value="${user.user_id}" ${Number(user.user_id) === Number(member.user.user_id) ? 'selected' : ''}>
                                                                             ${user.nama} (${user.username})
                                                                         </option>
                                                                     `).join('')}
                                                                                                                     </select>
-                                                                                                                    <input type="date" class="form-control mt-2" 
-                                                                                                                        name="roles[${index}][team_members][${memberIndex}][assigned_date]" 
+                                                                                                                    <input type="date" class="form-control mt-2"
+                                                                                                                        name="roles[${index}][team_members][${memberIndex}][assigned_date]"
                                                                                                                         value="${new Date(member.assigned_date).toISOString().split('T')[0]}" required>
                                                                                                                 </div>
                                                                                                                 <button type="button" class="btn btn-danger btn-sm edit-mode" onclick="removeTeamMember('${member.id || ''}', this)">
@@ -579,7 +579,7 @@
                                                                                                                 </button>
                                                                                                             </div>
                                                                                                         </div>
-                                                                                                    `).join('') 
+                                                                                                    `).join('')
                                     : ''
                                 }
                             </div>
@@ -619,10 +619,10 @@
                     <td>${stats.pending}</td>
                     <td>
                         <div class="progress">
-                            <div class="progress-bar" role="progressbar" 
-                                style="width: ${stats.completion_percentage}%;" 
-                                aria-valuenow="${stats.completion_percentage}" 
-                                aria-valuemin="0" 
+                            <div class="progress-bar" role="progressbar"
+                                style="width: ${stats.completion_percentage}%;"
+                                aria-valuenow="${stats.completion_percentage}"
+                                aria-valuemin="0"
                                 aria-valuemax="100">
                                 ${stats.completion_percentage}%
                             </div>
@@ -630,10 +630,10 @@
                     </td>
                     <td>
                         <div class="progress">
-                            <div class="progress-bar bg-info" role="progressbar" 
-                                style="width: ${stats.workload_percentage}%;" 
-                                aria-valuenow="${stats.workload_percentage}" 
-                                aria-valuemin="0" 
+                            <div class="progress-bar bg-info" role="progressbar"
+                                style="width: ${stats.workload_percentage}%;"
+                                aria-valuenow="${stats.workload_percentage}"
+                                aria-valuemin="0"
                                 aria-valuemax="100">
                                 ${stats.workload_percentage}%
                             </div>

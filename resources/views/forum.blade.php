@@ -84,7 +84,7 @@
         document.addEventListener("DOMContentLoaded", () => {
             getDokterPerawat();
         });
-        const apiUrl = '{{ config('app.api_url') }}';
+    const apiUrl = window.apiUrl || '{{ config('app.api_url') }}';
         const accessToken = '{{session('token')}}';
         const userId = storedUserData.id
         const role = storedUserData.role
@@ -143,7 +143,7 @@
                 .then(response => {
                     const result = response.data;
                     if (result.success) {
-                        dokters = result.data.filter(user => user.rumah_sakit === '{{ session('rumah_sakit') }}') 
+                        dokters = result.data.filter(user => user.rumah_sakit === '{{ session('rumah_sakit') }}')
                         dokters = dokters.filter(user => user.role === 'Dokter' || user.role === 'Per-clinic' ||
                             user.role === 'Per-home').map(dokter => ({
                             id: dokter.user_id,

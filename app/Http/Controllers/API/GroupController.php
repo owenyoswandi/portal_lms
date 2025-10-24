@@ -280,14 +280,14 @@ class GroupController extends Controller
                 
                 if ($request->hasFile('group_logo')) {
                     if ($group->group_logo) {
-                        $oldPath = str_replace('storage/', 'public/', $group->group_logo);
+                        $oldPath = str_replace('storage/', '', $group->group_logo);
                         Storage::delete($oldPath);
                     }
                     
                     // Store new file
                     $file = $request->file('group_logo');
                     $fileName = time() . '_' . $file->getClientOriginalName();
-                    $file->storeAs('public/group_logos', $fileName);
+                    $file->storeAs('group_logos', $fileName);
                     
                     $updateData['group_logo'] = 'storage/group_logos/' . $fileName;
                 }
@@ -351,7 +351,7 @@ class GroupController extends Controller
                 
                 // Delete logo file if exists
                 if ($group->group_logo) {
-                    $filePath = str_replace('storage/', 'public/', $group->group_logo);
+                    $filePath = str_replace('storage/', '', $group->group_logo);
                     Storage::delete($filePath);
                 }
                 

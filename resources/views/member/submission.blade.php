@@ -81,7 +81,7 @@
                     </div>
 
                     <input type="file" id="fileInput" multiple class="d-none">
-                    
+
                     <input type="hidden" name="sm_creadate" id="sm_creadate">
 
                     <div class="mt-3">
@@ -93,14 +93,14 @@
 
         </div>
 
-      </div>	  
+      </div>
     </section>
-@endsection 
+@endsection
 
 	<!-- silahkan isi dengan java script -->
 	<script>
-        const apiUrl = '{{ config('app.api_url') }}';
-        const url = '{{ config('app.app_url') }}'
+    const apiUrl = window.apiUrl || '{{ config('app.api_url') }}';
+        const url    = "{{ rtrim(url('/'), '/') }}";
         const accessToken = '{{ session('token') }}';
         const accessMember = '{{ session('usermember') }}';
         const userId = '{{ session('userid') }}';
@@ -108,7 +108,7 @@
         const courseId = @json($p_id);
         const stId = @json($st_id);
 
-        // let filesToUpload = []; 
+        // let filesToUpload = [];
         let fileToUpload = null;
 
 		window.onload = function() {
@@ -186,11 +186,11 @@
         }
 
         function displaySubtopic(subtopic){
-            document.getElementById('subtopic_title').innerHTML= subtopic.st_name; 
+            document.getElementById('subtopic_title').innerHTML= subtopic.st_name;
             document.getElementById('subtopic_title2').innerHTML= subtopic.st_name;
             getDataTopic(subtopic.st_t_id);
         }
-        
+
         function getDataTopic(id) {
             axios.get(apiUrl + `/topic/${id}`, {
                     headers: {
@@ -244,7 +244,7 @@
             function displayFiles(files) {
                 // Hide instruction text if there are files
                 instructionText.style.display = "none";
-                
+
                 // Array.from(files).forEach((file) => {
                     // Periksa apakah file sudah ada dalam array
                     // if (!filesToUpload.some(existingFile => existingFile.name === file.name)) {
@@ -280,7 +280,7 @@
                         dropArea.appendChild(filePreview);
                     // }
                 // });
-                
+
                 // Observe the drop area for changes (when files are added or removed)
                 const observer = new MutationObserver(checkDropArea);
                 observer.observe(dropArea, {
@@ -295,12 +295,12 @@
                     instructionText.style.display = "block";  // Show instruction text if no files
                 }
             }
-            
+
         });
 
-        
 
-        
+
+
 
         function addSubmission() {
             // const creadate = new Date().toISOString().split('T')[0];

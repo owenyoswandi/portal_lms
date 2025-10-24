@@ -33,7 +33,7 @@
                                 <label for="profileImage" class="col-md-4 col-lg-3 col-form-label">Profile
                                     Image</label>
                                 <div class="col-md-8 col-lg-9">
-                                    <img src="{{ asset('public/assets/img/profile-img.jpg') }}" alt="Profile">
+                                    <img src="{{ asset('assets/img/profile-img.jpg') }}" alt="Profile">
                                     <div class="button-wrapper my-4">
                                         <label for="upload" class="btn btn-primary me-2 mb-3" tabindex="0">
                                             <span class="d-none d-sm-block">Upload new photo</span>
@@ -155,12 +155,12 @@
                             </div>
                         </div>
 
-                        
 
-						
+
+
                         <div class="row mb-3">
                             <label for="Address" class="col-md-4 col-lg-3 col-form-label">Address</label>
-                            <div class="col-md-8 col-lg-9">
+                             						                       <div class="col-md-8 col-lg-9">
                                 <textarea name="alamat" type="text" class="form-control profileAddress" id="Address"></textarea>
                             </div>
                         </div>
@@ -216,7 +216,7 @@
             getData();
         });
 
-        const apiUrl = '{{ config('app.api_url') }}';
+    const apiUrl = window.apiUrl || '{{ config('app.api_url') }}';
         const url = '{{ config('app.app_url') }}'
         const accessToken = '{{session('token')}}';
         const userId = storedUserData.id
@@ -334,7 +334,7 @@
         }
 
         function getwilayah() {
-            const provinceData = url + '/public/assets/js/provinces.json'
+            const provinceData = url + '/assets/js/provinces.json'
             axios.get(provinceData)
                 .then(response => {
                     const provinces = response.data;
@@ -376,7 +376,7 @@
         }
 
         async function fetchRegencies(provinceId) {
-            const kabData = url + '/public/assets/js/kabupatens.json'
+            const kabData = url + '/assets/js/kabupatens.json'
             await axios.get(kabData)
                 .then(response => {
                     const regencies = response.data.filter(d => d.provcode == provinceId);
@@ -392,7 +392,7 @@
         };
 
         async function fetchKecamatan(kabId) {
-            const kecamatanData = url + '/public/assets/js/kecamatans.json'
+            const kecamatanData = url + '/assets/js/kecamatans.json'
             await axios.get(kecamatanData)
                 .then(response => {
                     const regencies = response.data.filter(d => d.kabcode == kabId);
@@ -408,7 +408,7 @@
         };
 
         async function fetchKelurahan(kecId){
-            const kelurahanData = url + `/public/assets/js/output_${kecId}.json`
+            const kelurahanData = url + `/assets/js/output_${kecId}.json`
             await axios.get(kelurahanData)
                 .then(response => {
                     const regencies = response.data.filter(d => d.keccode == kecId);

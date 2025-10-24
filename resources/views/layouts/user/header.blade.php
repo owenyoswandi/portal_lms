@@ -23,7 +23,7 @@
                 <span class="app-brand-logo demo">
                     <?php //@include('_partials.macros', ['height' => 36, 'width' => 48])
                     ?>
-                    <img src="{{ asset('/public/assets/img/binus-university-logo.png') }}" width="100%">
+                    <img src="{{ asset('/assets/img/binus-university-logo.png') }}" width="100%">
                 </span>
                 <span class="d-none d-lg-block" style="color: black"> {{ config('variables.appName1') }} </span>
 
@@ -73,7 +73,7 @@
 
                     <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#"
                         data-bs-toggle="dropdown">
-                        <img src="{{ asset('public/assets/img/user.png') }}" alt="Profile" class="rounded-circle">
+                        <img src="{{ asset('assets/img/user.png') }}" alt="Profile" class="rounded-circle">
                         <span class="d-none d-md-block dropdown-toggle ps-2 displayUserName"></span>
                     </a><!-- End Profile Iamge Icon -->
 

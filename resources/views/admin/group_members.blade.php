@@ -32,16 +32,16 @@
                 </div>
             </div>
             <div class="col-lg-12">
-				
+
                 <div class="card">
-					
+
                     <div class="card-body" style="overflow-x:auto">
 						<br>
 						<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#selectUserModal">
 							Assign User
 						</button>
 						<br>
-					
+
                         <h5 class="card-title" id="group_title2"></h5>
                         <!-- Table with stripped rows -->
                         <table class="table" id="userDataTable">
@@ -65,7 +65,7 @@
             </div>
         </div>
     </section>
-	
+
 		<!-- Select User -->
         <div class="modal fade" id="selectUserModal" tabindex="-1" aria-labelledby="selectUserModal"
             aria-hidden="true">
@@ -89,7 +89,7 @@
 							</select>
 						</form>
 
-						
+
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
@@ -101,11 +101,11 @@
 @endsection
 
 <script>
-    const apiUrl = '{{ config('app.api_url') }}';
-    const url = '{{ config('app.app_url') }}'
+    const apiUrl = window.apiUrl || '{{ config('app.api_url') }}';
+    const url    = "{{ rtrim(url('/'), '/') }}";
     const accessToken = '{{ session('token') }}';
 
-    const groupId = @json($group_id); 
+    const groupId = @json($group_id);
 
     let dataTable;
     let selectedCourses = [];
@@ -209,7 +209,7 @@
         });
         const table = new simpleDatatables.DataTable('#userDataTable');
     }
-	
+
 	function assignUser() {
 		const form = document.getElementById('assignForm');
 		const formData = new FormData(form);
@@ -226,7 +226,7 @@
 		})
 		.then(res => console.log(res.data))
 		.catch(err => console.error(err));
-		
+
 		$('#selectUserModal').modal('hide');
 		getData(groupId);
 

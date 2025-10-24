@@ -17,7 +17,7 @@
       <div class="row">
         <div class="col-lg-12">
           <div id="course">
-            
+
           </div>
         </div>
         <div class="col-lg-12">
@@ -25,7 +25,7 @@
             <div class="card-body">
               <h5 class="card-title" id="title"></h5>
               <!-- <p>Berikut merupakan data News.</p> -->
-			  
+
 			        <!-- Table with stripped rows -->
               <table class="table " id='mytable'>
                 <thead>
@@ -46,13 +46,13 @@
 
         </div>
 
-      </div>	  
+      </div>
     </section>
-@endsection 
+@endsection
 
 	<!-- silahkan isi dengan java script -->
 	<script>
-    const apiUrl = '{{ config('app.api_url') }}';
+  const apiUrl = window.apiUrl || '{{ config('app.api_url') }}';
 		const accessToken = '{{ session('token') }}';
     const accessMember = '{{ session('usermember') }}';
     const userId = '{{ session('userid') }}';
@@ -101,11 +101,11 @@
 					console.error('Error:', error);
 				});
 		}
-		
+
 		function updateTable(userData) {
 			const tableBody = document.querySelector('.table tbody');
 			tableBody.innerHTML = '';
-            
+
 			userData.forEach((data, index) => {
                 var tbl = ''
 				const row = document.createElement('tr');
@@ -126,7 +126,7 @@
 			});
 			const dataTable = new simpleDatatables.DataTable('#mytable');
 		}
-		
+
 		function getById(Id) {
             axios.get(apiUrl + `/order/${Id}`, {
 					headers: {
@@ -146,5 +146,5 @@
                     console.error('Error:', error);
                 });
         }
-    
+
 	</script>

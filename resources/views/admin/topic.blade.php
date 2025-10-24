@@ -84,10 +84,10 @@
             getData(courseId);
         });
 
-        const apiUrl = '{{ config('app.api_url') }}';
-        const url = '{{ config('app.app_url') }}'
+    const apiUrl = window.apiUrl || '{{ config('app.api_url') }}';
+        const url    = "{{ rtrim(url('/'), '/') }}";
         const accessToken = '{{ session('token') }}';
-        
+
         function getCourseById(id) {
             axios.get(apiUrl + `/product/${id}`, {
                     headers: {
@@ -280,7 +280,7 @@
 
         function deleteTopic() {
             const topicId = document.getElementById('topicIdToDelete').value;
-            
+
             // delete all subtopic too
             getSubtopic(topicId);
 

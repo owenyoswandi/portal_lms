@@ -77,8 +77,8 @@
         document.addEventListener("DOMContentLoaded", () => {
             getData();
         });
-        const apiUrl = '{{ config('app.api_url') }}';
-        const url = '{{ config('app.app_url') }}'
+    const apiUrl = window.apiUrl || '{{ config('app.api_url') }}';
+        const url    = "{{ rtrim(url('/'), '/') }}";
         const accessToken = '{{ session('token') }}';
 
         function getData() {
@@ -126,7 +126,7 @@
 					<td>
 						<div class="d-flex gap-2 flex-column">
 							<a href='${url}/member/project/${d.project_id}' class="btn btn-warning btn-sm">View</a>
-							<button class="btn btn-danger btn-sm" onclick="deleteProjectConfirmation('${d.project_id}', '${d.project_name}')">Hapus</button>    
+							<button class="btn btn-danger btn-sm" onclick="deleteProjectConfirmation('${d.project_id}', '${d.project_name}')">Hapus</button>
 						</div>
 					</td>
 				`;
@@ -134,14 +134,14 @@
             });
             const dataTable = new simpleDatatables.DataTable('#userDataTable');
         }
-		
+
 		// Fungsi untuk memformat tanggal menjadi dd-MM-yyyy
 		function formatDate(dateString) {
 			const date = new Date(dateString);
 			const day = date.getDate().toString().padStart(2, '0');  // Menambahkan 0 di depan jika hari < 10
 			const month = (date.getMonth() + 1).toString().padStart(2, '0');  // Bulan dimulai dari 0, jadi perlu ditambah 1
 			const year = date.getFullYear();
-			
+
 			return `${day}-${month}-${year}`;
 		}
 

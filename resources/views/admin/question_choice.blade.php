@@ -50,7 +50,7 @@
                 </div>
 
             </div>
-			
+
 			<div class="d-flex justify-content-start my-3">
 				<a href="{{ url('/admin/question') }}" class="btn btn-primary">Back</a>
 			</div>
@@ -83,8 +83,8 @@
         document.addEventListener("DOMContentLoaded", () => {
             getData();
         });
-        const apiUrl = '{{ config('app.api_url') }}';
-        const url = '{{ config('app.app_url') }}'
+    const apiUrl = window.apiUrl || '{{ config('app.api_url') }}';
+        const url    = "{{ rtrim(url('/'), '/') }}";
         const accessToken = '{{ session('token') }}';
 
         function getData() {
@@ -133,7 +133,7 @@
             populateEditForm(formData);
             editModal.show();
         }
-		
+
 		function populateEditForm(formData) {
 			document.getElementById('pilihan_id').value = formData[0].pilihan_id;
 			document.getElementById('edit_pertanyaan_id').value = formData[0].pertanyaan_id;
@@ -196,7 +196,7 @@
         }
 
         function addOption() {
-			
+
             const form = document.getElementById('addOptionForm');
 
             const formData = new FormData(form);

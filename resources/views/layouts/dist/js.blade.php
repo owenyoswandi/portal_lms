@@ -1,20 +1,20 @@
 <!-- Vendor JS Files -->
-<script src="{{ asset('public/assets/vendor/apexcharts/apexcharts.min.js') }}"></script>
-<script src="{{ asset('public/assets/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
-<script src="{{ asset('public/assets/vendor/chart.js/chart.min.js') }}"></script>
-<script src="{{ asset('public/assets/vendor/echarts/echarts.min.js') }}"></script>
-<script src="{{ asset('public/assets/vendor/quill/quill.min.js') }}"></script>
-<script src="{{ asset('public/assets/vendor/simple-datatables/simple-datatables.js') }}"></script>
-<script src="{{ asset('public/assets/vendor/tinymce/tinymce.min.js') }}"></script>
-<script src="{{ asset('public/assets/vendor/php-email-form/validate.js') }}"></script>
-<script src="{{ asset('public/js/dselect.js') }}"></script>
-<script src="{{ asset('public/js/moment.js') }}"></script>
+<script src="{{ asset('assets/vendor/apexcharts/apexcharts.min.js') }}"></script>
+<script src="{{ asset('assets/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+<script src="{{ asset('assets/vendor/chart.js/chart.min.js') }}"></script>
+<script src="{{ asset('assets/vendor/echarts/echarts.min.js') }}"></script>
+<script src="{{ asset('assets/vendor/quill/quill.min.js') }}"></script>
+<script src="{{ asset('assets/vendor/simple-datatables/simple-datatables.js') }}"></script>
+<script src="{{ asset('assets/vendor/tinymce/tinymce.min.js') }}"></script>
+<script src="{{ asset('assets/vendor/php-email-form/validate.js') }}"></script>
+<script src="{{ asset('js/dselect.js') }}"></script>
+<script src="{{ asset('js/moment.js') }}"></script>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.14.0-beta3/dist/js/bootstrap-select.min.js"></script>
 
 <!-- Template Main JS File -->
-<script src="{{ asset('public/assets/js/main.js') }}"></script>
-<script src="{{ asset('/public/assets/js/pagination.js') }}"></script>
+<script src="{{ asset('assets/js/main.js') }}"></script>
+<script src="{{ asset('/assets/js/pagination.js') }}"></script>
 
 <!-- Export -->
 <script src="https://cdn.datatables.net/2.0.8/js/dataTables.js"></script>

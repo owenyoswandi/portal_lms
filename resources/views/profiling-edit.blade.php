@@ -124,7 +124,7 @@
                                 </select>
                             </div>
                         </div>
-						
+
                         <div class="row mb-3">
                             <label for="Address" class="col-md-4 col-lg-3 col-form-label">Address</label>
                             <div class="col-md-8 col-lg-9">
@@ -178,7 +178,7 @@
 					<div class="row mb-3">
 						<h3>Education Profile</h3>
 					</div>
-					
+
 					<div class="row mb-3">
 						<label for="jenjang_pendidikan" class="col-md-4 col-lg-3 col-form-label">Educational level</label>
 						<div class="col-md-8 col-lg-9">
@@ -220,11 +220,11 @@
 							<input name="bidang_studi" type="text" class="form-control profiling6" id="bidang_studi" placeholder="Example: Information System"  value="<?= $profiling['bidang_studi'] ?>">
 						</div>
 					</div>
-					
+
 					<div class="row mb-3">
 						<h3>Job Profile</h3>
 					</div>
-					
+
 					<div class="row mb-3">
 						<label for="nama_perusahaan" class="col-md-4 col-lg-3 col-form-label">Company name</label>
 						<div class="col-md-8 col-lg-9">
@@ -259,11 +259,11 @@
 							<input name="tanggung_jawab" type="text" class="form-control profiling11" id="tanggung_jawab" placeholder="Example: building an information system"  value="<?= $profiling['tanggung_jawab'] ?>">
 						</div>
 					</div>
-					
+
 					<div class="row mb-3">
 						<h3>Social Media Profile</h3>
 					</div>
-					
+
 					<div class="row mb-3">
 						<label for="linkedin" class="col-md-4 col-lg-3 col-form-label">LinkedIn</label>
 						<div class="col-md-8 col-lg-9">
@@ -298,7 +298,7 @@
 							<input name="github" type="text" class="form-control profiling16" id="github"  placeholder="Example: https://"  value="<?= $profiling['github'] ?>">
 						</div>
 					</div>
-					
+
 					<div class="row mb-3">
 						<h3>Certification Profile</h3>
 					</div>
@@ -325,7 +325,7 @@
 					</div>
 
 				</form>
-				
+
                 <div class="text-center">
                     <button type="button" onclick="editProfiling()" class="btn btn-primary">Save</button>
                 </div>
@@ -337,7 +337,7 @@
             getData();
             getwilayah();
         });
-        const apiUrl = '{{ config('app.api_url') }}';
+    const apiUrl = window.apiUrl || '{{ config('app.api_url') }}';
         const url = '{{ config('app.app_url') }}'
         const accessToken = '{{session('token')}}';
         const userId = storedUserData.id
@@ -450,7 +450,7 @@
                     console.error('Error:', error);
                 });
         }
-		
+
 		function editProfiling() {
             const form = document.getElementById('editProfiling');
             const formData = new FormData(form);
@@ -482,7 +482,7 @@
         }
 
         function getwilayah() {
-            const provinceData = url + '/public/assets/js/provinces.json'
+            const provinceData = url + '/assets/js/provinces.json'
             axios.get(provinceData)
                 .then(response => {
                     const provinces = response.data;
@@ -524,7 +524,7 @@
         }
 
         async function fetchRegencies(provinceId) {
-            const kabData = url + '/public/assets/js/kabupatens.json'
+            const kabData = url + '/assets/js/kabupatens.json'
             await axios.get(kabData)
                 .then(response => {
                     const regencies = response.data.filter(d => d.provcode == provinceId);
@@ -540,7 +540,7 @@
         };
 
         async function fetchKecamatan(kabId) {
-            const kecamatanData = url + '/public/assets/js/kecamatans.json'
+            const kecamatanData = url + '/assets/js/kecamatans.json'
             await axios.get(kecamatanData)
                 .then(response => {
                     const regencies = response.data.filter(d => d.kabcode == kabId);
@@ -556,7 +556,7 @@
         };
 
         async function fetchKelurahan(kecId){
-            const kelurahanData = url + `/public/assets/js/output_${kecId}.json`
+            const kelurahanData = url + `/assets/js/output_${kecId}.json`
             await axios.get(kelurahanData)
                 .then(response => {
                     const regencies = response.data.filter(d => d.keccode == kecId);

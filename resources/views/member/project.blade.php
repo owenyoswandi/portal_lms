@@ -62,7 +62,7 @@
 
 @section('java_script')
     <script>
-        const apiUrl = '{{ config('app.api_url') }}';
+    const apiUrl = window.apiUrl || '{{ config('app.api_url') }}';
         const accessToken = '{{ session('token') }}';
         const userId = '{{ session('userid') }}';
 

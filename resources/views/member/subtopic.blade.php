@@ -139,8 +139,8 @@
 
 <!-- silahkan isi dengan java script -->
 <script>
-    const apiUrl = '{{ config('app.api_url') }}';
-    const url = '{{ config('app.app_url') }}'
+    const apiUrl = window.apiUrl || '{{ config('app.api_url') }}';
+    const url    = "{{ rtrim(url('/'), '/') }}";
     const accessToken = '{{ session('token') }}';
     const accessMember = '{{ session('usermember') }}';
     const userId = '{{ session('userid') }}';
@@ -428,7 +428,7 @@
         } else if(type== 'Feedback'){
             document.getElementById('feedback-card').style.display = 'block';
             getFeedBackByCourseId(subtopic.st_id, userId);
-            
+
         }else {
             body.innerHTML += `
 			<object data="{{ url('public') }}/${subtopic.st_file}#toolbar=0" type="application/pdf" width="100%" height="600px">

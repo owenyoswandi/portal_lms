@@ -161,7 +161,7 @@ class MemberController extends Controller
 		$img_template = "sample_template.png";//$img_template_data[0];
 		
 		
-		$pdf->Image('public/assets/img/template_certificate/'.$img_template,5,5,800,540);  //(kiri,atas,panjang,tinggi)
+		$pdf->Image('assets/img/template_certificate/'.$img_template,5,5,800,540);  //(kiri,atas,panjang,tinggi)
 		
 		$no_sertifikat = $course_id."-".$subtopic_id."-".session('userid'); // course_id-sub_topic-user_id
 		$sert_id = $no_sertifikat;

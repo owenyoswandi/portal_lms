@@ -367,9 +367,9 @@ class SubtopicController extends Controller
                         // Store new file
                         $file = $request->file('st_file');
                         $fileName = time() . '_' . $file->getClientOriginalName();
-                        $file->storeAs('public/'.$type, $fileName);
+                        $file->storeAs(''.$type, $fileName);
 
-                        $fileName = 'public/'. $type . '/' . $fileName;
+                        $fileName = ''. $type . '/' . $fileName;
                     } else {
                         $fileName = $subtopic->st_file_else;
                     }

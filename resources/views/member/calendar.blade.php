@@ -11,7 +11,7 @@
                 <li class="breadcrumb-item">View Project</li>
             </ol>
         </nav>
-        
+
     </div><!-- End Page Title -->
 
     <section class="section">
@@ -30,14 +30,14 @@
 
 @section('java_script')
     <script>
-        const apiUrl = '{{ config('app.api_url') }}';
+    const apiUrl = window.apiUrl || '{{ config('app.api_url') }}';
         const accessToken = '{{ session('token') }}';
         const userId = '{{ session('userid') }}';
 
         document.addEventListener("DOMContentLoaded", () => {
            fetchCalendarData();
         });
-        
+
 
         function fetchCalendarData() {
             var calendar = new FullCalendar.Calendar(document.getElementById('calendar'), {
@@ -45,7 +45,7 @@
                 events: function(info, successCallback, failureCallback) {
                     axios.get(apiUrl + `/project-by-user/${userId}`, {
                         headers: {
-                            'Authorization': `Bearer ${accessToken}` 
+                            'Authorization': `Bearer ${accessToken}`
                         }
                     })
                     .then(function(response) {
@@ -67,10 +67,10 @@
             });
 
             calendar.render();
-            
-            
+
+
         }
 
-        
+
     </script>
 @endsection

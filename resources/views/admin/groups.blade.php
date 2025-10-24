@@ -89,8 +89,8 @@
         document.addEventListener("DOMContentLoaded", () => {
             getData();
         });
-        const apiUrl = '{{ config('app.api_url') }}';
-        const url = '{{ config('app.app_url') }}'
+    const apiUrl = window.apiUrl || '{{ config('app.api_url') }}';
+        const url    = "{{ rtrim(url('/'), '/') }}";
         const accessToken = '{{ session('token') }}';
 
         function getData() {
@@ -125,7 +125,7 @@
                 <td>${d.group_email}</td>
                 <td>${d.group_alamat}</td>
                 <td>${d.group_phone}</td>
-                <td><img src="${url}/public/${d.group_logo}" alt="Group Logo" class="img-thumbnail" style="max-height: 50px;"></td>
+                <td><img src="${url}/${d.group_logo}" alt="Group Logo" class="img-thumbnail" style="max-height: 50px;"></td>
                 <td>${d.accesses_count}</td>
                 <td>${d.members_count}</td>
                  <td>
@@ -156,7 +156,7 @@
 
             const logoPreviewImg = document.querySelector('#editLogoPreview img');
             if (groupData.group_logo) {
-                logoPreviewImg.src = `${url}/public/${groupData.group_logo}`;
+                logoPreviewImg.src = `${url}/${groupData.group_logo}`;
                 document.querySelector('#editLogoPreview').classList.remove('d-none');
             }
         }

@@ -128,14 +128,14 @@
         document.addEventListener("DOMContentLoaded", () => {
             getwilayah();
         });
-        const url = '{{ config('app.app_url') }}'
+        const url    = "{{ rtrim(url('/'), '/') }}";
         const regenciesDropdown = document.getElementById('kabupaten');
         const provincesDropdown = document.getElementById('provinsi');
         const kecDropdown = document.getElementById('kecamatan');
         const kelDropdown = document.getElementById('kelurahan');
 
         function getwilayah() {
-            const provinceData = url + '/public/assets/js/provinces.json'
+            const provinceData = url + '/assets/js/provinces.json'
             axios.get(provinceData)
                 .then(response => {
                     const provinces = response.data;
@@ -177,7 +177,7 @@
         }
 
         async function fetchRegencies(provinceId) {
-            const kabData = url + '/public/assets/js/kabupatens.json'
+            const kabData = url + '/assets/js/kabupatens.json'
             await axios.get(kabData)
                 .then(response => {
                     const regencies = response.data.filter(d => d.provcode == provinceId);
@@ -193,7 +193,7 @@
         };
 
         async function fetchKecamatan(kabId) {
-            const kecamatanData = url + '/public/assets/js/kecamatans.json'
+            const kecamatanData = url + '/assets/js/kecamatans.json'
             await axios.get(kecamatanData)
                 .then(response => {
                     const regencies = response.data.filter(d => d.kabcode == kabId);
@@ -209,7 +209,7 @@
         };
 
         async function fetchKelurahan(kecId) {
-            const kelurahanData = url + `/public/assets/js/output_${kecId}.json`
+            const kelurahanData = url + `/assets/js/output_${kecId}.json`
             await axios.get(kelurahanData)
                 .then(response => {
                     const regencies = response.data.filter(d => d.keccode == kecId);

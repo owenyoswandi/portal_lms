@@ -47,23 +47,23 @@
       <div class="row">
         <div class="col-lg-12">
           <div class="row" id="course">
-            
+
           </div>
         </div>
         <div id="error">
-          
+
         </div>
         <div class="pagetitle">
           <h1>Other Course</h1>
         </div><!-- End Page Title -->
         <div class="col-lg-12">
           <div class="row" id="other_course">
-            
+
           </div>
 
         </div>
 
-      </div>	  
+      </div>
       <div class="modal fade" id="addOrder" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg">
           <div class="modal-content">
@@ -73,7 +73,7 @@
             </div>
             <div class="modal-body">
                 <form class="row g-3 needs-validation" id="addForm" enctype="multipart/form-data" novalidate>
-                @csrf             
+                @csrf
                   <div class="col-12">
                     <label for="p_judul" class="form-label">Title</label>
                     <input type="text" name="p_judul" class="form-control" id="p_judul" readonly>
@@ -95,7 +95,7 @@
                     <label for="p_judul" class="form-label">Modules</label>
                       <!-- Default Accordion -->
                     <div class="accordion" id="accordionExample">
-                      
+
                     </div><!-- End Default Accordion Example -->
                       <!--<div class="invalid-feedback">Please enter the username!</div>-->
                   </div>
@@ -109,13 +109,13 @@
         </div>
       </div>
     </section>
-@endsection 
+@endsection
 
 @section('java_script')
 	<!-- silahkan isi dengan java script -->
 	<script>
-    const apiUrl = '{{ config('app.api_url') }}';
-    const url = '{{ config('app.app_url') }}'
+  const apiUrl = window.apiUrl || '{{ config('app.api_url') }}';
+    const url    = "{{ rtrim(url('/'), '/') }}";
 		const accessToken = '{{ session('token') }}';
     const userId = '{{ session('userid') }}';
 
@@ -168,19 +168,19 @@
 
     function getCourse(userData) {
       var card = '';
-			userData.forEach((data, index) => {	      
+			userData.forEach((data, index) => {
         axios.get(apiUrl + `/transaction-course-byuserid/${data.user_id}` , {
           headers: {
             'Authorization': `Bearer ${accessToken}`
           }
         })
         .then(response => {
-          var card = ''; 
+          var card = '';
           let html = document.getElementById("course").innerHTML;
           card += `<div class="col-sm-3">
                     <div class="card">`;
           if(data.p_img!=null&&data.p_img!=""){
-            let link_img = url + `public/${data.p_img}`;
+            let link_img = url + `${data.p_img}`;
             console.log(url);
             card += `<img src="${link_img}" class="card-img-top" alt="...">`;
           }
@@ -224,7 +224,7 @@
               </div>
             `;
           }
-          
+
         card += `
                 </div>
               </div>`;
@@ -255,7 +255,7 @@
 					console.error('Error:', error);
 				});
     }
-    
+
     // card += ` <a href="${data.link}?token=${accessToken}" target="_blank" class="btn btn-sm btn-primary"><i class="bi bi-box-arrow-right"></i> Masuk EMS</a>`;
 
     function dataOtherCourse(userData) {
@@ -271,7 +271,7 @@
 
           if (data.p_img != null && data.p_img !== "") {
             // Replace base path as needed if not using Laravel Blade here
-            const imgSrc = url + `public/${data.p_img}`;
+            const imgSrc = url + `${data.p_img}`;
             card += `<img src="${imgSrc}" class="card-img-top" alt="...">`;
           }
 
@@ -322,10 +322,10 @@
       document.getElementById('p_harga_view').value = "IDR "+text;
       document.getElementById('p_harga').value = harga;
       document.getElementById('p_deskripsi').value = data.data.p_deskripsi;
-      
+
 	  /*
 	  const modul = data[0].modules;
-	  
+
       var accordion ='';
       modul.forEach((mdl, index) => {
         accordion += `<div class="accordion-item">
@@ -351,12 +351,12 @@
       const form = document.getElementById('addForm');
       const formData = new FormData(form);
 
-      var currentdate = new Date(); 
+      var currentdate = new Date();
 			var datetime = currentdate.getFullYear() + "-"
-                + (currentdate.getMonth()+1)  + "-" 
-                + currentdate.getDate() + " "  
-                + currentdate.getHours() + ":"  
-                + currentdate.getMinutes() + ":" 
+                + (currentdate.getMonth()+1)  + "-"
+                + currentdate.getDate() + " "
+                + currentdate.getHours() + ":"
+                + currentdate.getMinutes() + ":"
                 + currentdate.getSeconds();
 
       const userData = {};
@@ -410,9 +410,9 @@
               var myModalEl = document.getElementById('addOrder');
               var modal = bootstrap.Modal.getInstance(myModalEl)
               modal.hide();
-              
+
 			  location.reload();
-			  
+
 			  //getByUserID();
               //fetchDataOther();
               //getBalance();
@@ -433,4 +433,4 @@
       });
     }
 	</script>
-@endsection 
+@endsection

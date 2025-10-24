@@ -300,7 +300,7 @@ class CourseController extends Controller
                 if ($request->hasFile('p_img')) {
                     if ($course->p_img) {
                         unlink(public_path($course->p_img));
-                        // $oldPath = str_replace('storage/', 'public/', $course->p_img);
+                        // $oldPath = str_replace('storage/', '', $course->p_img);
                         // Storage::delete($oldPath);
                     }
                     
@@ -371,7 +371,7 @@ class CourseController extends Controller
                 
                 // Delete logo file if exists
                 if ($course->p_img) {
-                    $filePath = str_replace('storage/', 'public/', $course->p_img);
+                    $filePath = str_replace('storage/', '', $course->p_img);
                     Storage::delete($filePath);
                 }
                 

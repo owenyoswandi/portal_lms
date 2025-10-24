@@ -20,7 +20,7 @@
             <div class="card-body">
               <h5 class="card-title">Order Course</h5>
               <!-- <p>Berikut merupakan data Order Course.</p> -->
-			  
+
 			  <!-- Table with stripped rows -->
               <table class="table " id='mytable'>
                 <thead>
@@ -43,10 +43,10 @@
 
         </div>
 
-      </div>	  
-      
+      </div>
+
     </section>
-@endsection 
+@endsection
 
 @section('java_script')
 	<!-- silahkan isi dengan java script -->
@@ -54,7 +54,7 @@
 		window.onload = function() {
 			getData();
 		};
-		const apiUrl = '{{ config('app.api_url') }}';
+      const apiUrl = window.apiUrl || '{{ config('app.api_url') }}';
 		const accessToken = '{{ session('token') }}';
 
 		function getData() {
@@ -75,11 +75,11 @@
 					console.error('Error:', error);
 				});
 		}
-		
+
 		function updateTable(userData) {
 			const tableBody = document.querySelector('.table tbody');
 			tableBody.innerHTML = '';
-            
+
 			userData.forEach((data, index) => {
                 let text = Number(data.t_amount).toLocaleString();
                 var tbl = ''
@@ -100,7 +100,7 @@
 			});
 			const dataTable = new simpleDatatables.DataTable('#mytable');
 		}
-		
+
 		function getById(Id) {
             axios.get(apiUrl + `/order/${Id}`, {
 					headers: {
@@ -120,29 +120,29 @@
                     console.error('Error:', error);
                 });
         }
-		
+
 		function displayEditModal(userData) {
             const editModal = new bootstrap.Modal(document.getElementById('editOrderModal'));
             populateEditForm(userData);
             editModal.show();
         }
-		
+
 		function populateEditForm(userData) {
             document.getElementById('usermember_update').value = userData.usermember;
             document.getElementById('title_update').value = userData.title;
 			document.getElementById('id_update').value = userData.id;
         }
-		
+
 		function edit() {
             const form = document.getElementById('editForm');
             const formData = new FormData(form);
 
-            var currentdate = new Date(); 
+            var currentdate = new Date();
 			var datetime = currentdate.getFullYear() + "-"
-                + (currentdate.getMonth()+1)  + "-" 
-                + currentdate.getDate() + " "  
-                + currentdate.getHours() + ":"  
-                + currentdate.getMinutes() + ":" 
+                + (currentdate.getMonth()+1)  + "-"
+                + currentdate.getDate() + " "
+                + currentdate.getHours() + ":"
+                + currentdate.getMinutes() + ":"
                 + currentdate.getSeconds();
 
             const userData = {};
@@ -174,4 +174,4 @@
                 });
         }
 	</script>
-@endsection 
+@endsection

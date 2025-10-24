@@ -56,7 +56,7 @@
             getDataDetail();
         });
 
-        const apiUrl = '{{ config('app.api_url') }}';
+    const apiUrl = window.apiUrl || '{{ config('app.api_url') }}';
         const accessToken = '{{session('token')}}';
         const username = storedUserData.username;
         const userId = storedUserData.id

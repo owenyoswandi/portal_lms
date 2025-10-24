@@ -69,7 +69,7 @@
                             </tbody>
                         </table>
                         <button id="download-selected" class="btn btn-primary" onclick="addCourse()" disabled>Add Selected Courses</button> <!-- Tombol Download -->
-                        
+
                     </div>
                 </div>
 
@@ -100,11 +100,11 @@
 @endsection
 
 <script>
-    const apiUrl = '{{ config('app.api_url') }}';
-    const url = '{{ config('app.app_url') }}'
+    const apiUrl = window.apiUrl || '{{ config('app.api_url') }}';
+    const url    = "{{ rtrim(url('/'), '/') }}";
     const accessToken = '{{ session('token') }}';
 
-    const groupId = @json($group_id); 
+    const groupId = @json($group_id);
 
     let dataTable;
     let selectedCourses = [];
@@ -139,7 +139,7 @@
         $('#userDataTable2 tbody').on('change', '.select-participant', function() {
             updateSelectedCourses();
             var allChecked = $('.select-participant:checked').length === $('.select-participant').length;
-            $('#select-all').prop('checked', allChecked);  
+            $('#select-all').prop('checked', allChecked);
         });
     });
 
@@ -315,7 +315,7 @@
             const formData = new FormData();
             formData.append("productIds", JSON.stringify(selectedCourses));  // Ensure to stringify array
             formData.append("group_id", groupId);  // Ensure to stringify array
-            
+
             axios.post(apiUrl + '/group_access/create', formData, {
                 headers: {
                     'Authorization': `Bearer ${accessToken}`,

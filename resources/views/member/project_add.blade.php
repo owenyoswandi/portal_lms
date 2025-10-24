@@ -145,7 +145,7 @@
 
 @section('java_script')
     <script>
-        const apiUrl = '{{ config('app.api_url') }}';
+    const apiUrl = window.apiUrl || '{{ config('app.api_url') }}';
         const accessToken = '{{ session('token') }}';
         const userId = '{{ session('userid') }}';
         let users = []; // To store the list of users
@@ -280,19 +280,19 @@
                 <div class="mb-3">
                     <div class="form-check form-switch">
                         <input type="hidden" name="roles[${roleCount}][add_activity_ability]" value="0">
-                        <input class="form-check-input" 
+                        <input class="form-check-input"
                             type="checkbox"
                             name="roles[${roleCount}][add_activity_ability]"
                             id="activityAbility${roleCount}"
                             value="1">
                         <label class="form-check-label" for="activityAbility${roleCount}">Activity Ability</label>
                     </div>
-                    
+
                 </div>
                 <div class="mb-3">
                 <div class="form-check form-switch">
                         <input type="hidden" name="roles[${roleCount}][mark_done_activity]" value="0">
-                        <input class="form-check-input" 
+                        <input class="form-check-input"
                             type="checkbox"
                             name="roles[${roleCount}][mark_done_activity]"
                             id="markDoneActivity${roleCount}"

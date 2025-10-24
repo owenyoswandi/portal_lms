@@ -10,8 +10,8 @@
     <meta content="" name="keywords">
 
     <!-- Favicons -->
-    <link href="{{ asset('public/assets/img/binus-university-logo.png') }}" rel="icon">
-    <link href="{{ asset('public/assets/img/binus-university-logo.png') }}" rel="apple-touch-icon">
+    <link href="{{ asset('assets/img/binus-university-logo.png') }}" rel="icon">
+    <link href="{{ asset('assets/img/binus-university-logo.png') }}" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
     <link href="https://fonts.gstatic.com" rel="preconnect">
@@ -25,13 +25,13 @@
         }
     </style>
     <!-- Vendor CSS Files -->
-    <link href="{{ asset('public/assets/vendor/bootstrap/css/bootstrap.css') }}" rel="stylesheet">
-    <link href="{{ asset('public/assets/vendor/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
-    <link href="{{ asset('public/assets/vendor/boxicons/css/boxicons.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('public/assets/vendor/quill/quill.snow.css') }}" rel="stylesheet">
-    <link href="{{ asset('public/assets/vendor/quill/quill.bubble.css') }}" rel="stylesheet">
-    <link href="{{ asset('public/assets/vendor/remixicon/remixicon.css') }}" rel="stylesheet">
-    <link href="{{ asset('public/assets/vendor/simple-datatables/style.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/vendor/bootstrap/css/bootstrap.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/vendor/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/vendor/boxicons/css/boxicons.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/vendor/quill/quill.snow.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/vendor/quill/quill.bubble.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/vendor/remixicon/remixicon.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/vendor/simple-datatables/style.css') }}" rel="stylesheet">
     <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.14.0-beta3/dist/css/bootstrap-select.min.css">
 
@@ -42,14 +42,14 @@
     </style>
 
     <!-- Template Main CSS File -->
-    <link href="{{ asset('public/assets/css/style.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-    <script src="{{ asset('public/js/axios.js') }}"></script>
+    <script src="{{ asset('js/axios.js') }}"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.anychart.com/releases/8.12.0/js/anychart-core.min.js" type="text/javascript"></script>
     <script src="https://cdn.anychart.com/releases/8.12.0/js/anychart-map.min.js" type="text/javascript"></script>
     <script src="https://cdn.anychart.com/geodata/2.2.0/countries/indonesia/indonesia.js"></script>
-    <script src="{{ asset('public/assets/js/blockUI.js') }}"></script>
+    <script src="{{ asset('assets/js/blockUI.js') }}"></script>
 
 
     <!-- =======================================================

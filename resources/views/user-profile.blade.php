@@ -19,7 +19,7 @@
                 <div class="card">
                     <div class="card-body profile-card pt-4 d-flex flex-column align-items-center">
 
-                        <img src="{{ asset('public/assets/img/user.png') }}" style="width:200px" alt="Profile" class="rounded-circle">
+                        <img src="{{ asset('assets/img/user.png') }}" style="width:200px" alt="Profile" class="rounded-circle">
                         <h2 class="profileFullName"></h2>
                     </div>
                 </div>
@@ -203,11 +203,11 @@
             // getDataDetail();
         });
 
-        const apiUrl = '{{ config('app.api_url') }}';
+    const apiUrl = window.apiUrl || '{{ config('app.api_url') }}';
         const accessToken = '{{session('token')}}';
         const username = storedUserData.username;
         const userId = storedUserData.id
-        const url = '{{ config('app.app_url') }}'
+        const url    = "{{ rtrim(url('/'), '/') }}";
 
         document.getElementById('usernameInput').value = username;
 
@@ -300,7 +300,7 @@
         }
 
         async function getNameByCode(type, code, provCode, kabCode, kecCode) {
-            const url = '{{ config('app.app_url') }}'
+            const url    = "{{ rtrim(url('/'), '/') }}";
             let dataEndpoint = ''
             if (type == 'provinsi') {
                 dataEndpoint = 'provinces.json'
@@ -312,7 +312,7 @@
                 dataEndpoint = 'kecamatans.json'
             }
 
-            const response = await axios.get(`${url}/public/assets/js/${dataEndpoint}`);
+            const response = await axios.get(`${url}/assets/js/${dataEndpoint}`);
             const data = response.data;
             console.log(data)
             let filteredData = ''

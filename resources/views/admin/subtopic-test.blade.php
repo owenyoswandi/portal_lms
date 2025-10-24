@@ -73,7 +73,7 @@
                             </tbody>
                         </table>
                         <button id="download-selected" class="btn btn-primary" onclick="addQuestion()" disabled>Add Selected Questions</button> <!-- Tombol Download -->
-                        
+
                     </div>
                 </div>
 
@@ -104,11 +104,11 @@
 @endsection
 
 <script>
-    const apiUrl = '{{ config('app.api_url') }}';
-    const url = '{{ config('app.app_url') }}'
+    const apiUrl = window.apiUrl || '{{ config('app.api_url') }}';
+    const url    = "{{ rtrim(url('/'), '/') }}";
     const accessToken = '{{ session('token') }}';
 
-    const courseId = @json($p_id); 
+    const courseId = @json($p_id);
     const topicId = @json($t_id);
     const subtopicId = @json($st_id);
 
@@ -148,7 +148,7 @@
             updateSelectedQuestions();
 
             var allChecked = $('.select-participant:checked').length === $('.select-participant').length;
-            $('#select-all').prop('checked', allChecked);  
+            $('#select-all').prop('checked', allChecked);
         });
     });
 
@@ -376,7 +376,7 @@
             const formData = new FormData();
             formData.append("pertanyaanIds", JSON.stringify(selectedQuestions));  // Ensure to stringify array
             formData.append("test_st_id", subtopicId);  // Ensure to stringify array
-            
+
             axios.post(apiUrl + '/subtopic_test/create', formData, {
                 headers: {
                     'Authorization': `Bearer ${accessToken}`,

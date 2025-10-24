@@ -1,9 +1,9 @@
 <!-- ======= Footer ======= -->
 <footer id="footer" class="footer">
     <div class="copyright">
-        &copy; Copyright <strong><span style="color: #dc3545">{{ config('variables.appName1') }}</span>              
+        &copy; Copyright <strong><span style="color: #dc3545">{{ config('variables.appName1') }}</span>
             <span>
-                <script>        
+                <script>
                     document.write(new Date().getFullYear())
                 </script>
             </span></strong>. All Rights Reserved
@@ -24,13 +24,17 @@
     displayUserNameElements.forEach(element => {
         element.innerText = userName;
     });
+    const userData = JSON.parse(localStorage.getItem('userData') || '{}');
 
-    const userData = JSON.parse(localStorage.getItem('userData'));
-    const apiurl = '{{ config('app.api_url') }}';
-    const accesstoken = userData.api_token;
-    const user_id = userData.id;
-    const user_role = userData.role;
+    // Expose API and user information on window to avoid duplicate `const` declarations
+    if (typeof window.apiUrl === 'undefined') {
+        window.apiUrl = '{{ config('app.api_url') }}';
+    }
 
+    window.accessToken = window.accessToken || userData.api_token || '{{ session('token') }}';
+    window.userId = window.userId || userData.id || '{{ session('userid') ?? '' }}';
+    window.userRole = window.userRole || userData.role || '{{ session('role') ?? '' }}';
+    window.rumah_sakit = window.rumah_sakit || '{{ session('rumah_sakit') ?? '' }}';
 
     function deleteLocalStorage() {
         const keyToDelete = 'userData';

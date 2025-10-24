@@ -80,8 +80,8 @@
         document.addEventListener("DOMContentLoaded", () => {
             getData();
         });
-        const apiUrl = '{{ config('app.api_url') }}';
-        const url = '{{ config('app.app_url') }}'
+    const apiUrl = window.apiUrl || '{{ config('app.api_url') }}';
+        const url    = "{{ rtrim(url('/'), '/') }}";
         const accessToken = '{{ session('token') }}';
 
         function getData() {
@@ -119,7 +119,7 @@
             <td>IDR ${Number(d.p_harga).toLocaleString()}</td>
             <td style='text-align: left'>${d.p_status == '0' ? '<span class="badge rounded-pill bg-danger">Hide</span>' : '<span class="badge rounded-pill bg-success">Show</span>'}</td>
             <td>
-                
+
                 <button class="btn btn-warning btn-sm" onclick="getCourseById('${d.p_id}')">Edit</button>
                 <button class="btn btn-danger btn-sm" onclick="deleteCourseConfirmation('${d.p_id}', '${d.p_judul}')">Hapus</button>
                 <a class="btn btn-info btn-sm mt-1" href="{{ url('admin/course/topic') }}/${d.p_id}">Topic</a>
@@ -148,7 +148,7 @@
 
             const logoPreviewImg = document.querySelector('#editLogoPreview img');
             if (courseData.p_img) {
-                logoPreviewImg.src = `${url}/public/${courseData.p_img}`;
+                logoPreviewImg.src = `${url}/${courseData.p_img}`;
                 document.querySelector('#editLogoPreview').classList.remove('d-none');
             }
         }
@@ -219,7 +219,7 @@
         function updateCourse() {
             const dateTime = new Date().toISOString().split('T'); // ["YYYY-MM-DD", "HH:mm:ss.sssZ"]
             const formattedDateTime = `${dateTime[0]} ${dateTime[1].split('.')[0]}`; //hapus milidetik
-            
+
             document.getElementById('edit_p_modified_date').value = formattedDateTime; //dummy
 
             const form = document.getElementById('editCourseForm');
@@ -340,7 +340,7 @@
                 });
         }
 
-        
+
     </script>
 
 @endsection

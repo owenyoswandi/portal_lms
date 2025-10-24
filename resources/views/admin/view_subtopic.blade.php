@@ -70,8 +70,8 @@
 @endsection
 
 <script>
-    const apiUrl = '{{ config('app.api_url') }}';
-    const url = '{{ config('app.app_url') }}';
+    const apiUrl = window.apiUrl || '{{ config('app.api_url') }}';
+    const url    = "{{ rtrim(url('/'), '/') }}"; ;
     const accessToken = '{{ session('token') }}';
     const userId = '{{ session('userid') }}';
 
@@ -235,7 +235,7 @@
 			  <p>PDF tidak dapat ditampilkan. Silakan lihat PDF di browser Anda.</p>
 			</object>`;
             <?php //<iframe src="{{ url('public') }}/${subtopic.st_file}" width="900" height="600"></iframe>`; ?>
-			
+
         }
 
         container.appendChild(body);
@@ -490,7 +490,7 @@
 
         container.appendChild(body);
     }
-	
+
 	// Menonaktifkan klik kanan di seluruh halaman
     document.addEventListener("contextmenu", function(e) {
       e.preventDefault();

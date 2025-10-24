@@ -49,7 +49,7 @@
                 </div>
             </div>
         </div>
-    </div>	  
+    </div>
     <!-- Add Score Modal -->
     <div class="modal fade" id="addScorenModal" tabindex="-1" aria-labelledby="addScorenModalLabel"
         aria-hidden="true">
@@ -71,7 +71,7 @@
                             <label for="nilai_jawaban_isian" class="form-label">Score <small class="text-danger">* Max score is 10</small></label>
                             <input class="form-control" type="number" name="nilai_jawaban_isian" id="edit_nilai_jawaban_isian" max="10" />
                         </div>
-                        
+
                     </form>
                 </div>
                 <div class="modal-footer">
@@ -81,14 +81,14 @@
             </div>
         </div>
     </div>
-    
+
 </section>
 
-@endsection 
+@endsection
 
 <script>
-    const apiUrl = '{{ config('app.api_url') }}';
-    const url = '{{ config('app.app_url') }}';
+    const apiUrl = window.apiUrl || '{{ config('app.api_url') }}';
+    const url    = "{{ rtrim(url('/'), '/') }}"; ;
     const accessToken = '{{ session('token') }}';
     const userId = '{{ session('userid') }}';
 
@@ -98,7 +98,7 @@
     document.addEventListener("DOMContentLoaded", () => {
         getCourseById(courseId);
         getData(stId);
-        
+
 
     });
 
@@ -216,7 +216,7 @@
                 console.error('Error:', error);
             });
         }
-        
+
     }
     let dataTable;  // Variabel untuk menyimpan referensi ke DataTable
 
@@ -255,7 +255,7 @@
         }
 
         // Tambahkan kolom untuk setiap soal dengan bobot
-        let headerHTML = tableHeader.innerHTML; 
+        let headerHTML = tableHeader.innerHTML;
         if(subtopicShuffle == 1){
             for (let i = 1; i <= questionCount; i++) {
                 headerHTML += `<th>Q.${i}</th>`;
@@ -267,7 +267,7 @@
                 headerHTML += `<th>Q.${i} (${(bobot).toFixed(2)})</th>`;
             }
         }
-        
+
         tableHeader.innerHTML = headerHTML;
 
         document.getElementById("grade").innerHTML = `Grade / ${data[0]?.total_bobot_questions.toFixed(2)}`;
@@ -312,7 +312,7 @@
                 if (participant.jawaban[i]) {
                     if (participant.jawaban[i].tipe_pertanyaan !== 'pilihan_ganda') {
                         //essay
-                        rowHTML += `<td>${answer} 
+                        rowHTML += `<td>${answer}
                                         <a href="javascript:void(0)" onclick="addScore('${participant.jawaban[i].hasil_id_detail}')">
                                             <i class="m-1 bi bi-pencil" style="font-size: 18px; color: green;"></i>
                                         </a>
@@ -387,7 +387,7 @@
                     var myModalEl = document.getElementById('addScorenModal');
                     var modal = bootstrap.Modal.getInstance(myModalEl)
                     modal.hide();
-                    
+
                     getDataTest(stId);
                 } else {
                     console.error('Updating failed:', data.message);

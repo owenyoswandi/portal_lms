@@ -7,7 +7,7 @@
             <div class="container">
 				<div class="row justify-content-center">
 					<div class="col-sm-2">
-						<img src="{{ asset('/public/assets/img/binus-university-logo.png') }}" width="100%">
+						<img src="{{ asset('/assets/img/binus-university-logo.png') }}" width="100%">
 					</div>
 				</div>
                 <div class="row justify-content-center">
