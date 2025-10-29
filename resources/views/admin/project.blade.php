@@ -42,149 +42,166 @@
       <div class="tab-content mt-3" id="projectTabsContent">
 
         <!-- ===========================
-            RESUME TAB (Static Layout)
+            RESUME TAB
         ============================ -->
         <div class="tab-pane fade show active" id="resume" role="tabpanel">
-        <div class="row">
-            <!-- ======= LEFT TABLE (Modul, Menu, etc) ======= -->
+          <div class="row">
             <div class="col-md-8">
-            <h5 class="fw-bold mb-3 text-center">DASHBOARD</h5>
-            <table class="table table-bordered align-middle text-center">
+              <h5 class="fw-bold mb-3 text-center">DASHBOARD</h5>
+              <table class="table table-bordered align-middle text-center">
                 <thead class="table-primary">
-                <tr>
+                  <tr>
                     <th>Modul</th>
                     <th>Menu</th>
                     <th>% Complete</th>
                     <th>Bobot</th>
                     <th>Prosentase</th>
                     <th>Total</th>
-                </tr>
+                  </tr>
                 </thead>
                 <tbody>
-                <!-- Pembuatan Artikel -->
-                <tr class="table-secondary fw-bold">
+                  <tr class="table-secondary fw-bold">
                     <td colspan="6" class="text-start">Pembuatan Artikel</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>A Pembuatan Artikel 1 (tentang User)</td>
-                    <td>39.22%</td>
-                    <td>11</td>
-                    <td>19.30%</td>
-                    <td>7.57%</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>B Pembuatan Artikel 2 (tentang Prototype TKT 4)</td>
-                    <td>0.00%</td>
-                    <td>12</td>
-                    <td>21.05%</td>
-                    <td>0.00%</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>C Pembuatan Artikel 3 (tentang Prototype TKT 5)</td>
-                    <td>0.00%</td>
-                    <td>14</td>
-                    <td>24.56%</td>
-                    <td>0.00%</td>
-                </tr>
+                  </tr>
+                  <tr><td>A</td><td>Pembuatan Artikel 1</td><td>39.22%</td><td>11</td><td>19.30%</td><td>7.57%</td></tr>
+                  <tr><td>B</td><td>Pembuatan Artikel 2</td><td>0%</td><td>12</td><td>21.05%</td><td>0%</td></tr>
+                  <tr><td>C</td><td>Pembuatan Artikel 3</td><td>0%</td><td>14</td><td>24.56%</td><td>0%</td></tr>
 
-                <!-- Pembuatan luaran selain artikel -->
-                <tr class="table-secondary fw-bold">
+                  <tr class="table-secondary fw-bold">
                     <td colspan="6" class="text-start">Pembuatan luaran selain artikel</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>A Pembuatan Materi Kuliah</td>
-                    <td>0.00%</td>
-                    <td>6</td>
-                    <td>10.53%</td>
-                    <td>0.00%</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>B Pembuatan HKI</td>
-                    <td>0.00%</td>
-                    <td>7</td>
-                    <td>12.28%</td>
-                    <td>0.00%</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>C Pembuatan konten Media Sosial</td>
-                    <td>0.00%</td>
-                    <td>7</td>
-                    <td>12.28%</td>
-                    <td>0.00%</td>
-                </tr>
+                  </tr>
+                  <tr><td>A</td><td>Pembuatan Materi Kuliah</td><td>0%</td><td>6</td><td>10.53%</td><td>0%</td></tr>
+                  <tr><td>B</td><td>Pembuatan HKI</td><td>0%</td><td>7</td><td>12.28%</td><td>0%</td></tr>
+                  <tr><td>C</td><td>Konten Media Sosial</td><td>0%</td><td>7</td><td>12.28%</td><td>0%</td></tr>
 
-                <!-- Total -->
-                <tr class="fw-bold">
+                  <tr class="fw-bold">
                     <td colspan="5" class="text-end">Total</td>
                     <td>7.57%</td>
-                </tr>
+                  </tr>
                 </tbody>
-            </table>
-
-            <!-- Summary -->
-            <div class="mt-3 ms-2">
-                <p class="mb-1">Bobot Aktifitas total: <strong>57</strong></p>
-                <p class="mb-0">Prosentase total: <strong>7.57%</strong></p>
-            </div>
+              </table>
             </div>
 
-            <!-- ======= RIGHT TABLE (Job Data) ======= -->
             <div class="col-md-4">
-            <table class="table table-bordered align-middle text-center mt-4">
+              <table class="table table-bordered align-middle text-center mt-4">
                 <thead class="table-primary">
-                <tr>
+                  <tr>
                     <th>Job</th>
                     <th>Nama</th>
                     <th>Waktu kerja (min)</th>
-                </tr>
+                  </tr>
                 </thead>
                 <tbody>
-                <tr><td>Ketua</td><td>QQ</td><td>120</td></tr>
-                <tr><td>Peneliti 1</td><td>Ayu</td><td>90</td></tr>
-                <tr><td>Peneliti 2</td><td>CC</td><td>70</td></tr>
-                <tr><td>Peneliti 3</td><td>DD</td><td>0</td></tr>
-                <tr><td>Peneliti 4</td><td>EE</td><td>100</td></tr>
-                <tr><td>Mahasiswa 1</td><td>AB</td><td>0</td></tr>
-                <tr><td>Mahasiswa 2</td><td>AC</td><td>0</td></tr>
-                <tr><td>Mahasiswa 3</td><td>AD</td><td>0</td></tr>
-                <tr><td>Mahasiswa 4</td><td>AE</td><td>0</td></tr>
+                  <tr><td>Ketua</td><td>QQ</td><td>120</td></tr>
+                  <tr><td>Peneliti 1</td><td>Ayu</td><td>90</td></tr>
+                  <tr><td>Peneliti 2</td><td>CC</td><td>70</td></tr>
+                  <tr><td>Peneliti 3</td><td>DD</td><td>0</td></tr>
+                  <tr><td>Peneliti 4</td><td>EE</td><td>100</td></tr>
                 </tbody>
-            </table>
+              </table>
             </div>
-        </div>
+          </div>
         </div>
 
         <!-- ===========================
-             LIST TAB
+            LIST TAB (Tabel seperti Excel Screenshot)
         ============================ -->
         <div class="tab-pane fade" id="list" role="tabpanel">
-          <table class="table table-striped table-hover align-middle">
-            <thead class="table-primary">
-              <tr>
-                <th>No</th>
-                <th>Kegiatan</th>
-                <th>Bobot</th>
-                <th>Mulai</th>
-                <th>Akhir</th>
-                <th>Keterangan</th>
-              </tr>
-            </thead>
-            <tbody id="listTableBody">
-              <tr>
-                <td colspan="6" class="text-center text-muted">Belum ada data kegiatan</td>
-              </tr>
-            </tbody>
-          </table>
+          <div class="table-responsive" style="overflow-x:auto;">
+            <table class="table table-bordered text-center align-middle" style="font-size: 13px; min-width: 1600px;">
+              <thead class="table-light">
+                <tr>
+                  <th rowspan="2" style="vertical-align: middle;">No</th>
+                  <th rowspan="2" style="vertical-align: middle;">Kegiatan</th>
+                  <th rowspan="2" style="vertical-align: middle;">Bobot Perkiraan</th>
+                  <th colspan="4">Mei 2025</th>
+                  <th colspan="4">Jun 2025</th>
+                  <th colspan="4">Jul 2025</th>
+                  <th colspan="4">Agu 2025</th>
+                  <th colspan="4">Sep 2025</th>
+                  <th colspan="4">Okt 2025</th>
+                  <th rowspan="2" style="vertical-align: middle;">Mulai</th>
+                  <th rowspan="2" style="vertical-align: middle;">Akhir</th>
+                  <th rowspan="2" style="vertical-align: middle;">Keterangan</th>
+                </tr>
+                <tr>
+                  @for ($i = 0; $i < 6; $i++)
+                    <th>1</th><th>2</th><th>3</th><th>4</th>
+                  @endfor
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td class="text-start">Pembuatan Artikel 1 (tentang User)</td>
+                  <td>20%</td>
+                  <td colspan="8" class="bg-primary text-white"></td>
+                  <td colspan="16"></td>
+                  <td>1-May-2025</td>
+                  <td>21-Jun-2025</td>
+                  <td>Menguji pengguna perlu solusi yang dihasilkan</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td class="text-start">Pembuatan Artikel 2 (Prototype TKT)</td>
+                  <td>20%</td>
+                  <td colspan="4"></td>
+                  <td colspan="8" class="bg-success text-white"></td>
+                  <td colspan="12"></td>
+                  <td>1-Jun-2025</td>
+                  <td>7-Aug-2025</td>
+                  <td>Prototype sudah jadi dan fungsional</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td class="text-start">Pembuatan Artikel 3 (Implementasi)</td>
+                  <td>25%</td>
+                  <td colspan="8"></td>
+                  <td colspan="8" class="bg-secondary text-white"></td>
+                  <td colspan="8"></td>
+                  <td>1-Jul-2025</td>
+                  <td>30-Oct-2025</td>
+                  <td>Menunggu revisi 2 bulan</td>  
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td class="text-start">Pembuatan Materi Kuliah</td>
+                  <td>10%</td>
+                  <td colspan="16"></td>
+                  <td colspan="4" class="bg-info text-white"></td>
+                  <td colspan="4"></td>
+                  <td>1-Sep-2025</td>
+                  <td>21-Sep-2025</td>
+                  <td>Perencanaan materi selesai</td>
+                </tr>
+                <tr>
+                  <td>5</td>
+                  <td class="text-start">Pembuatan HKI</td>
+                  <td>15%</td>
+                  <td colspan="16"></td>
+                  <td colspan="4" class="bg-warning text-dark"></td>
+                  <td colspan="4"></td>
+                  <td>8-Sep-2025</td>
+                  <td>7-Oct-2025</td>
+                  <td>HKI sudah didaftarkan</td>
+                </tr>
+                <tr>
+                  <td>6</td>
+                  <td class="text-start">Pembuatan Konten Media Sosial</td>
+                  <td>10%</td>
+                  <td colspan="20"></td>
+                  <td colspan="4" style="background-color:#a020f0;" class="text-white"></td>
+                  <td>1-Oct-2025</td>
+                  <td>30-Nov-2025</td>
+                  <td>Konten bisa dibuat lebih dari satu</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </div>
 
         <!-- ===========================
-             JOBS TAB
+            JOBS TAB
         ============================ -->
         <div class="tab-pane fade" id="jobs" role="tabpanel">
           <table class="table table-striped table-hover align-middle">
@@ -199,16 +216,14 @@
                 <th>Finish</th>
               </tr>
             </thead>
-            <tbody id="jobsTableBody">
-              <tr>
-                <td colspan="7" class="text-center text-muted">Belum ada pekerjaan</td>
-              </tr>
+            <tbody>
+              <tr><td colspan="7" class="text-center text-muted">Belum ada pekerjaan</td></tr>
             </tbody>
           </table>
         </div>
 
         <!-- ===========================
-             LOGBOOK TAB
+            LOGBOOK TAB
         ============================ -->
         <div class="tab-pane fade" id="logbook" role="tabpanel">
           <table class="table table-hover align-middle">
@@ -224,126 +239,14 @@
                 <th>Keterangan</th>
               </tr>
             </thead>
-            <tbody id="logbookTableBody">
-              <tr>
-                <td colspan="8" class="text-center text-muted">Belum ada catatan logbook</td>
-              </tr>
+            <tbody>
+              <tr><td colspan="8" class="text-center text-muted">Belum ada catatan logbook</td></tr>
             </tbody>
           </table>
         </div>
+
       </div>
     </div>
   </div>
 </section>
-
-<!-- Delete Confirmation Modal -->
-<div class="modal fade" id="deleteConfirmationModal" tabindex="-1" aria-labelledby="deleteConfirmationModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="deleteConfirmationModalLabel">Delete Project</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <input type="hidden" id="projectIdToDelete">
-        <p>Anda yakin akan menghapus project <span id="projectnameToDelete" class="fw-bold"></span>?</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
-        <button type="button" class="btn btn-danger" onclick="deleteProject()">Hapus</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-<script>
-document.addEventListener("DOMContentLoaded", () => {
-  getProjects();
-});
-
-const apiUrl = '{{ config('app.api_url') }}';
-const accessToken = '{{ session('token') }}';
-const baseUrl = "{{ rtrim(url('/'), '/') }}";
-
-function getProjects() {
-  axios.get(`${apiUrl}/project`, {
-    headers: { 'Authorization': `Bearer ${accessToken}` }
-  })
-  .then(response => {
-    const data = response.data;
-    if (data.success) {
-      renderResumeTable(data.data);
-      // Later, you can call renderList(data.data), renderJobs(data.data), etc.
-    } else {
-      console.error(data.message);
-    }
-  })
-  .catch(error => console.error('Error:', error));
-}
-
-function renderResumeTable(projects) {
-  const tbody = document.getElementById('resumeTableBody');
-  tbody.innerHTML = '';
-
-  if (!projects || projects.length === 0) {
-    tbody.innerHTML = '<tr><td colspan="8" class="text-center text-muted">No projects found</td></tr>';
-    return;
-  }
-
-  projects.forEach((p, index) => {
-    const row = `
-      <tr>
-        <td>${index + 1}</td>
-        <td>${p.project_name}</td>
-        <td>${p.project_desc || '-'}</td>
-        <td>${formatDate(p.start_date)}</td>
-        <td>${formatDate(p.end_date)}</td>
-        <td>${p.status}</td>
-        <td>${p.completion}%</td>
-        <td>
-          <div class="d-flex gap-2 flex-column">
-            <a href="${baseUrl}/member/project/${p.project_id}" class="btn btn-warning btn-sm">View</a>
-            <button class="btn btn-danger btn-sm" onclick="deleteProjectConfirmation('${p.project_id}', '${p.project_name}')">Hapus</button>
-          </div>
-        </td>
-      </tr>`;
-    tbody.insertAdjacentHTML('beforeend', row);
-  });
-}
-
-function formatDate(dateString) {
-  if (!dateString) return '-';
-  const date = new Date(dateString);
-  const day = date.getDate().toString().padStart(2, '0');
-  const month = (date.getMonth() + 1).toString().padStart(2, '0');
-  const year = date.getFullYear();
-  return `${day}-${month}-${year}`;
-}
-
-function deleteProjectConfirmation(projectId, projectName) {
-  document.getElementById('projectIdToDelete').value = projectId;
-  document.getElementById('projectnameToDelete').textContent = projectName;
-  const modal = new bootstrap.Modal(document.getElementById('deleteConfirmationModal'));
-  modal.show();
-}
-
-function deleteProject() {
-  const projectId = document.getElementById('projectIdToDelete').value;
-  axios.put(`${apiUrl}/project-delete/${projectId}`, {}, {
-    headers: { 'Authorization': `Bearer ${accessToken}` }
-  })
-  .then(response => {
-    const data = response.data;
-    if (data.success) {
-      const modalEl = document.getElementById('deleteConfirmationModal');
-      const modal = bootstrap.Modal.getInstance(modalEl);
-      modal.hide();
-      getProjects();
-    } else {
-      console.error(data.message);
-    }
-  })
-  .catch(error => console.error('Error deleting project:', error));
-}
-</script>
-@endsection
+@endsection 
